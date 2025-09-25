@@ -64,11 +64,13 @@ shortLabel VCF Variants
 longLabel VCF Variants from 1000 Genomes
 defaultIsClosed 0
 
-    track vcf
-    shortLabel Phase 3 integrated variant calls
-    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/vcf/ALL.apol1.sample.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf
-    type vcf
+    track phase_3_genotypes
+    shortLabel Phase 3 genotypes
+    bigDataUrl https://igv.org/genomes/data/hg19/ALL.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.list
     parent variants
+    maxWindowToDraw 10000
+    maxHeightPixels 10000000:800:10
+    type vcf.list
 
     track sampleInfo
     shortLabel Sample Information
@@ -76,8 +78,3 @@ defaultIsClosed 0
     type sampleinfo
     parent variants
 
-    track bed
-    shortLabel SNPs
-    type bed
-    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/vcf/apol1_snp131.bed
-    parent variants
