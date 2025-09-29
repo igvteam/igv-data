@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations (mm8)" version="1">
+       <Resource name="GC % (5 base)"
+                  path="http://www.broadinstitute.org/igvdata/annotations/mm8/sequence/mm8.gc5Base.tdf"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=gc5Base"
+                  trackLine="viewLimits=0:100"/>
+
+
+<!--
+    <Catetory name="Variations and Repeats">
+        <Resource name="DB SNP 128"
+                  path="http://igvdata.broadinstitute.org/annotations/mm9/variation/snp128.bed.gz"
+                  hyperlink="http://www.ncbi.nlm.nih.gov/SNP/"
+                  url="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&amp;rs=$$"/>
+
+        <Resource name="Simple Repeats"
+                  path="http://igvdata.broadinstitute.org/annotations/mm9/variation/mm9_simpleRepeats.bed.gz"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?db=mm9&amp;g=simpleRepeat"/>
+        <Resource name="Microsatellites"
+                  path="http://igvdata.broadinstitute.org/annotations/mm9/variation/mm9_microsatellite.bed.gz"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?db=mm9&amp;g=microsat"/>
+
+        <Category name="Repeat Masker"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?db==mm9&amp;g=rmsk">
+            <Resource name="SINE"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_SINE.bed.gz"/>
+            <Resource name="LINE"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_LINE.bed.gz"/>
+            <Resource name="LTR"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_LTR.bed.gz"/>
+            <Resource name="DNA"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_DNA.bed.gz"/>
+            <Resource name="Simple"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_Simple_repeat.bed.gz"/>
+            <Resource name="Low Complexity"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_Low_complexity.bed.gz"/>
+            <Resource name="Satellite"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_Satellite.bed.gz"/>
+            <Resource name="RNA"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_RNA.bed.gz"/>
+            <Resource name="Other"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_Other.bed.gz"/>
+            <Resource name="Unknown"
+                      path="http://igvdata.broadinstitute.org/annotations/mm9/variation/repeat_masker/mm9_repmask_Unknown.bed.gz"/>
+        </Category>
+
+    </Catetory>
+    -->
+
+</Global>

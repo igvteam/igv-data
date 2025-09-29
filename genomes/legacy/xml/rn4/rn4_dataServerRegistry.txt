@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/rn4/rn4_annotations.xml

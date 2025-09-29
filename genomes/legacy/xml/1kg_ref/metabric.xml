@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Breast Cancer (METABRIC)" version="1" infolink="http://www.nature.com/nature/journal/v486/n7403/full/nature10983.html?WT.ec_id=NATURE-20120621">
+    <Resource name="Sample Information"
+            path="http://igvdata.broadinstitute.org/data/hg18/metabric/Metabric_Clinical_IGV.txt"/>
+    <Resource name="Segmented Copy Number"
+            path="http://igvdata.broadinstitute.org/data/hg18/metabric/Metabric_CN_IGV.seg"/>
+    <Resource name="Gene Expression"
+            path="http://www.broadinstitute.org/igvdata/hg18/Metabric/Metabric_Expression_IGV.tdf"/>
+</Global>

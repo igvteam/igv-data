@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Tutorials" version="1">
+
+    <Category name="UI Basics (Encode)">
+        <Resource trackLine="viewLimits=0:25" name="GM12878 H3K27ac" color="255,0,0" path="http://www.broadinstitute.org/igvdata/tutorials/hg18/wgEncodeBroadChipSeqSignalGm12878H3k27ac.bigwig"/>
+	<Resource trackLine="viewLimits=0:25" name="GM12878 H3K27me3" color="255,0,0" path="http://www.broadinstitute.org/igvdata/tutorials/hg18/wgEncodeBroadChipSeqSignalGm12878H3k27me3.bigwig"/>
+	<Resource trackLine="viewLimits=0:25" name="GM12878 H3K9ac" color="0,0,150" path="http://www.broadinstitute.org/igvdata/tutorials/hg18/wgEncodeBroadChipSeqSignalGm12878H3k9ac.bigwig"/>
+	<Resource trackLine="viewLimits=0:25" name="GM12878 H3K4me1" color="0,150,0" path="http://www.broadinstitute.org/igvdata/tutorials/hg18/wgEncodeBroadChipSeqSignalGm12878H3k4me1.bigwig"/>
+     </Category>
+
+     <Category name="SNP Validation">
+        <Resource name="SNP Calls"
+                  path="http://www.broadinstitute.org/igvdata/tutorials/Snps/snp_calls.bed"/>
+        <Resource name="WGS Alignments"
+                      path="http://www.broadinstitute.org/igvdata/tutorials/Snps/NA12878.SLX.sample.bam"/>
+    </Category>
+
+    <Category name="RNA-Seq">
+        <Resource name="Alignments (accepted_hits.bam)"
+                  path="http://www.broadinstitute.org/igvdata/tutorials/rnaseq/accepted_hits.sorted.bam"
+                  coverage="http://www.broadinstitute.org/igvdata/tutorials/rnaseq/accepted_hits.sorted.bam.tdf"/>
+        <Resource name="Coverage (TDF)"
+                      path="http://www.broadinstitute.org/igvdata/tutorials/rnaseq/accepted_hits.sorted.bam.tdf"/>
+        <Category name="Tophat / Cufflinks">
+            <Resource name="Junctions (junctions.bed)"
+                      path="http://www.broadinstitute.org/igvdata/tutorials/rnaseq/TopHat/junctions.bed"/>
+            <Resource name="Transcripts (transcripts.gtf)"
+                      path="http://www.broadinstitute.org/igvdata/tutorials/rnaseq/cufflinks/transcripts.gtf"/>
+            <Resource name="Gene expression (genes.expr)"
+                      path="http://www.broadinstitute.org/igvdata/tutorials/rnaseq/cufflinks/genes.expr"/>        
+        </Category>
+        <Category name="Scripture">
+            <Resource name="Transcripts (accepted_hits.sorted.bed)"
+                      path="http://www.broadinstitute.org/igvdata/tutorials/rnaseq/Scripture/accepted_hits.sorted.bed"/>        
+        
+        </Category>
+    </Category>
+<!--    <Category name="GBM Subtypes (Verhaak et. al.)"
+              hyperlink="http://www.cell.com/cancer-cell/abstract/S1535-6108%2809%2900432-2">
+        <Resource name="Sample Information"
+                  path="http://igv.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/sampleTable.txt.gz"/>
+        <Resource name="Segmented Copy Number (Broad Affy 6.0)"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/Broad.080528.subtypes.seg.gz"/>
+        <Resource name="Expression"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/unifiedScaled.tab.gz"/>
+        <Resource name="Somatic Mutations"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/TCGA_GBM_Level3_Somatic_Mutations_08.28.2008.maf.gz"/>
+    </Category>
+     
+-->
+
+
+</Global>

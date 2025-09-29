@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations" version="1">
+
+    <Category name="Genes">
+        <Resource name="Refseq Select"
+                  path="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqSelect.txt.gz"
+                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"
+        />
+        <Resource name="Refseq Curated"
+                  path="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqCurated.txt.gz"
+        />
+        <Resource name="RefSeq All"
+                  path="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz"
+        />
+        <Resource name="MANE v1.0 transcripts with RefSeq labels"
+                  path="https://ftp.ncbi.nlm.nih.gov/refseq/MANE/trackhub/data/release_1.0/MANE.GRCh38.v1.0.refseq.bb"
+                  labelField="nucAcc"
+                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/MANE/"/>
+        <Resource name="MANE v1.0 transcripts with Ensembl labels"
+                  path="https://ftp.ncbi.nlm.nih.gov/refseq/MANE/trackhub/data/release_1.0/MANE.GRCh38.v1.0.ensembl.bb"
+                  labelField="nucAcc"
+                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/MANE/"/>
+        <Resource name="Gencode v44"
+                  path="https://igv-genepattern-org.s3.amazonaws.com/genomes/hg38/gencode.v44.basic.annotation.gff3.gz"
+                  index="https://igv-genepattern-org.s3.amazonaws.com/genomes/hg38/gencode.v44.basic.annotation.gff3.gz.tbi"
+                  labelField="transcript_name"
+                  hyperlink="https://www.gencodegenes.org/"/>
+        <!--        <Resource name="Gencode v46"-->
+        <!--                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV46.bb"-->
+        <!--                  labelField="transcript_name"-->
+        <!--                  hyperlink="http://www.gencodegenes.org/"/>-->
+        <!--        <Resource name="Gencode v44"-->
+        <!--                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV44.bb"-->
+        <!--                  labelField="transcript_name"-->
+        <!--                  hyperlink="http://www.gencodegenes.org/"/>-->
+        <Resource name="Gencode v44 lncRNAs"
+                  path="https://igv-genepattern-org.s3.amazonaws.com/genomes/hg38/gencode.v44.long_noncoding_RNAs.gff3.gz"
+                  index="https://igv-genepattern-org.s3.amazonaws.com/genomes/hg38/gencode.v44.long_noncoding_RNAs.gff3.gz.tbi"
+                  labelField="transcript_name"
+                  hyperlink="http://www.gencodegenes.org/"/>
+        <Resource name="Gencode v47"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV47.bb"
+                  labelField="geneName"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?g=knownGene"
+        />
+    </Category>
+    <Category name="Phenotype and Disease Associations">
+        <Resource name="Clinvar"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=gwasCatalog"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinvar/clinvarMain.bb"/>
+        <Resource name="Clinvar CNVs"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=gwasCatalog"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinvar/clinvarCnv.bb"/>
+
+    </Category>
+
+    <Category name="Variation and Repeats">
+        <Resource name="All Snps 1.4.2"
+                  path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg38/dbsnp142_All.vcf.gz"
+                  index="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg38/dbsnp142_All.vcf.gz.tbi"
+                  hyperlink="http://www.ncbi.nlm.nih.gov/variation/docs/human_variation_vcf/"/>
+        <Resource name="Common Snps 1.4.2"
+                  path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg38/dbsnp142_common_all.vcf.gz"
+                  index="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg38/dbsnp142_common_all.vcf.gz.tbi"
+                  hyperlink="http://www.ncbi.nlm.nih.gov/variation/docs/human_variation_vcf/"/>
+        <Category name="Repeat Masker"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?g=rmsk">
+
+
+            <Resource name="Simple_repeat"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Simple_repeat.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Simple_repeat.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="Satellite"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Satellite.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Satellite.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="LINE"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/LINE.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/LINE.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="DNA"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/DNA.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/DNA.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="SINE"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/SINE.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/SINE.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="LTR"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/LTR.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/LTR.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="Low_complexity"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Low_complexity.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Low_complexity.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="snRNA"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/snRNA.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/snRNA.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="tRNA"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/tRNA.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/tRNA.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="Retroposon"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Retroposon.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Retroposon.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="srpRNA"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/srpRNA.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/srpRNA.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="rRNA"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/rRNA.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/rRNA.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="Unknown"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Unknown.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Unknown.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="RC"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/RC.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/RC.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="scRNA"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/scRNA.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/scRNA.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+            <Resource name="RNA"
+                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/RNA.bed.gz"
+                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/RNA.bed.gz.tbi"
+                      trackLine='useScore=1'/>
+        </Category>
+    </Category>
+    <Resource name="CpG Islands"
+              trackLine="color=0,155,0"
+              hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=cpgIslandExt"
+              path="https://data.broadinstitute.org/igvdata/annotations/hg38/cpgIslandExt.bed.gz">
+    </Resource>
+    <Resource trackLine='viewLimits=0:100'
+              name="GC %"
+              path="http://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/gc5BaseBw/gc5Base.bw"/>
+
+    <Resource name="Phastcons (20 way)"
+              path="https://data.broadinstitute.org/igvdata/annotations/hg38/hg38.phastCons20way.bw"
+              hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?g=cons20way"/>
+
+
+</Global>

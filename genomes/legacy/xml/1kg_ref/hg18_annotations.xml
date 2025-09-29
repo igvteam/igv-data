@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations (hg18)" version="1">
+
+    <Category name="Genes">
+        <Resource name="RefSeq Genes"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/refGene.txt"/>
+        <Resource name="UCSC Genes" hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=knownGene"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/UCSCGenes.gene">
+            <!--UCSCGene.gene-->
+        </Resource>
+        <Resource name="UniGene" hyperlink="http://www.ncbi.nlm.nih.gov/sites/entrez?db=unigene"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/Unigene.bed">
+        </Resource>
+        <Resource name="Ensembl Genes" hyperlink="http://nar.oxfordjournals.org/cgi/content/full/30/1/38"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/EnsembleGenes.genepred">
+        </Resource>
+        <!--
+       <Resource name="ACEView Genes" hyperlink="http://genomebiology.com/2006/7/S1/S12"
+              path="http://www.broadinstitute.org/igvdata/annotations/hg18/acembly.genepred.gz">
+        -->
+    </Category>
+    <Category name="mRNA">
+        <Resource name="sno/miRNA" hyperlink="http://genome.cse.ucsc.edu/cgi-bin/hgTrackUi?g=wgRna"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/sno_mirna.bed">
+        </Resource>
+        <Resource name="RNA Genes" hyperlink="http://genome.cse.ucsc.edu/cgi-bin/hgTrackUi?g=rnaGene"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/rna_genes.bed">
+        </Resource>
+        <Resource name="ACE Scan" hyperlink="http://www.pnas.org/content/102/8/2850.full"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/acescan.bed">
+        </Resource>
+    </Category>
+    <Category name="Phenotype and Disease Associations">
+        <Resource name="Genetic Assoc Studies (GAD)" hyperlink="http://geneticassociationdb.nih.gov/gad.pdf"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/phenotype/gad.hg18.bed">
+        </Resource>
+        <Resource name="OMIM Genes"
+                  hyperlink="http://www.ncbi.nlm.nih.gov/omim" 
+                  url="http://www.ncbi.nlm.nih.gov/omim/$$"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/phenotype/omim.hg18.bed"/>
+        <!--<Resource name="OMIM Genes"
+                  hyperlink="http://www.ncbi.nlm.nih.gov/omim"
+                  resourceType="DAS"
+                  url="http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=$$"
+                  path="http://das.ensembl.org/das/ens_36_omim_genes/features"
+                  trackLine="featureVisibilityWindow=0"/>-->
+      <!--  <Resource name="COSMIC"
+                  resourceType="DAS"
+                  hyperlink="http://www.sanger.ac.uk/genetics/CGP/cosmic/"
+                  path="http://das.sanger.ac.uk/das/cosmic_mutations/features"
+                  trackLine="featureVisibilityWindow=0">
+        </Resource> -->
+     <!--   <Resource name="eQTL Sanger"
+                  resourceType="DAS"
+                  hyperlink="http://www.dasregistry.org/showdetails.jsp?auto_id=DS_585"
+                  path="http://www.ebi.ac.uk/das-srv/genomicdas/das/hydragenevar_eQTL_1mb/features"
+                  trackLine="featureVisibilityWindow=0">
+        </Resource>  -->
+        <Resource name="Quantitative Trait Locus from RGD"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgc?g=rgdQtl"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/phenotype/rgd_qtl.hg18.bed.gz"/>
+
+    </Category>
+    <Category name="Variation and Repeats">
+
+        <Resource name="Segmental Dups" hyperlink="http://genome.cse.ucsc.edu/cgi-bin/hgTrackUi?g=genomicSuperDups"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/genomicSuperDups.bed">
+        </Resource>
+        <Resource name="Genomic Structural Variation (DGV)" 
+                  hyperlink="http://projects.tcag.ca/variation/"
+                  url="http://genome.ucsc.edu/cgi-bin/hgc?g=dgv&amp;i=$$"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/dgv.hg18.bed.gz">
+        </Resource>
+        <Resource name="Human Genome Structural Variation Discordant" 
+                  hyperlink="http://hgsv.washington.edu/"
+                  url="http://genome.ucsc.edu/cgi-bin/hgc?g=kiddEichlerDiscAbc14&amp;i=$$"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/hgsv.discordant.hg18.bed.gz">
+        </Resource>
+        
+       
+
+        <Category name="Repeat Masker (3.2.7)"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg18&amp;g=rmsk">
+            <Resource name="SINE"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.SINE.repmask"/>
+            <Resource name="LINE"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.LINE.repmask"/>
+            <Resource name="LTR"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.LTR.repmask"/>
+            <Resource name="DNA"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.DNA.repmask"/>
+            <Resource name="Simple"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.Simple_repeat.repmask"/>
+            <Resource name="Low Complexity"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.Low_complexity.repmask"/>
+            <Resource name="Satellite"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.Satellite.repmask"/>
+            <Resource name="RNA"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.RNA.repmask"/>
+            <Resource name="Other"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.Other.repmask"/>
+            <Resource name="Unknown"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/repeat_masker/RepMask_3.2.7_hg18.Unknown.repmask"/>
+        </Category>
+        
+            <Resource name="dbSNP 129" hyperlink="http://www.ncbi.nlm.nih.gov/SNP/"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/dbSnp/dbsnp_129_hg18.bed"
+                      url="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&amp;rs=$$"/>
+            <Resource name="dbSNP 130" hyperlink="http://www.ncbi.nlm.nih.gov/SNP/"
+                      path="http://www.broadinstitute.org/igvdata/annotations/hg18/dbSnp/dbsnp_130_hg18.bed"
+                      url="http://www.ncbi.nlm.nih.gov/SNP/snp_ref.cgi?type=rs&amp;rs=$$"/>
+    </Category>
+
+    <Category name="Sequence and Regulation">
+        <Resource name="TFBS Conserved" hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=tfbsConsSites"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/sequence/hg18_tfbsConserved.bed"
+                  trackLine="track useScore=1 featureVisibilityWindow=20000000">
+        </Resource>
+
+        <Resource name="Recombination Rate" hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=recombRate"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/sequence/recombRate.igv.txt">
+        </Resource>
+
+        <Resource name="CpG Islands" hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=cpgIslandExt"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/sequence/cpgIslands.hg18.bed">
+        </Resource>
+
+        <Resource name="GC %" hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=gc5Base"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/sequence/hg18.gc5Base.tdf"/>
+    </Category>
+
+    <!-- Disabled until tracks can be linkable.  The link for this track will have the form http://geneticassociationdb.nih.gov/cgi-bin/tableview.cgi?table=allview&cond=gene=%27EGFR%27
+        <Resource name="Genetic Assoc Studies (GAD)" hyperlink="http://geneticassociationdb.nih.gov/gad.pdf"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/GAD.bed" serverURL="http://www.broadinstitute.org/webservices/igv">
+        </Resource>
+        -->
+
+
+    <Category name="Comparative Genomics">
+        <Resource name="siphy rate (12 mer)"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/omega.12mer.tdf"
+                  hyperlink="http://bioinformatics.oxfordjournals.org/cgi/content/full/25/12/i54"/>
+        <Resource name="siphy pi (12 mer)"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/pi.12mer.wig.tdf"
+                  hyperlink="http://bioinformatics.oxfordjournals.org/cgi/content/full/25/12/i54"/>
+ 
+        <Resource name="siphy pi"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/pi.ewig.tdf"
+                  hyperlink="http://bioinformatics.oxfordjournals.org/cgi/content/full/25/12/i54"/>
+        <Resource name="Phastcons (Verterbrate 44 way)"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/phastCons44way.wig.tdf"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=cons44way"/>
+       <Resource name="Multiple Alignments (multiz, 44 species)"
+                  path="http://www.broadinstitute.org/igvdata/hg18/maf/hg18.maf.dict"
+                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg18&amp;g=cons44way">
+       </Resource>   
+    </Category>
+</Global>

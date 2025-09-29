@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations (dm3)" version="1">
+    <Resource name="FlyBase Genes"
+            path="http://www.broadinstitute.org/igvdata/annotations/dm3/FlyBase.dm3.bed">
+    </Resource>
+    <Resource name="Conservation" hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=125150738%26=multiz15way"
+                  path="http://www.broadinstitute.org/igvdata/annotations/dm3/phastCon.dm3.wig.tdf">
+    </Resource>
+
+</Global>

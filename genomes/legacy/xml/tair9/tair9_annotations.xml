@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations (TAIR9)" version="1">
+    <Category name="Genes">
+        <Resource name="Known Genes" path="http://www.broad.mit.edu/igvdata/annotations/tair9/tair9_genes.gff3">
+        </Resource>
+        <Resource name="Redundant Genes" path="http://www.broad.mit.edu/igvdata/annotations/tair9/tair9_redun_genes.gff3">
+        </Resource>
+        <Resource name="Pseudo" path="http://www.broad.mit.edu/igvdata/annotations/tair9/tair9_pseudo.gff3">
+        </Resource>
+    </Category>
+    
+    <Category name="miRNA">
+        <Resource name="miRNA Genes" path="http://www.broad.mit.edu/igvdata/annotations/tair9/tair9_microRNA.gff3">
+        </Resource>
+    </Category>
+    
+    <Category name="Protein">
+        <Resource name="All Protein" path="http://www.broad.mit.edu/igvdata/annotations/tair9/tair9_protein.gff3">
+        </Resource>
+    </Category>
+</Global>

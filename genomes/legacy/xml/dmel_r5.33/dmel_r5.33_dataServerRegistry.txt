@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/dmel_r5.33/dm3_annotations.xml

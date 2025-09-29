@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="29 Mammals" hyperlink="http://www.nature.com/nature/journal/vaop/ncurrent/full/nature10530.html" version="1">
+
+        <Resource name="SiPhy pi "
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/pi.ewig.tdf"
+                  hyperlink="http://bioinformatics.oxfordjournals.org/cgi/content/full/25/12/i54"/>
+        <Resource name="SiPhy pi (12 mer)"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/pi.12mer.wig.tdf"
+                  hyperlink="http://bioinformatics.oxfordjournals.org/cgi/content/full/25/12/i54"/>
+       <Resource name="SiPhy omega (12 mer)"
+                  trackLine="track viewLimits:-10:30"
+                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/conservation/omega.12mer.tdf"
+                  hyperlink="http://bioinformatics.oxfordjournals.org/cgi/content/full/25/12/i54"/>
+
+</Global>

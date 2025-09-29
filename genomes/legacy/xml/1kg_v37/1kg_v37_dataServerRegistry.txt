@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/1kg_v37/hg19_annotations.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/1kg_v37/tcga_stddata__2016_01_28.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/1kg_v37/1KG.s3.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/1kg_v37/platinum_genomes_hg19.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/1kg_v37/tutorials.hg19.xml

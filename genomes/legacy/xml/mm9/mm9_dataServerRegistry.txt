@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/mm9/mm9_annotations_fixed.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/mm9/epigenetics_mm9_public.xml

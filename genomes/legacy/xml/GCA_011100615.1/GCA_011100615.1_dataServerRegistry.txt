@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/GCA_011100615.1/GCA_011100615.1_Mapping+and+Sequencing.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/GCA_011100615.1/GCA_011100615.1_Genes+and+Gene+Predictions.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/GCA_011100615.1/GCA_011100615.1_mRNA+and+EST.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/GCA_011100615.1/GCA_011100615.1_Expression+and+Regulation.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/GCA_011100615.1/GCA_011100615.1_Variation+and+Repeats.xml

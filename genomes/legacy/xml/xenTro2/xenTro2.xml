@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="X. tropicalis (xenTro2)" version="1">
+
+  <!--
+    http://igv.broadinstitute.org.s3.amazonaws.com/annotations/xenTro2/refGene.txt.gz
+http://igv.broadinstitute.org.s3.amazonaws.com/annotations/xenTro2/xenTro2_mRNAs.bed.gz
+-->
+
+    <Resource name="Refseq genes" hyperlink="http://www.ncbi.nlm.nih.gov/RefSeq/"
+              path="http://igvdata.broadinstitute.org/annotations/xenTro2/refGene.txt.gz"/>
+    <Category name="ChIP-Seq (Akkers RC et al)"
+              hyperlink="http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=19758566&amp;itool=pubmed_DocSum">
+        <Resource name="H3K27me3_ChIP-seq_st11-12" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/H3K27me3_ChIP-seq_st11-12_xenTro2.wig.tdf"/>
+        <Resource name="H3K27me3_animal_ChIP-seq_st10-12" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/H3K27me3_animal_ChIP-seq_st10-12_xenTro2.wig.tdf"/>
+        <Resource name="H3K27me3_vegetal_ChIP-seq_st10-12"
+                  hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/H3K27me3_vegetal_ChIP-seq_st10-12_xenTro2.wig.tdf"/>
+        <Resource name="H3K4me3_ChIP-seq_st11-12" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/H3K4me3_ChIP-seq_st11-12_xenTro2.wig.tdf"/>
+        <Resource name="RNAPII_ChIP-seq_st11-12" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/RNAPII_ChIP-seq_st11-12_xenTro2.wig.tdf"/>
+        <Resource name="RNA-seq_st10-13" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/RNA-seq_st10-13_xenTro2.wig.tdf"/>
+
+        <!--
+        <Resource name="H3K27me3_ChIP-seq_st11-12" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/H3K27me3_ChIP-seq_st11-12_xenTro2.wig.tdf"/>
+        <Resource name="H3K27me3_animal_ChIP-seq_st10-12" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/H3K27me3_animal_ChIP-seq_st10-12_xenTro2.wig.tdf"/>
+        <Resource name="H3K27me3_vegetal_ChIP-seq_st10-12"
+                  hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/H3K27me3_vegetal_ChIP-seq_st10-12_xenTro2.wig.tdf"/>
+        <Resource name="H3K4me3_ChIP-seq_st11-12" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/H3K4me3_ChIP-seq_st11-12_xenTro2.wig.tdf"/>
+        <Resource name="RNAPII_ChIP-seq_st11-12" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/RNAPII_ChIP-seq_st11-12_xenTro2.wig.tdf"/>
+        <Resource name="RNA-seq_st10-13" hyperlink="http://www.ncmls.nl/gertjanveenstra/genomedata.asp"
+                  path="http://igvdata.broadinstitute.org/data/xenTro2/RNA-seq_st10-13_xenTro2.wig.tdf"/>
+                  -->
+
+
+    </Category>
+</Global>
+
+
+

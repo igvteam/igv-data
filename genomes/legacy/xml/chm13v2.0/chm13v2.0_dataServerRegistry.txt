@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/chm13v2.0/chm13v2.0_map.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/chm13v2.0/chm13v2.0_genes.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/chm13v2.0/chm13v2.0_rna.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/chm13v2.0/chm13v2.0_compGeno.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/chm13v2.0/chm13v2.0_varRep.xml

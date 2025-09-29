@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations (ce4)" version="1">
+
+    <Resource name="Conservation" hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=125160488%26=multiz5way"
+                  path="http://www.broadinstitute.org/igvdata/annotations/ce4/phastCon.ce4.wig.tdf">
+      <!--UCSCGene.gene-->
+    </Resource>
+
+
+</Global>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations (D. discoideum  May 19, 2010)" version="1">
+
+
+    <Resource name="ncRNA" 
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/ncRNA.gff.gz"/>
+    <Resource name="rRNA" 
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/rRNA.gff.gz"/>
+    <Resource name="rRNA" 
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/snRNA.gff.gz"/>
+    <Resource name="tRNA" 
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/tRNA.gff.gz"/>
+	<Resource name="H ACA box snoRNA"  
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/H_ACA_box_snoRNA.gff.gz"/>
+    <Resource name="RNase MRP RNA"  
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/RNase_MRP_RNA.gff.gz"/>
+    <Resource name="SRP RNA"  
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/SRP_RNA.gff.gz"/>	
+    <Resource name="class I RNA" 
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/class_I_RNA.gff.gz"/>
+    <Resource name="class II RNA" 
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/class_II_RNA.gff.gz"/>
+    <Resource name="gap" 
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/gap.gff.gz"/>
+	<!-- est match uses gap and cigar string, which is not  yet supporte 
+    <Resource name="EST_match" 
+                  path="http://www.broadinstitute.org/igvdata/annotations/D.discoideum/EST_match.gff.gz"/>
+				  -->
+
+
+</Global>

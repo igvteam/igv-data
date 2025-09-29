@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="The Cancer Genome Atlas" hyperlink="http://www.broadinstitute.org/igv/resources/tcga.html"
+        version="1">
+
+      <Category name="Ovarian"
+              hyperlink="https://tcga-data.nci.nih.gov/docs/publications/ov_2011/">
+        <Resource name="Sample Information"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/ovarian/TCGA-OV-Clinical-Table_S1.2.txt.gz"/>
+        <Resource name="Copy Number (Agilient 1M)"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/ovarian/mskcc.org_OV.CGH-1x1M_G4447A.Level_3.cbs.gz"/>
+        <Resource name="Unified Gene Expression"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/ovarian/TCGA_489_UE.tab.gz"/>
+        <Resource name="DNA Methylation"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/ovarian/humanOVMethylation27DataMatrix.tab.gz"/>
+        <Resource name="Somatic Mutations (BCM)"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/ovarian/hgsc.bcm.edu_OV.SOLiD_DNASeq.Level_3.1.maf.gz"/>
+         <Resource name="Somatic Mutations (Wash U)"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/ovarian/genome.wustl.edu_OV.IlluminaGA_DNASeq.Level_3.1.maf.gz"/>
+        <Resource name="Somatic Mutations (BI)"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/ovarian/broad.mit.edu_OV.IlluminaGA_DNASeq.Level_3.7.maf.gz"/>
+    </Category>
+        
+    <Category name="GBM Subtypes (Verhaak et. al.)"
+              hyperlink="http://www.cell.com/cancer-cell/abstract/S1535-6108%2809%2900432-2">
+        <Resource name="Sample Information"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/sampleTable.txt.gz"/>
+        <Resource name="Segmented Copy Number (Broad Affy 6.0)"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/Broad.080528.subtypes.seg.gz"/>
+        <Resource name="Expression"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/unifiedScaled.tab.gz"/>
+        <Resource name="Somatic Mutations"
+                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/TCGA_GBM_Level3_Somatic_Mutations_08.28.2008.maf.gz"/>
+        <!--
+        <Resource name="DNA Methylation "
+                  path="http://www.broadinstitute.org/igvdata/tcga/gbmsubtypes/methylation.subtypes.igv.tdf"/>
+                  -->
+    </Category>
+
+    <Global hyperlink="https://gdac.broadinstitute.org" name="TCGA Broad GDAC">
+        <Category hyperlink="https://confluence.broadinstitute.org/display/GDAC/Standardized+Data+Run+Release+Notes" name="Firehose Standard Data">
+            <Include path="https://gdac.broadinstitute.org/tap/igv/load/hg18/stddata__2016_01_28.xml"/>
+            <Include path="https://gdac.broadinstitute.org/tap/igv/load/hg18/stddata__2015_11_01.xml"/>
+            <Include path="https://gdac.broadinstitute.org/tap/igv/load/hg18/stddata__2015_08_21.xml"/>
+            <Include path="https://gdac.broadinstitute.org/tap/igv/load/hg18/stddata__2015_06_01.xml"/>
+            <Include path="https://gdac.broadinstitute.org/tap/igv/load/hg18/stddata__2015_04_02.xml"/>
+            <Include path="https://gdac.broadinstitute.org/tap/igv/load/hg18/stddata__2015_02_04.xml"/>
+        </Category>
+        <Category hyperlink="https://confluence.broadinstitute.org/display/GDAC/Analysis+Run+Release+Notes" name="Firehose Analyses">
+            <Include path="https://gdac.broadinstitute.org/tap/igv/load/prod__2011_09_21.xml"/>
+            <Include path="https://gdac.broadinstitute.org/tap/igv/load/prod__2011_07_28.xml"/>
+            <Include path="https://gdac.broadinstitute.org/tap/igv/load/prod__2011_05_25.xml"/>
+        </Category>
+    </Global>
+    
+    <Category name="GBM (Pilot Project)">
+        <Category name="Sample Annotations">
+            <Resource name="Sample Information"
+                      path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/Public_IGV_TCGA_sample_info_20080827.txt"/>
+        </Category>
+        <Category name="Segmented Copy Number">
+            <Category name="Broad">
+                <Resource name="Affymetrix SNP 6.0 (Broad)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/Broad.080528.seg.gz"/>
+                <Resource name="Gistic (Broad Standard)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GISTIC/Broad_standard_080606.gistic.txt"/>
+                <Resource name="Gistic (Broad Focal)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GISTIC/Broad_focal_080606.scores.gistic.txt"/>
+            </Category>
+            <Category name="MSKCC">
+                <Resource name="Agilent244K (MSKCC)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/MSKCC.080414.seg.gz"/>
+                <Resource name="Gistic (MSKCC Standard)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GISTIC/MSKCC_standard_080606.scores.gistic.txt"/>
+                <Resource name="Gistic (MSKCC Focal)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GISTIC/MSKCC_focal_080606.scores.gistic.txt"/>
+            </Category>
+            <Category name="Harvard">
+                <Resource name="Agilent 244K (Harvard)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/harvard.080731.seg.gz"/>
+                <Resource name="Gistic (Harvard Standard)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GISTIC/Harvard_standard_080606.scores.gistic.txt"/>
+                <Resource name="Gistic (Harvard Focal)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GISTIC/Harvard_focal_080606.scores.gistic.txt"/>
+            </Category>
+            <Category name="Stanford">
+                <Resource name="Illumina 550K (Stanford)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/stanford.080731.seg.gz"/>
+                <Resource name="Gistic (Stanford Standard)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GISTIC/Stanford_standard_080606.scores.gistic.txt"/>
+                <Resource name="Gistic (Stanford Focal)"
+                          path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GISTIC/Stanford_focal_080606.scores.gistic.txt"/>
+            </Category>
+        </Category>
+
+        <Category name="Methylation">
+            <Resource name="DNA Methylation"
+                      path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/sorted.methylation.affy.080819.igv.tdf"/>
+        </Category>
+        <Category name="Expression">
+            <Resource name="GBM Batch 1-8 Centered and Normalized"
+                      path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GBM_batch1-8_level3_exp.txt.recentered.normalized.080820.gct.tdf"/>
+            <Resource name="GBM Batch 1-8 Centered"
+                      path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/GBM_batch1-8_level3_exp.txt.recentered.080820.gct.tdf"/>
+        </Category>
+        <Category name="LOH">
+            <Resource name="Affymetrix SNP6.0 copy neutral LOH"
+                      path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/Affy128_cneu.loh.seg.txt"/>
+            <Resource name="Illumina 550K copy neutral LOH"
+                      path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/Illumina137.cnloh.seg.txt"/>
+        </Category>
+        <Category name="Mutations">
+            <Resource name="All filtered non-silent mutations"
+                      path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/tcga_20080718_filtered_nonsilent.mut"/>
+            <Resource name="Phase 1 Filtered Non-silent Mutations"
+                      path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/tcga_20080711_phase1_filtered_nonsilent.mut"/>
+        </Category>
+    </Category>
+
+
+</Global>

@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/mm8/mm8_annotations.xml
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/mm8/epigenetics_mm8_public.xml

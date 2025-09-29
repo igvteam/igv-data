@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Body Map 2.0 (Illumina HiSeq) Coverage" version="1">
+
+    <Resource name="adipose"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.adipose.bam.sorted.bam.tdf"/>
+    <Resource name="adrenal"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.adrenal.bam.sorted.bam.tdf"/>
+    <Resource name="brain"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.brain.bam.sorted.bam.tdf"/>
+    <Resource name="breast"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.breast.bam.sorted.bam.tdf"/>
+    <Resource name="colon"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.colon.bam.sorted.bam.tdf"/>
+    <Resource name="heart"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.heart.bam.sorted.bam.tdf"/>
+    <Resource name="kidney"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.kidney.bam.sorted.bam.tdf"/>
+    <Resource name="liver"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.liver.bam.sorted.bam.tdf"/>
+    <Resource name="lung"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.lung.bam.sorted.bam.tdf"/>
+    <Resource name="lymph node"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.lymphNode.bam.sorted.bam.tdf"/>
+    <Resource name="ovary"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.ovary.bam.sorted.bam.tdf"/>
+    <Resource name="prostate"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.prostate.bam.sorted.bam.tdf"/>
+    <Resource name="skeltal muscle"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.skeltalMuscle.bam.sorted.bam.tdf"/>
+    <Resource name="testes"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.testes.bam.sorted.bam.tdf"/>
+    <Resource name="thyroid"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.thyroid.bam.sorted.bam.tdf"/>
+    <Resource name="white blood cell"
+              trackLine="track viewLimits=0:1000 scaleType=log"
+              path="http://igvdata.broadinstitute.org/data/hg18/BodyMap/Merged/HBM.whiteBloodCell.bam.sorted.bam.tdf"/>
+
+</Global>

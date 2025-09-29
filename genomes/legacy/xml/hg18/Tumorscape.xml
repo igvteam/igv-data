@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Global name="Copy Number Alterations Across Human Cancers" version="1"
+        hyperlink="http://www.nature.com/nature/journal/v463/n7283/abs/nature08822.html">
+
+    <Resource name="Sample Information"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/sample_info_100215.txt.gz"/>
+
+    <Resource name="All Cancers"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/all_cancers.seg.gz"/>
+ 
+    <Resource name="All Epithelial"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/all_epithelial.seg.gz"/>
+
+     <Resource name="All Hematologic"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/all_hematologic.seg.gz"/>
+
+    <Resource name="All Lung"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/all_lung.seg.gz"/>
+
+    <Resource name="All Neural"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/all_neural.seg.gz"/>
+
+
+    <Resource name="Acute lymphoblastic leukemia"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Acute%20lymphoblastic%20leukemia.seg.gz"/>
+
+    <Resource name="Breast"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Breast.seg.gz"/>
+              
+    <Resource name="Colorectal"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Colorectal.seg.gz"/>
+              
+    <Resource name="Esophageal squamous"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Esophageal%20squamous.seg.gz"/>
+
+    <Resource name="Glioma"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Glioma.seg.gz"/>
+
+    <Resource name="Hepatocellular"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Hepatocellular.seg.gz"/>
+
+    <Resource name="Lung NSC"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Lung%20NSC.seg.gz"/>
+              
+    <Resource name="Lung SC"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Lung%20SC.seg.gz"/>
+
+    <Resource name="Medulloblastoma"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Medulloblastoma.seg.gz"/>
+
+    <Resource name="Melanoma"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Melanoma.seg.gz"/>
+
+    <Resource name="Myeloproliferative disorder"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Myeloproliferative%20disorder.seg.gz"/>
+
+    <Resource name="Ovarian"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Ovarian.seg.gz"/>
+
+    <Resource name="Prostate"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Prostate.seg.gz"/>
+
+    <Resource name="Renal"
+              path="http://www.broadinstitute.org/igvdata/Tumorscape/gz/Renal.seg.gz"/>
+
+
+
+</Global>

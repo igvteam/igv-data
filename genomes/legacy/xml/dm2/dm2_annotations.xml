@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations (dm2)" version="1">
+
+    <Resource name="FlyBase Genes"
+            path="http://www.broadinstitute.org/igvdata/annotations/dm2/FlyBase.dm2.bed">
+    </Resource>
+    <Resource name="Repeat Masker"
+            path="http://www.broadinstitute.org/igvdata/annotations/dm2/dm2.repeatMasker.bed.gz">
+    </Resource>
+    <Resource name="Simple Repeats"
+            path="http://www.broadinstitute.org/igvdata/annotations/dm2/dm2.simpleRepeats.bed.gz">
+    </Resource>
+    <Resource name="Conservation" hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=125160488%26=multiz15way"
+                  path="http://www.broadinstitute.org/igvdata/annotations/dm2/phastCon.dm2.wig.tdf">
+      <!--UCSCGene.gene-->
+    </Resource>
+  
+</Global>
