@@ -1,0 +1,109 @@
+track ALFA
+compositeTrack on
+visibility pack
+itemRgb on
+type bigBed 9 + .
+shortLabel ALFA 
+longLabel ALFA: Allele Frequency Aggregator
+mouseOverField frequency
+html ALFA.html
+filter.score 10
+#filterByRange.score on
+#filterLimits.score 400:500
+#filterValues.name rs1424773263,rs2531320
+
+     track ALFA_GLB
+     parent ALFA on
+     shortLabel NCBI ALFA: Global
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_GLB.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_EUR
+     parent ALFA on
+     shortLabel NCBI ALFA: European
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_EUR.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_AFA
+     parent ALFA on
+     shortLabel NCBI ALFA: African American
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_AFA.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_AFO
+     parent ALFA on
+     shortLabel NCBI ALFA: African Others
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_AFO.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_AFR
+     parent ALFA on
+     shortLabel NCBI ALFA: African
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_AFR.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_EAS
+     parent ALFA on
+     shortLabel NCBI ALFA: East Asian
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_EAS.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_SAS
+     parent ALFA on
+     shortLabel NCBI ALFA: South Asian
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_SAS.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_OAS
+     parent ALFA on
+     shortLabel NCBI ALFA: Other Asian
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_OAS.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_ASN
+     parent ALFA on
+     shortLabel NCBI ALFA: Asian
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_ASN.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_LAC
+     parent ALFA on
+     shortLabel NCBI ALFA: Latin American 1
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_LAC.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_LEN
+     parent ALFA on
+     shortLabel NCBI ALFA: Latin American 2
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_LEN.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page
+
+     track ALFA_OTR
+     parent ALFA on
+     shortLabel NCBI ALFA: Other
+     bigDataUrl https://ftp.ncbi.nih.gov/snp/population_frequency/TrackHub/20250407153717/hg38/ALFA_OTR.bb
+     type bigBed 9 + .
+     url https://www.ncbi.nlm.nih.gov/snp/$$#frequency_tab
+     urlLabel NCBI Variation Page

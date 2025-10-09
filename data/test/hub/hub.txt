@@ -1,0 +1,6 @@
+hub ALFA4-Test
+shortLabel ALFA Hub - Test
+longLabel NCBI's Allele Frequency Aggregator (ALFA) allele frequency for variants in dbGaP studies.
+genomesFile genomes.txt
+email snp-admin@ncbi.nlm.nih.gov
+descriptionUrl ALFA.html

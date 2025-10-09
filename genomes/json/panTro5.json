@@ -2,6 +2,7 @@
   "id": "panTro5",
   "name": "Chimp (panTro5)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/bigZips/panTro5.2bit",
+  "wholeGenomeView": true,
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/bigZips/panTro5.chromAlias.txt",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/bigZips/panTro5.chrom.sizes",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/database/cytoBandIdeo.txt.gz",

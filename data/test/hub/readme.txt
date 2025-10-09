@@ -1,0 +1,1 @@
+Hub for testing loading by URL.  Copy of https://ftp.ncbi.nlm.nih.gov/snp/population_frequency/TrackHub/latest/hub.txt
