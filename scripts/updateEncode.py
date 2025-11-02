@@ -1,14 +1,13 @@
 # Search the ENCODE webservice for data files IGV supports and create tables for each assembly and file type.  Data
 # is split into 3 "types", signals, peaks, and other, to reduce the number of files in each table.
-# This script creates plain text files in the "output" foloder.  To deploy the tiles should be gzipped and moved
-# to ../data/encode
+# This script creates plain text files in the "output" foloder.  To deploy the move to ../data/encode
 #
 # To create a list of .hic files, run the script with FORMATS = set(["hic"])
 
 import requests
 import os
 
-FORMATS = set(["bigBed", "bigWig", "bedpe", "tsv", "vcf"])
+FORMATS = set(["bigBed", "bigWig", "bedpe", "tsv", "vcf", "hic"])
 #FORMATS = set(["hic"])
 
 output_folder = "output"
@@ -96,6 +95,8 @@ for record in graph:
                       key = assembly + '.signals.chip'
                     else:
                       key = assembly + '.signals.other'
+                elif format == 'hic':
+                    key = assembly + '.hic'
                 else:
                     key = assembly + '.other'
 

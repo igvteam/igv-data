@@ -1,0 +1,1 @@
+ID	Assembly	Biosample	AssayType	Target	BioRep	TechRep	OutputType	Format	Lab	HREF	Accession	Experiment
