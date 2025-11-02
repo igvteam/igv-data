@@ -1,5 +1,4 @@
-# Search the 4DN webservice for data files IGV supports and create tables for each assembly and file type.  Data
-# is split into 3 "types", signals, peaks, and other, to reduce the number of files in each table.
+# Search the 4DN webservice for data files IGV supports and create tables for each assembly and file type.
 # This script creates plain text files in the "output" foloder.  To deploy the tiles should be moved to ../data/4dn
 
 import os
@@ -40,9 +39,7 @@ response_json_dict = response.json()
 # Graph object
 graph = response_json_dict['@graph']
 
-# Dicitionary for results
 
-results = {}
 hic_files = []
 
 def listToString(l):
@@ -53,7 +50,7 @@ def listToString(l):
         result += str(l[i])
     return result
 
-results = []
+hic_results = []
 track_results = {}
 for record in graph:
 
@@ -110,9 +107,9 @@ for record in graph:
 
                 if url.endswith('.hic'):
 
-                    results.append([url, project, genome_assembly, biosource, assay_info, replicate_info, dataset, description, lab, publications, accession, experiment])
+                    hic_results.append([url, project, genome_assembly, biosource, assay_info, replicate_info, dataset, description, lab, publications, accession, experiment])
 
-                elif url.endswith('.bw') or url.endswith(".bed") or url.endswith(".bed.gz"):
+                if url.endswith('.bw') or url.endswith(".bed") or url.endswith(".bed.gz") or url.endswith(".hic"):
 
                     if genome_assembly not in track_results:
                         track_results[genome_assembly] = []
@@ -125,7 +122,7 @@ for record in graph:
 fname = output_folder + '/4dn_hic.txt'
 with open(fname, 'w') as f:
     print('url\tProject\tAssembly\tBiosource\tAssay\tReplicate\tDataset\tDescription\tLab\tPublications\tAccession\tExperiment', file=f)
-    for x in results:
+    for x in hic_results:
         print('\t'.join(x), file=f)
 
 for key in track_results.keys():
