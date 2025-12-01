@@ -8,6 +8,8 @@
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
+  "maneBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.bb",
+  "maneTrixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.ix",
   "tracks": [
     {
       "name": "Refseq All",
