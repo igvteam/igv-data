@@ -1,3 +1,6 @@
 /.idea/
 /scripts/output/
 /genomes/legacy/genome/
+/data/hg19/convert.sh
+/data/hg19/bigGenePred.as
+/data/hg19/hg19.chrom.sizes
