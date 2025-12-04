@@ -32,6 +32,7 @@
     "chrY"
   ],
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes",
+  "maneBbURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg19/ncbiRefSeqSelect.bb",
   "tracks": [
     {
       "id": "refseqAll",
