@@ -37,6 +37,7 @@
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
   "maneBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.bb",
   "maneTrixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.ix",
+  "rsdbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/ncbiRefSeq/refSeqHistorical.bb",
   "tracks": [
     {
       "id": "refseqAll",
