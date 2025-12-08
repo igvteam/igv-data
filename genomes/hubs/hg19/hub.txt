@@ -1539,7 +1539,7 @@ track repeatMaster
 shortLabel Repeat Masker
 group rep
 compositeTrack on
-html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=rmsk">
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=rmsk>
 
     track SINE
     shortLabel SINE
