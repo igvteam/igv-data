@@ -4,6 +4,7 @@
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.2bit",
   "wholeGenomeView": true,
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chromAlias.txt",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/cytoBandIdeo.txt.gz",
   "chromosomeOrder": [
     "chr2L",
     "chr2R",
