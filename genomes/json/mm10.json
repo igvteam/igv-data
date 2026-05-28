@@ -6,7 +6,7 @@
   "wholeGenomeView": true,
   "description": "house mouse (GRCm38.p6 2017)\nMus musculus/GCF_000001635.26_GRCm38.p6 genome assembly",
   "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/001/635/GCF_000001635.26",
-  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/bbi/GCF_000001635.26_GRCm38.p6.cytoBand.bb",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBand.txt.gz",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/GCF_000001635.26.chromAlias.txt",
   "chromosomeOrder": [
     "chr1",
