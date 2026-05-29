@@ -1,6 +1,8 @@
 {
   "id": "hg19",
   "name": "Human (GRCh37/hg19)",
+  "fastaURL": "https://igv.org/genomes/data/hg19/hg19.fasta",
+  "indexURL": "https://igv.org/genomes/data/hg19/hg19.fasta.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit",
   "wholeGenomeView": true,
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz",
