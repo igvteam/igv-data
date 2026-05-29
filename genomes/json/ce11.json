@@ -1,6 +1,8 @@
 {
   "id": "ce11",
   "name": "C. elegans (ce11)",
+  "fastaURL": "https://igv.org/genomes/data/ce11/ce11.fa",
+  "indexURL": "https://igv.org/genomes/data/ce11/ce11.fa.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.2bit",
   "wholeGenomeView": true,
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/cytoBandIdeo.txt.gz",

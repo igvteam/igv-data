@@ -1,6 +1,8 @@
 {
   "id": "GCF_000002945.1",
   "name": "S. pombe (GCF_000002945.1)",
+  "fastaURL": "https://igv.org/genomes/data/ASM294v2/Schizosaccharomyces_pombe_all_chromosomes.fa",
+  "indexURL": "https://igv.org/genomes/data/ASM294v2/Schizosaccharomyces_pombe_all_chromosomes.fa.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.2bit",
   "nameSet": "ucsc",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.chrom.sizes.txt",

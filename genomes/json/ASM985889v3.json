@@ -1,6 +1,8 @@
 {
   "id": "GCF_009858895.2",
   "name": "SARS-CoV-2 (Jan 2020 COVID-19) (GCF_009858895.2)",
+  "fastaURL": "https://igv.org/genomes/data/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna",
+  "indexURL": "https://igv.org/genomes/data/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit",
   "nameSet": "ucsc",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chrom.sizes.txt",

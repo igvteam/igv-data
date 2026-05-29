@@ -1,6 +1,8 @@
 {
   "id": "sacCer3",
   "name": "S. cerevisiae (sacCer3)",
+  "fastaURL": "https://igv.org/genomes/data/sacCer3/sacCer3.fa",
+  "indexURL": "https://igv.org/genomes/data/sacCer3/sacCer3.fa.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit",
   "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit.bpt",
   "nameSet": "ucsc",
