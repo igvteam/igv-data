@@ -1,6 +1,8 @@
 {
   "id": "mm10",
   "name": "Mouse (GRCm38/mm10)",
+  "fastaURL": "https://igv.org/genomes/data/mm10/mm10.fa",
+  "indexURL": "https://igv.org/genomes/data/mm10/mm10.fa.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
   "nameSet": "ucsc",
   "wholeGenomeView": true,
