@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38" hasGeneTrack="false" hasSequenceTrack="true" nextAutoscaleGroup="3" path="/Users/jrobinso/Google Drive/Cancer Research Paper/Data for figures/E/transloc_session.xml" version="8">
+    <Resources>
+        <Resource path="/Users/jrobinso/Google Drive/Cancer Research Paper/Data for figures/E/hg38.translocation.bam"/>
+    </Resources>
+    <Panel height="540" name="Panel1486774556623" width="1133">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;60.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="/Users/jrobinso/Google Drive/Cancer Research Paper/Data for figures/E/hg38.translocation.bam_coverage" name="hg38.translocation.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="17.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="60" id="/Users/jrobinso/Google Drive/Cancer Research Paper/Data for figures/E/hg38.translocation.bam_junctions" name="hg38.translocation.bam Junctions" sortable="false" visible="false" windowFunction="count">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="60.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="/Users/jrobinso/Google Drive/Cancer Research Paper/Data for figures/E/hg38.translocation.bam" name="hg38.translocation.bam" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByOption="NONE" groupByTag="" linkByTag="READNAME" linkedReads="false" maxInsertSize="1000" minInsertSize="50" quickConsensusMode="true" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag="" viewPairs="false"/>
+        </Track>
+    </Panel>
+    <Panel height="32" name="FeaturePanel" width="1133">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.01020408163265306,0.9370748299319728"/>
+    <GeneList name="">chr19:29,895,188-29,905,188
+chr16:79,827,000-79,837,000
+<Frame chr="chr19" end="2.9905188E7" name="chr19:29,895,188-29,905,188" start="2.9895187E7"/>
+        <Frame chr="chr16" end="7.9835809E7" name="chr16:79,827,000-79,837,000" start="7.9825808E7"/>
+    </GeneList>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
