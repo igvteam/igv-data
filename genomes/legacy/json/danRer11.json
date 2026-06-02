@@ -1,8 +1,8 @@
 {
   "id": "danRer11",
   "name": "Zebrafish (GRCZ11/danRer11)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/danRer11/danRer11.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/danRer11/danRer11.fa.fai",
+  "fastaURL": "https://igv.org/genomes/data/danRer11/danRer11.fa",
+  "indexURL": "https://igv.org/genomes/data/danRer11/danRer11.fa.fai",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/database/cytoBandIdeo.txt.gz",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.chrom.sizes",

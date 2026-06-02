@@ -1,8 +1,8 @@
 {
   "id": "dm6",
   "name": "D. melanogaster (dm6)",
-  "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/dm6/dm6.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/dm6/dm6.fa.fai",
+  "fastaURL": "https://igv.org/genomes/data/dm6/dm6.fa",
+  "indexURL": "https://igv.org/genomes/data/dm6/dm6.fa.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chrom.sizes",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chromAlias.txt",
