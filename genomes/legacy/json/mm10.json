@@ -1,8 +1,8 @@
 {
   "id": "mm10",
   "name": "Mouse (GRCm38/mm10)",
-  "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
+  "fastaURL": "https://igv.org/genomes/data/mm10/mm10.fa",
+  "indexURL": "https://igv.org/genomes/data/mm10.fa.fai",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
