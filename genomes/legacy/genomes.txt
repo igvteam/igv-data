@@ -6,4 +6,4 @@ Human hg18	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/ge
 Human hg19	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/genome/hg19.genome	hg19
 Human hg38	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/genome/hg38.genome	hg38
 Human hg38 (1kg/GATK)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/genome/hg38/hg38_1kg.genome	hg38_1kg
-
+Mouse mm10	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/genome/mm10.genome	mm10
