@@ -1,0 +1,34 @@
+# Hosted genomes list.  Tab delimited file with 3 columns  Name (for menu),  url to .genome or .json file,  and genome ID. 
+A. thaliana (TAIR 10)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/tair10.json	tair10
+C. elegans (ce11)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/ce11.json	ce11
+Chicken (GRCg6a / galGal6)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/galGal6.json	galGal6
+Chimp (panTro4)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/panTro4.json	panTro4
+Cow (bosTau8)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/bosTau8.json	bosTau8
+Cow (bosTau9)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/bosTau9.json	bosTau9
+D. melanogaster (dm6)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/dm6.json	dm6
+D. melanogaster (dm3)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/dm3.json	dm3
+Dog (canFam3)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/canFam3.json	canFam3
+Dog (UU_Cfam_GSD_1.0/canFam4)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/canFam4.json	canFam4
+Dog (canFam5)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/canFam5.json	canFam5
+Human (1kg, b37+decoy)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/b37_1kg.json	1kg_v37
+Human (T2T CHM13-v2.0/hs1)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hs1.json	hs1
+Human (hg18)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg18.json	hg18
+Human (hg19)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg19.json	hg19
+Human (hg38)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg38.json	hg38
+Human (hg38 1kg/GATK)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg38_1kg.json	hg38_1kg
+Mouse mm10	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/mm10.json	mm10
+Mouse mm9	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/mm9.json	mm9
+Mouse mm39	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/mm39.json	mm39
+Rat (rn6)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/rn6.json	rn6
+Rat (rn7)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/rn7.json	rn7
+S. cerevisiae (sacCer3)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/sacCer3.json	sacCer3
+Zebrafish (GRCz10/danRer10)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/danRer10.json	danRer10
+Zebrafish (GRCz11/danRer11)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/danRer11.json	danRer11
+SARS-CoV-2	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/ASM985889v3.json	ASM985889v3
+S. pombe (ASM294v2)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/ASM294v2.json	ASM294v2
+Gorilla (gorGor4)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/gorGor4.json	gorGor4
+Gorilla (gorGor6)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/gorGor6.json	gorGor6
+Bonobo (MPI-EVA panpan1.1/panPan2)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/panPan2.json	panPan2
+E. coli K-12 (NC_000913.3)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/gbk/NC_000913.3.gbk	NC_000913.3
+Francisella tularensis (NC_008601)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/gbk/NC_008601.gbk	NC_008601
+Human Mito (NC_012920)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/gbk/NC_012920.1.gbk	NC_012920

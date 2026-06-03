@@ -1,8 +1,8 @@
 {
   "id": "ASM985889v3",
   "name": "Sars-CoV-2 (ASM985889v3)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna.fai",
+  "fastaURL": "https://igv.org/genomes/data/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna",
+  "indexURL": "https://igv.org/genomes/data/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna.fai",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chromAlias.txt",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit",
   "nameSet": "ucsc",

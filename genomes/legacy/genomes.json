@@ -1,941 +1,972 @@
 [
-  {
-    "id": "hs1",
-    "blatDB": "hub_3671779_hs1",
-    "name": "Human (T2T CHM13-v2.0/hs1)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0.fa.fai",
-    "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/cytoBandMapped/cytoBandMapped.bb",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.chromAlias.txt",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.2bit",
-    "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.2bit.bpt",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.chrom.sizes.txt",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
-    "hubs": [
-      "https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/hub.txt"
-    ],
-    "tracks": [
-      {
-        "name": "RefSeq Select",
-        "type": "annotation",
-        "format": "biggenepred",
-        "url": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqSelectCurated.bb",
-        "trixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqSelectCurated.ix",
-        "visibilityWindow": -1,
-        "order": 1000000
-      },
-      {
-        "id": "catLiftOffGenesV1",
-        "name": "CAT/Liftoff Genes",
-        "format": "bigbed",
-        "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.catLiftOffGenesV1.html\">CAT + Liftoff Gene Annotations</a>",
-        "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.catLiftOffGenesV1/catLiftOffGenesV1.bb",
-        "displayMode": "EXPANDED",
-        "height": 200,
-        "visibilityWindow": -1,
-        "supportsWholeGenome": false,
-        "order": 1000000
-      },
-      {
-        "id": "augustus",
-        "name": "Augustus",
-        "format": "bigbed",
-        "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.augustus\">Augustus Gene Predictions</a>",
-        "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.augustus.bb",
-        "displayMode": "EXPANDED",
-        "color": "rgb(180,0,0)",
-        "height": 200,
-        "visibilityWindow": -1,
-        "supportsWholeGenome": false,
-        "order": 1000001
-      },
-      {
-        "name": "Genes",
-        "format": "bed",
-        "url": "https://igv.org/genomes/data/hs1/chm13v2.0_geneLocations.short.bed.gz",
-        "hidden": true,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "chm13v1.1",
-    "name": "Human (T2T CHM13-v1.1)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/GCA_009914755.3_CHM13_T2T_v1.1_genomic.fna",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/GCA_009914755.3_CHM13_T2T_v1.1_genomic.fna.fai",
-    "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/cytoBandIdeo.bed",
-    "tracks": [
-      {
-        "name": "Annotations",
-        "type": "annotation",
-        "format": "bigbed",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/CHM13.combined.v4.bb",
-        "supportsWholeGenome": false,
-        "height": 200,
-        "displayMode": "EXPANDED",
-        "order": 1000000,
-        "description": "Annotations from <a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=hub_2395475_t2t-chm13-v1.1'>UCSC</a>.<br/>blue - protein coding<br/>green - non coding<br/>pink - psuedo gene",
-        "visibilityWindow": -1
-      },
-      {
-        "name": "Genes",
-        "format": "bed",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/CHM13.names.bed.gz",
-        "hidden": true,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "hg38",
-    "name": "Human (GRCh38/hg38)",
-    "fastaURL": "https://igv.org/genomes/data/hg38/hg38.fa",
-    "indexURL": "https://igv.org/genomes/data/hg38/hg38.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
-    "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
-    "tracks": [
-      {
-        "name": "Refseq Select",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqSelect.txt.gz",
-        "indexed": false,
-        "order": 1000001,
-        "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
-      }
-    ]
-  },
-  {
-    "id": "hg38_1kg",
-    "ucscID": "hg38",
-    "blatDB": "hg38",
-    "name": "Human (hg38 1kg/GATK)",
-    "fastaURL": "https://1000genomes.s3.amazonaws.com/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
-    "indexURL": "https://1000genomes.s3.amazonaws.com/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
-    "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
-    "tracks": [
-      {
-        "name": "Refseq Select",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqSelect.txt.gz",
-        "indexed": false,
-        "order": 1000001,
-        "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
-      }
-    ],
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY"
-  },
-  {
-    "id": "hg19",
-    "name": "Human (GRCh37/hg19)",
-    "fastaURL": "https://igv.org/genomes/data/hg19/hg19.fasta",
-    "indexURL": "https://igv.org/genomes/data/hg19/hg19.fasta.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz",
-    "aliasURL": "https://igv.org/genomes/data/hg19/hg19_alias.tab",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes",
-    "tracks": [
-      {
-        "name": "Refseq Select",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeqSelect.txt.gz",
-        "indexed": false,
-        "order": 1000000,
-        "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
-      }
-    ],
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY"
-  },
-  {
-    "id": "hg18",
-    "name": "Human (hg18)",
-    "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg18/hg18.fasta",
-    "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/hg18/hg18.fasta.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/cytoBandIdeo.txt.gz",
-    "tracks": [
-      {
-        "name": "Refseq Genes",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/refGene.txt.gz",
-        "indexed": false,
-        "visibilityWindow": -1,
-        "order": 1000000,
-        "searchable": true
-      }
-    ],
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY"
-  },
-  {
-    "id": "mm39",
-    "name": "Mouse (GRCm39/mm39)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/mm39/mm39.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/mm39/mm39.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/database/cytoBandIdeo.txt.gz",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.chromAlias.txt",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.chrom.sizes",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/database/ncbiRefSeqCurated.txt.gz",
-        "indexed": false,
-        "order": 1000000
-      }
-    ],
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
-  },
-  {
-    "id": "mm10",
-    "name": "Mouse (GRCm38/mm10)",
-    "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/mm10/mm10.fa.fai",
-    "cytobandURL": "https://s3.amazonaws.com/igv.broadinstitute.org/annotations/mm10/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
-    "order": 1000000,
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz",
-        "indexed": false,
-        "order": 1000000
-      }
-    ],
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
-  },
-  {
-    "id": "mm9",
-    "name": "Mouse (NCBI37/mm9)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/mm9/mm9.fasta",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/mm9/mm9.fasta.fai",
-    "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/mm9/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/mm9.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/mm9.chrom.sizes",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/database/refGene.txt.gz",
-        "indexed": false,
-        "order": 1000000
-      }
-    ],
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
-  },
-  {
-    "id": "rn7",
-    "name": "Rat (rn7) ",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/rn7/rn7.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/rn7/rn7.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/cytoBandIdeo.txt.gz",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/bigZips/rn7.chromAlias.txt",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/bigZips/rn7.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/bigZips/rn7.chrom.sizes",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chrX,chrY",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/ncbiRefSeqCurated.txt.gz",
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "rn6",
-    "name": "Rat (RGCS 6.0/rn6)",
-    "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/rn6/rn6.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/rn6/rn6.fa.fai",
-    "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/rn6/cytoBand.txt.gz",
-    "order": 1000000,
-    "tracks": [
-      {
-        "name": "Refseq Genes",
-        "format": "refgene",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/rn6/ncbiRefSeq.sorted.txt.gz",
-        "indexURL": "https://s3.amazonaws.com/igv.org.genomes/rn6/ncbiRefSeq.sorted.txt.gz.tbi",
-        "order": 1000000,
-        "supportsWholeGenome": false,
-        "visibilityWindow": -1
-      },
-      {
-        "name": "Genes",
-        "format": "bed",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_rn6.bed.gz",
-        "hidden": true,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "gorGor6",
-    "name": "Gorilla (Kamilah_GGO_v0/gorGor6) ",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor6/gorGor6.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor6/gorGor6.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/database/cytoBandIdeo.txt.gz",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/bigZips/gorGor6.chromAlias.txt",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/bigZips/gorGor6.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/bigZips/gorGor6.chrom.sizes",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/database/ncbiRefSeqCurated.txt.gz",
-        "order": 1000000
-      }
-    ],
-    "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX"
-  },
-  {
-    "id": "gorGor4",
-    "name": "Gorilla (gorGor4.1/gorGor4)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor4/gorGor4.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor4/gorGor4.fa.fai",
-    "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor4/cytoBandIdeo.txt.gz",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/gorGor4/refGene.txt.gz",
-        "indexed": false,
-        "order": 1000000,
-        "visibilityWindow": -1,
-        "supportsWholeGenome": false
-      }
-    ],
-    "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX"
-  },
-  {
-    "id": "panTro6",
-    "name": "Chimp (panTro6) (panTro6)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panTro6/panTro6.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro6/panTro6.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/bigZips/panTro6.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/bigZips/panTro6.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/bigZips/panTro6.chromAlias.txt",
-    "nameSet": "ucsc",
-    "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ncbiRefSeqCurated.txt.gz",
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "panTro5",
-    "name": "Chimp (panTro5) (panTro5)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panTro5/panTro5.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro5/panTro5.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/database/cytoBandIdeo.txt.gz",
-    "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
-    "tracks": [
-      {
-        "name": "Refseq Genes",
-        "format": "refgene",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/panTro5/ncbiRefSeq.txt.gz",
-        "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro5/ncbiRefSeq.txt.gz.tbi",
-        "order": 1000000,
-        "visibilityWindow": -1,
-        "supportsWholeGenome": false
-      },
-      {
-        "name": "Genes",
-        "format": "bed",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_panTro5.bed.gz",
-        "hidden": true,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "panTro4",
-    "name": " Chimp (SAC 2.1.4/panTro4)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panTro4/panTro4.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro4/panTro4.fa.fai",
-    "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/panTro4/cytoBandIdeo.txt.gz",
-    "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
-    "tracks": [
-      {
-        "name": "Refseq Genes",
-        "format": "refgene",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/panTro4/refGene.sorted.txt.gz",
-        "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro4/refGene.sorted.txt.gz.tbi",
-        "order": 1000000,
-        "visibilityWindow": -1,
-        "supportsWholeGenome": false
-      },
-      {
-        "name": "Genes",
-        "format": "bed",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_panTro4.bed.gz",
-        "hidden": true,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "macFas5",
-    "name": "Macaca fascicularis (macFas5)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/macFas5/macFas5.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/macFas5/macFas5.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/database/cytoBandIdeo.txt.gz",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/bigZips/macFas5.chromAlias.txt",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/bigZips/macFas5.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/bigZips/macFas5.chrom.sizes",
-    "tracks": [
-      {
-        "name": "Genes",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/database/ncbiRefSeqCurated.txt.gz",
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "GCA_011100615.1",
-    "blatDB": "GCA_011100615.1",
-    "name": "Macaca fascicularis 6.0 (GCA_011100615.1)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz.fai",
-    "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz.gzi",
-    "aliasURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/GCA_011100615.1_chromAlias.tab",
-    "tracks": [
-      {
-        "name": "Annotations",
-        "format": "gff3",
-        "description": " <a target = \"_blank\" href = \"https://uswest.ensembl.org/Macaca_fascicularis/Info/Annotation\">Ensembl gene annotation 8-11-2022</a>",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.108.sorted.gff3.gz",
-        "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.108.sorted.gff3.gz.tbi",
-        "visibilityWindow": -1,
-        "displayMode": "EXPANDED",
-        "height": 200
-      },
-      {
-        "name": "Genes",
-        "format": "bed",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/GCA_011100615.1_ucsc_ensGene.bed",
-        "hidden": true,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "panPan2",
-    "name": "Bonobo (MPI-EVA panpan1.1/panPan2)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/panPan2.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/panPan2.fa.fai",
-    "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/cytoBandIdeo.txt.gz",
-    "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX",
-    "tracks": [
-      {
-        "name": "Refseq Genes",
-        "format": "refgene",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/panPan2/ncbiRefSeq.txt.gz",
-        "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/ncbiRefSeq.txt.gz.tbi",
-        "order": 1000000,
-        "visibilityWindow": -1,
-        "supportsWholeGenome": false
-      },
-      {
-        "name": "Genes",
-        "format": "bed",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_panPan2.bed.gz",
-        "hidden": true,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "canFam6",
-    "name": "Dog (canFam6) ",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/database/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/bigZips/canFam6.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/bigZips/canFam6.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/bigZips/canFam6.chromAlias.txt",
-    "nameSet": "ucsc",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chr30,chr31,chr32,chr33,chr34,chr35,chr36,chr37,chr38,chrX",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/database/ncbiRefSeqCurated.txt.gz",
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "canFam5",
-    "name": "Dog (canFam5) ",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/canFam5/canFam5.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam5/canFam5.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/database/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/bigZips/canFam5.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/bigZips/canFam5.chrom.sizes",
-    "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/bigZips/canFam5.chromAlias.bb",
-    "nameSet": "ucsc",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chr30,chr31,chr32,chr33,chr34,chr35,chr36,chr37,chr38,chrX",
-    "tracks": [
-      {
-        "name": "Genes",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/database/refGene.txt.gz",
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "canFam4",
-    "name": "Dog (UU_Cfam_GSD_1.0/canFam4)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/canFam4/canFam4.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam4/canFam4.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/cytoBandIdeo.txt.gz",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/bigZips/canFam4.chromAlias.txt",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/bigZips/canFam4.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/bigZips/canFam4.chrom.sizes",
-    "nameSet": "ucsc",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chr30,chr31,chr32,chr33,chr34,chr35,chr36,chr37,chr38,chrX",
-    "tracks": [
-      {
-        "name": "RefSeq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/ncbiRefSeqCurated.txt.gz",
-        "indexed": false,
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "canFam3",
-    "name": "Dog (Broad CanFam3.1/canFam3)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/canFam3.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/canFam3.fa.fai",
-    "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/cytoBandIdeo.txt.gz",
-    "tracks": [
-      {
-        "name": "Refseq Genes",
-        "format": "refgene",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/canFam3/ncbiRefSeq.sorted.txt.gz",
-        "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/ncbiRefSeq.sorted.txt.gz.tbi",
-        "indexed": false,
-        "order": 1000000,
-        "visibilityWindow": -1,
-        "supportsWholeGenome": false
-      },
-      {
-        "name": "Genes",
-        "format": "bed",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_canFam3.bed.gz",
-        "hidden": true,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "bosTau9",
-    "name": "Cow (ARS-UCD1.2/bosTau9)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau9/bosTau9.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau9/bosTau9.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/database/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/bigZips/bosTau9.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/bigZips/bosTau9.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/bigZips/bosTau9.chromAlias.txt",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chrX",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/database/ncbiRefSeqCurated.txt.gz",
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "bosTau8",
-    "name": "Cow (UMD_3.1.1/bosTau8)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau8/bosTau8.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau8/bosTau8.fa.fai",
-    "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau8/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/bigZips/bosTau8.2bit",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/bigZips/bosTau8.chromAlias.txt",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/bigZips/bosTau8.chrom.sizes",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chrX",
-    "tracks": [
-      {
-        "name": "Refseq Genes",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/database/refGene.txt.gz",
-        "indexed": false,
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "susScr11",
-    "name": "Pig (SGSC Sscrofa11.1/susScr11)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/susScr11/susScr11.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/susScr11/susScr11.fa.fai",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.chromAlias.txt",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/cytoBandIdeo.txt.gz",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chrX,chrY",
-    "tracks": [
-      {
-        "name": "Refseq Genes",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/refGene.txt.gz",
-        "indexed": false,
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "galGal6",
-    "name": " Chicken (galGal6)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/galGal6/galGal6.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/galGal6/galGal6.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.chromAlias.txt",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/ncbiRefSeqCurated.txt.gz",
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "GCF_016699485.2",
-    "name": "Gallus gallus (GCF_016699485.2)",
-    "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2.fa",
-    "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2.fa.fai",
-    "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_chromAlias.tab",
-    "blatDB": "GCF_016699485.2",
-    "tracks": [
-      {
-        "name": "Genes",
-        "format": "bed",
-        "url": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_gene_names.bed",
-        "hidden": true,
-        "displayMode": "COLLAPSED"
-      },
-      {
-        "id": "ncbiRefSeqCurated",
-        "name": "RefSeq Transcripts",
-        "description": " <a target = \"_blank\" href = \"https://hgdownload.gi.ucsc.edu/hubs/birds/https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/html/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
-        "url": "https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/bbi/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.ncbiRefSeqCurated.bb",
-        "displayMode": "EXPANDED",
-        "color": "rgb(12,12,120)",
-        "parent": "refSeqComposite on",
-        "height": 300
-      }
-    ]
-  },
-  {
-    "id": "danRer11",
-    "name": "Zebrafish (GRCZ11/danRer11)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/danRer11/danRer11.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/danRer11/danRer11.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/database/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.chromAlias.txt",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/database/ncbiRefSeqCurated.txt.gz",
-        "order": 1000000
-      }
-    ]
-  },
-  {
-    "id": "danRer10",
-    "name": "Zebrafish (GRCZ10/danRer10)",
-    "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/danRer10/danRer10.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/danRer10/danRer10.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/database/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/bigZips/danRer10.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/bigZips/danRer10.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/bigZips/danRer10.chromAlias.txt",
-    "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25",
-    "order": 1000000,
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/database/ncbiRefSeqCurated.txt.gz",
-        "order": 1000000,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "ce11",
-    "name": "C. elegans (ce11)",
-    "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/ce11/ce11.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/ce11/ce11.fa.fai",
-    "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/cytoBandIdeo.txt.gz",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.chromAlias.txt",
-    "chromosomeOrder": "chrI,chrII,chrIII,chrIV,chrV,chrX",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/ncbiRefSeqCurated.txt.gz",
-        "indexed": false,
-        "order": 1000000,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "dm6",
-    "name": "D. melanogaster (dm6)",
-    "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/dm6/dm6.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/dm6/dm6.fa.fai",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chromAlias.txt",
-    "chromosomeOrder": "chr2L,chr2R,chr3L,chr3R,chr4,chrX,chrY",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/ncbiRefSeqCurated.txt.gz",
-        "indexed": false,
-        "order": 1000000,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "dm3",
-    "name": "D. melanogaster (dm3)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/dm3/dm3.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/dm3/dm3.fa.fai",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/dm3.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/dm3.chrom.sizes",
-    "chromosomeOrder": "chr2L,chr2R,chr3L,chr3R,chr4,chrX",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "format": "refgene",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/database/refGene.txt.gz",
-        "indexed": false,
-        "order": 1000000,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "dmel_r5.9",
-    "name": "D. melanogaster (dmel_r5.9)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/dmel_r5.9/dmel-all-chromosome-r5.9.fasta",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/dmel_r5.9/dmel-all-chromosome-r5.9.fasta.fai",
-    "tracks": [
-      {
-        "name": "Transcripts",
-        "format": "gff3",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/dmel_r5.9/dmel-r5.9.transcripts.sorted.gff.gz",
-        "indexed": false,
-        "order": 1000000,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "sacCer3",
-    "name": "S. cerevisiae (sacCer3)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/sacCer3/sacCer3.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/sacCer3/sacCer3.fa.fai",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.chrom.sizes",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.chromAlias.txt",
-    "chromosomeOrder": "chrI,chrII, chrIII,chrIV,chrV,chrVI,chrVII,chrVIII,chrIX,chrX,chrXI,chrXII,chrXIII,chrXIV,chrXV,chrXVI",
-    "tracks": [
-      {
-        "name": "Refseq Curated",
-        "type": "annotation",
-        "format": "refgene",
-        "displayMode": "EXPANDED",
-        "url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeqCurated.txt.gz",
-        "indexed": false,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "ASM294v2",
-    "name": "S. pombe (ASM294v2)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/ASM294v2/Schizosaccharomyces_pombe_all_chromosomes.fa",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/ASM294v2/Schizosaccharomyces_pombe_all_chromosomes.fa.fai",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.2bit",
-    "nameSet": "ucsc",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.chrom.sizes.txt",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.chromAlias.txt",
-    "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.2bit.bpt",
-    "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/bbi/GCF_000002945.1_ASM294v2.cytoBand.bb",
-    "tracks": [
-      {
-        "type": "annotation",
-        "name": "RefSeq Curated",
-        "format": "biggenepred",
-        "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/bbi/GCF_000002945.1_ASM294v2.ncbiRefSeqCurated.bb",
-        "displayMode": "EXPANDED",
-        "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/html/GCF_000002945.1_ASM294v2.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
-        "searchIndex": "name",
-        "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/ixIxx/GCF_000002945.1_ASM294v2.ncbiRefSeqCurated.ix",
-        "visibilityWindow": -1
-      }
-    ]
-  },
-  {
-    "id": "ASM985889v3",
-    "name": "Sars-CoV-2 (ASM985889v3)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna.fai",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chromAlias.txt",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit",
-    "nameSet": "ucsc",
-    "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chromAlias.bb",
-    "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit.bpt",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chrom.sizes.txt",
-    "description": "SARS-CoV-2 (Jan 2020 COVID-19)\nSevere acute respiratory syndrome coronavirus 2/GCF_009858895.2_ASM985889v3 genome assembly",
-    "tracks": [
-      {
-        "name": "NCBI Genes",
-        "format": "biggenepred",
-        "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/bbi/GCF_009858895.2_ASM985889v3.ncbiGene.bb",
-        "displayMode": "EXPANDED",
-        "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/html/GCF_009858895.2_ASM985889v3.ncbiGene\">NCBI gene predictions</a>",
-        "color": "rgb(0,80,150)",
-        "altColor": "rgb(150,80,0)",
-        "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
-        "searchIndex": "name",
-        "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/ixIxx/GCF_009858895.2_ASM985889v3.ncbiGene.ix",
-        "type": "annotation",
-        "height": 70,
-        "visibilityWindow": -1
-      }
-    ]
-  },
-  {
-    "id": "tair10",
-    "name": "A. thaliana (TAIR 10)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/tair10/TAIR10_chr_all.fas",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/tair10/TAIR10_chr_all.fas.fai",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.2bit",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chrom.sizes.txt",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chromAlias.txt",
-    "nameSet": "ucsc",
-    "chromosomeOrder": "NC_003070.9,NC_003071.7,NC_003074.8,NC_003075.7,NC_003076.8",
-    "tracks": [
-      {
-        "name": "RefSeq Genes",
-        "format": "gtf",
-        "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/genes/GCF_000001735.3_TAIR10.ncbiRefSeq.gtf.gz",
-        "indexed": false,
-        "order": 1000000,
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "GCA_003086295.2",
-    "name": "Peanut (GCA_003086295.2)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.fna",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.fna.fai",
-    "tracks": [
-      {
-        "name": "Annotations",
-        "format": "gff3",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.gff.gz",
-        "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.gff.gz.tbi",
-        "order": 1000000,
-        "visibilityWindow": -1,
-        "supportsWholeGenome": false,
-        "displayMode": "EXPANDED",
-        "height": 300
-      }
-    ]
-  },
-  {
-    "id": "GCF_001433935.1",
-    "name": "O. sativa IRGSP-1.0 (GCF_001433935.1)",
-    "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz",
-    "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz.fai",
-    "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz.gzi",
-    "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.chromAlias.txt",
-    "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.2bit",
-    "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.2bit.bpt",
-    "description": "Japanese rice (Nipponbare 2015)\nOryza sativa Japonica Group/GCF_001433935.1_IRGSP-1.0 genome assembly",
-    "nameSet": "ucsc",
-    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.chrom.sizes.txt",
-    "chromosomeOrder": "NC_029256.1,NC_029257.1,NC_029258.1,NC_029259.1,NC_029260.1,NC_029261.1,NC_029262.1,NC_029263.1,NC_029264.1,NC_029265.1,NC_029266.1,NC_029267.1",
-    "tracks": [
-      {
-        "name": "MSU V7 genes",
-        "format": "gff3",
-        "description": " <a target = \"_blank\" href = \"https://rice.uga.edu/\">Rice Genome Annotation Project</a>",
-        "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/MSU_V7.gff3.gz",
-        "displayMode": "EXPANDED",
-        "height": 200
-      }
-    ]
-  },
-  {
-    "id": "NC_016856.1",
-    "name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S",
-    "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.fna",
-    "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.fna.fai",
-    "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1_alias.tab",
-    "tracks": [
-      {
-        "url": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.gff.gz",
-        "name": "NC_016856.1.gff.gz",
-        "format": "gff3",
-        "type": "annotation",
-        "searchable": true
-      }
-    ]
-  },
-  {
-    "id": "GCA_000182895.1",
-    "name": "Coprinopsis cinerea okayama7#130 (GCA_000182895.1)",
-    "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1.fa",
-    "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1.fa.fai",
-    "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1_chromAlias.tab",
-    "blatDB": "GCA_000182895.1",
-    "tracks": [
-      {
-        "id": "ncbiGene",
-        "name": "Gene models",
-        "format": "bigGenePred",
-        "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/html/GCA_000182895.1_CC3.ncbiGene\">Gene models submitted to NCBI</a>",
-        "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/bbi/GCA_000182895.1_CC3.ncbiGene.bb",
-        "displayMode": "EXPANDED",
-        "color": "rgb(0,80,150)",
-        "altColor": "rgb(0,150,80)",
-        "colorBy": "strand",
-        "infoURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/https://www.ncbi.nlm.nih.gov/gene/?term=$$"
-      }
-    ]
-  }
+{
+  "id": "hs1",
+  "blatDB": "hub_3671779_hs1",
+  "name": "Human (T2T CHM13-v2.0/hs1)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0.fa.fai",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/cytoBandMapped/cytoBandMapped.bb",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.2bit",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.2bit.bpt",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.chrom.sizes.txt",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
+  "tracks": [
+    {
+      "name": "RefSeq Select",
+      "type": "annotation",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqSelectCurated.bb",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqSelectCurated.ix",
+      "visibilityWindow": -1,
+      "order":1000000
+    },
+    {
+      "id": "catLiftOffGenesV1",
+      "name": "CAT/Liftoff Genes",
+      "format": "bigbed",
+      "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.catLiftOffGenesV1.html\">CAT + Liftoff Gene Annotations</a>",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.catLiftOffGenesV1/catLiftOffGenesV1.bb",
+      "displayMode": "EXPANDED",
+      "height": 200,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false,
+      "order": 1000000
+    },
+    {
+      "id": "augustus",
+      "name": "Augustus",
+      "format": "bigbed",
+      "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.augustus\">Augustus Gene Predictions</a>",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.augustus.bb",
+      "displayMode": "EXPANDED",
+      "color": "180,0,0",
+      "height": 200,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false,
+      "order": 1000001
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://igv.org/genomes/data/hs1/chm13v2.0_geneLocations.short.bed.gz",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+}
+,
+{
+  "id": "chm13v1.1",
+  "name": "Human (T2T CHM13-v1.1)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/GCA_009914755.3_CHM13_T2T_v1.1_genomic.fna",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/GCA_009914755.3_CHM13_T2T_v1.1_genomic.fna.fai",
+  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/cytoBandIdeo.bed",
+  "tracks": [
+    {
+      "name": "Annotations",
+      "type": "annotation",
+      "format": "bigbed",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/CHM13.combined.v4.bb",
+      "supportsWholeGenome": false,
+      "height": 200,
+      "displayMode": "EXPANDED",
+      "order": 1000000,
+      "description": "Annotations from <a target='_blank' href='https://genome.ucsc.edu/cgi-bin/hgTracks?db=hub_2395475_t2t-chm13-v1.1'>UCSC</a>.<br/>blue - protein coding<br/>green - non coding<br/>pink - psuedo gene",
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/CHM13.names.bed.gz",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+}
+,
+{
+  "id": "hg38",
+  "name": "Human (GRCh38/hg38)",
+  "fastaURL": "https://igv.org/genomes/data/hg38/hg38.fa",
+  "indexURL": "https://igv.org/genomes/data/hg38/hg38.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+  "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
+  "maneBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.bb",
+  "maneTrixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.ix",
+  "tracks": [
+    {
+      "name": "Refseq All",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
+      "order": 1000001,
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
+    }
+  ]
+}
+,
+{
+  "id": "hg38_1kg",
+  "ucscID": "hg38",
+  "blatDB": "hg38",
+  "name": "Human (hg38 1kg/GATK)",
+  "fastaURL": "https://1000genomes.s3.amazonaws.com/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
+  "indexURL": "https://1000genomes.s3.amazonaws.com/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+  "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
+  "maneBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.bb",
+  "maneTrixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.ix",
+  "tracks": [
+    {
+      "name": "Refseq All",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
+      "order": 1000001,
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
+    }
+  ],
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY"
+}
+,
+{
+  "id": "hg19",
+  "name": "Human (GRCh37/hg19)",
+  "fastaURL": "https://igv.org/genomes/data/hg19/hg19.fasta",
+  "indexURL": "https://igv.org/genomes/data/hg19/hg19.fasta.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz",
+  "aliasURL": "https://igv.org/genomes/data/hg19/hg19_alias.tab",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes",
+  "tracks": [
+    {
+      "name": "Refseq All",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
+      "order": 1000000,
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
+    }
+  ],
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY"
+}
+,
+{
+  "id": "hg18",
+  "name": "Human (hg18)",
+  "fastaURL": "https://igv.org/genomes/hg18/hg18.fasta",
+  "indexURL": "https://igv.org/genomes/hg18/hg18.fasta.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/cytoBandIdeo.txt.gz",
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/refGene.txt.gz",
+      "indexed": false,
+      "visibilityWindow": -1,
+      "order": 1000000,
+      "searchable": true
+    }
+  ],
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY"
+}
+,
+{
+  "id": "mm39",
+  "name": "Mouse (GRCm39/mm39)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/mm39/mm39.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/mm39/mm39.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/database/cytoBandIdeo.txt.gz",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.chrom.sizes",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
+      "order": 1000000
+    }
+  ],
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+}
+,
+{
+  "id": "mm10",
+  "name": "Mouse (GRCm38/mm10)",
+  "fastaURL": "https://igv.org/genomes/data/mm10/mm10.fa",
+  "indexURL": "https://igv.org/genomes/data/mm10.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
+  "order": 1000000,
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
+      "order": 1000000
+    }
+  ],
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+},
+{
+  "id": "mm9",
+  "name": "Mouse (NCBI37/mm9)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/mm9/mm9.fasta",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/mm9/mm9.fasta.fai",
+  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/mm9/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/mm9.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/mm9.chrom.sizes",
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/database/refGene.txt.gz",
+      "indexed": false,
+      "order": 1000000
+    }
+  ],
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+},
+{
+  "id": "rn7",
+  "name": "Rat (rn7) ",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/rn7/rn7.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/rn7/rn7.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/cytoBandIdeo.txt.gz",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/bigZips/rn7.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/bigZips/rn7.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/bigZips/rn7.chrom.sizes",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chrX,chrY",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "rn6",
+  "name": "Rat (RGCS 6.0/rn6)",
+  "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/rn6/rn6.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/rn6/rn6.fa.fai",
+  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/rn6/cytoBand.txt.gz",
+  "order": 1000000,
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/rn6/ncbiRefSeq.sorted.txt.gz",
+      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/rn6/ncbiRefSeq.sorted.txt.gz.tbi",
+      "order": 1000000,
+      "supportsWholeGenome": false,
+      "visibilityWindow": -1
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_rn6.bed.gz",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "gorGor6",
+  "name": "Gorilla (Kamilah_GGO_v0/gorGor6) ",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor6/gorGor6.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor6/gorGor6.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/database/cytoBandIdeo.txt.gz",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/bigZips/gorGor6.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/bigZips/gorGor6.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/bigZips/gorGor6.chrom.sizes",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000
+    }
+  ],
+  "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX"
+},
+{
+  "id": "gorGor4",
+  "name": "Gorilla (gorGor4.1/gorGor4)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor4/gorGor4.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor4/gorGor4.fa.fai",
+  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/gorGor4/cytoBandIdeo.txt.gz",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/gorGor4/refGene.txt.gz",
+      "indexed": false,
+      "order": 1000000,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false
+    }
+  ],
+  "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX"
+},
+{
+  "id": "panTro6",
+  "name": "Chimp (panTro6) (panTro6)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panTro6/panTro6.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro6/panTro6.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/bigZips/panTro6.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/bigZips/panTro6.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/bigZips/panTro6.chromAlias.txt",
+  "nameSet": "ucsc",
+  "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "panTro5",
+  "name": "Chimp (panTro5) (panTro5)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panTro5/panTro5.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro5/panTro5.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/database/cytoBandIdeo.txt.gz",
+  "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/panTro5/ncbiRefSeq.txt.gz",
+      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro5/ncbiRefSeq.txt.gz.tbi",
+      "order": 1000000,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_panTro5.bed.gz",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "panTro4",
+  "name": " Chimp (SAC 2.1.4/panTro4)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panTro4/panTro4.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro4/panTro4.fa.fai",
+  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/panTro4/cytoBandIdeo.txt.gz",
+  "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/panTro4/refGene.sorted.txt.gz",
+      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro4/refGene.sorted.txt.gz.tbi",
+      "order": 1000000,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_panTro4.bed.gz",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "macFas5",
+  "name": "Macaca fascicularis (macFas5)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/macFas5/macFas5.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/macFas5/macFas5.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/database/cytoBandIdeo.txt.gz",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/bigZips/macFas5.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/bigZips/macFas5.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/bigZips/macFas5.chrom.sizes",
+  "tracks": [
+    {
+      "name": "Genes",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "GCA_011100615.1",
+  "blatDB": "GCA_011100615.1",
+  "name": "Macaca fascicularis 6.0 (GCA_011100615.1)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz.fai",
+  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz.gzi",
+  "aliasURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/GCA_011100615.1_chromAlias.tab",
+  "tracks": [
+    {
+      "name": "Annotations",
+      "format": "gff3",
+      "description": " <a target = \"_blank\" href = \"https://uswest.ensembl.org/Macaca_fascicularis/Info/Annotation\">Ensembl gene annotation 8-11-2022</a>",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.108.sorted.gff3.gz",
+      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.108.sorted.gff3.gz.tbi",
+      "visibilityWindow": -1,
+      "displayMode": "EXPANDED",
+      "height": 200
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/GCA_011100615.1_ucsc_ensGene.bed",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+}
+,
+{
+  "id": "panPan2",
+  "name": "Bonobo (MPI-EVA panpan1.1/panPan2)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/panPan2.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/panPan2.fa.fai",
+  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/cytoBandIdeo.txt.gz",
+  "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX",
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/panPan2/ncbiRefSeq.txt.gz",
+      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/ncbiRefSeq.txt.gz.tbi",
+      "order": 1000000,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_panPan2.bed.gz",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "canFam6",
+  "name": "Dog (canFam6) ",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/bigZips/canFam6.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/bigZips/canFam6.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/bigZips/canFam6.chromAlias.txt",
+  "nameSet": "ucsc",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chr30,chr31,chr32,chr33,chr34,chr35,chr36,chr37,chr38,chrX",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "canFam5",
+  "name": "Dog (canFam5) ",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/canFam5/canFam5.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam5/canFam5.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/bigZips/canFam5.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/bigZips/canFam5.chrom.sizes",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/bigZips/canFam5.chromAlias.bb",
+  "nameSet": "ucsc",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chr30,chr31,chr32,chr33,chr34,chr35,chr36,chr37,chr38,chrX",
+  "tracks": [
+    {
+      "name": "Genes",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/database/refGene.txt.gz",
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "canFam4",
+  "name": "Dog (UU_Cfam_GSD_1.0/canFam4)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/canFam4/canFam4.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam4/canFam4.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/cytoBandIdeo.txt.gz",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/bigZips/canFam4.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/bigZips/canFam4.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/bigZips/canFam4.chrom.sizes",
+  "nameSet": "ucsc",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chr30,chr31,chr32,chr33,chr34,chr35,chr36,chr37,chr38,chrX",
+  "tracks": [
+    {
+      "name": "RefSeq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "canFam3",
+  "name": "Dog (Broad CanFam3.1/canFam3)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/canFam3.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/canFam3.fa.fai",
+  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/cytoBandIdeo.txt.gz",
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/canFam3/ncbiRefSeq.sorted.txt.gz",
+      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/ncbiRefSeq.sorted.txt.gz.tbi",
+      "indexed": false,
+      "order": 1000000,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_canFam3.bed.gz",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "bosTau9",
+  "name": "Cow (ARS-UCD1.2/bosTau9)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau9/bosTau9.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau9/bosTau9.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/bigZips/bosTau9.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/bigZips/bosTau9.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/bigZips/bosTau9.chromAlias.txt",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chrX",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "bosTau8",
+  "name": "Cow (UMD_3.1.1/bosTau8)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau8/bosTau8.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau8/bosTau8.fa.fai",
+  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau8/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/bigZips/bosTau8.2bit",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/bigZips/bosTau8.chromAlias.txt",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/bigZips/bosTau8.chrom.sizes",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25,chr26,chr27,chr28,chr29,chrX",
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/database/refGene.txt.gz",
+      "indexed": false,
+      "order": 1000000
+    }
+  ]
+}
+,
+{
+  "id": "susScr11",
+  "name": "Pig (SGSC Sscrofa11.1/susScr11)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/susScr11/susScr11.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/susScr11/susScr11.fa.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.chromAlias.txt",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/cytoBandIdeo.txt.gz",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chrX,chrY",
+
+  "tracks": [
+    {
+      "name": "Refseq Genes",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/refGene.txt.gz",
+      "indexed": false,
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "galGal6",
+  "name": " Chicken (galGal6)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/galGal6/galGal6.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/galGal6/galGal6.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.chromAlias.txt",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "GCF_016699485.2",
+  "name": "Gallus gallus (GCF_016699485.2)",
+  "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2.fa",
+  "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2.fa.fai",
+  "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_chromAlias.tab",
+  "blatDB": "GCF_016699485.2",
+  "tracks": [
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_gene_names.bed",
+      "hidden": true,
+      "displayMode": "COLLAPSED"
+    },
+    {
+      "id": "ncbiRefSeqCurated",
+      "name": "RefSeq Transcripts",
+      "description": " <a target = \"_blank\" href = \"https://hgdownload.gi.ucsc.edu/hubs/birds/https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/html/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
+      "url": "https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/bbi/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.ncbiRefSeqCurated.bb",
+      "displayMode": "EXPANDED",
+      "color": "rgb(12,12,120)",
+      "parent": "refSeqComposite on",
+      "height": 300
+    }
+  ]
+},
+{
+  "id": "danRer11",
+  "name": "Zebrafish (GRCZ11/danRer11)",
+  "fastaURL": "https://igv.org/genomes/data/danRer11/danRer11.fa",
+  "indexURL": "https://igv.org/genomes/data/danRer11/danRer11.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.chromAlias.txt",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000
+    }
+  ]
+},
+{
+  "id": "danRer10",
+  "name": "Zebrafish (GRCZ10/danRer10)",
+  "fastaURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/danRer10/danRer10.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.broadinstitute.org/genomes/seq/danRer10/danRer10.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/bigZips/danRer10.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/bigZips/danRer10.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/bigZips/danRer10.chromAlias.txt",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25",
+  "order": 1000000,
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "ce11",
+  "name": "C. elegans (ce11)",
+  "fastaURL": "https://igv.org/genomes/data/ce11/ce11.fa",
+  "indexURL": "https://igv.org/genomes/data/ce11/ce11.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.chromAlias.txt",
+  "chromosomeOrder": "chrI,chrII,chrIII,chrIV,chrV,chrX",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
+      "order": 1000000,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "dm6",
+  "name": "D. melanogaster (dm6)",
+  "fastaURL": "https://igv.org/genomes/data/dm6/dm6.fa",
+  "indexURL": "https://igv.org/genomes/data/dm6/dm6.fa.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chromAlias.txt",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/cytoBandIdeo.txt.gz",
+  "chromosomeOrder": "chr2L,chr2R,chr3L,chr3R,chr4,chrX,chrY",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
+      "order": 1000000,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "dm3",
+  "name": "D. melanogaster (dm3)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/dm3/dm3.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/dm3/dm3.fa.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/dm3.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/dm3.chrom.sizes",
+  "chromosomeOrder": "chr2L,chr2R,chr3L,chr3R,chr4,chrX",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/database/refGene.txt.gz",
+      "indexed": false,
+      "order": 1000000,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "dmel_r5.9",
+  "name": "D. melanogaster (dmel_r5.9)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/dmel_r5.9/dmel-all-chromosome-r5.9.fasta",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/dmel_r5.9/dmel-all-chromosome-r5.9.fasta.fai",
+  "tracks": [
+    {
+      "name": "Transcripts",
+      "format": "gff3",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/dmel_r5.9/dmel-r5.9.transcripts.sorted.gff.gz",
+      "indexed": false,
+      "order": 1000000,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "sacCer3",
+  "name": "S. cerevisiae (sacCer3)",
+  "fastaURL": "https://igv.org/genomes/data/sacCer3/sacCer3.fa",
+  "indexURL": "https://igv.org/genomes/data/sacCer3/sacCer3.fa.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.chromAlias.txt",
+  "chromosomeOrder": "chrI,chrII, chrIII,chrIV,chrV,chrVI,chrVII,chrVIII,chrIX,chrX,chrXI,chrXII,chrXIII,chrXIV,chrXV,chrXVI",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "type": "annotation",
+      "format": "refgene",
+      "displayMode": "EXPANDED",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "ASM294v2",
+  "name": "S. pombe (ASM294v2)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/ASM294v2/Schizosaccharomyces_pombe_all_chromosomes.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/ASM294v2/Schizosaccharomyces_pombe_all_chromosomes.fa.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.chrom.sizes.txt",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.chromAlias.txt",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.2bit.bpt",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/bbi/GCF_000002945.1_ASM294v2.cytoBand.bb",
+  "tracks": [
+    {
+      "type": "annotation",
+      "name": "RefSeq Curated",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/bbi/GCF_000002945.1_ASM294v2.ncbiRefSeqCurated.bb",
+      "displayMode": "EXPANDED",
+      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/html/GCF_000002945.1_ASM294v2.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
+      "searchIndex": "name",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/ixIxx/GCF_000002945.1_ASM294v2.ncbiRefSeqCurated.ix",
+      "visibilityWindow": -1
+    }
+  ]
+}
+,
+{
+  "id": "ASM985889v3",
+  "name": "Sars-CoV-2 (ASM985889v3)",
+  "fastaURL": "https://igv.org/genomes/data/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna",
+  "indexURL": "https://igv.org/genomes/data/ASM985889v3/GCF_009858895.2_ASM985889v3_genomic.fna.fai",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit",
+  "nameSet": "ucsc",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chromAlias.bb",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit.bpt",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chrom.sizes.txt",
+  "description": "SARS-CoV-2 (Jan 2020 COVID-19)\nSevere acute respiratory syndrome coronavirus 2/GCF_009858895.2_ASM985889v3 genome assembly",
+  "tracks": [
+    {
+      "name": "NCBI Genes",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/bbi/GCF_009858895.2_ASM985889v3.ncbiGene.bb",
+      "displayMode": "EXPANDED",
+      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/html/GCF_009858895.2_ASM985889v3.ncbiGene\">NCBI gene predictions</a>",
+      "color": "rgb(0,80,150)",
+      "altColor": "rgb(150,80,0)",
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
+      "searchIndex": "name",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/ixIxx/GCF_009858895.2_ASM985889v3.ncbiGene.ix",
+      "type": "annotation",
+      "height": 70,
+      "visibilityWindow": -1
+    }
+  ]
+}
+,
+{
+  "id": "tair10",
+  "name": "A. thaliana (TAIR 10)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/tair10/TAIR10_chr_all.fas",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/tair10/TAIR10_chr_all.fas.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chrom.sizes.txt",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chromAlias.txt",
+  "nameSet": "ucsc",
+  "chromosomeOrder": "NC_003070.9,NC_003071.7,NC_003074.8,NC_003075.7,NC_003076.8",
+  "tracks": [
+    {
+      "name": "RefSeq Genes",
+      "format": "gtf",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/genes/GCF_000001735.3_TAIR10.ncbiRefSeq.gtf.gz",
+      "indexed": false,
+      "order": 1000000,
+      "searchable": true
+    }
+  ]
+}
+,
+{
+  "id": "GCA_003086295.2",
+  "name": "Peanut (GCA_003086295.2)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.fna",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.fna.fai",
+  "tracks": [
+    {
+      "name": "Annotations",
+      "format": "gff3",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.gff.gz",
+      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.gff.gz.tbi",
+      "order": 1000000,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false,
+      "displayMode": "EXPANDED",
+      "height": 300
+    }
+  ]
+}
+,
+{
+  "id": "GCF_001433935.1",
+  "name": "O. sativa IRGSP-1.0 (GCF_001433935.1)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz.fai",
+  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz.gzi",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.2bit",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.2bit.bpt",
+  "description": "Japanese rice (Nipponbare 2015)\nOryza sativa Japonica Group/GCF_001433935.1_IRGSP-1.0 genome assembly",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.chrom.sizes.txt",
+  "chromosomeOrder": [
+    "NC_029256.1",
+    "NC_029257.1",
+    "NC_029258.1",
+    "NC_029259.1",
+    "NC_029260.1",
+    "NC_029261.1",
+    "NC_029262.1",
+    "NC_029263.1",
+    "NC_029264.1",
+    "NC_029265.1",
+    "NC_029266.1",
+    "NC_029267.1"
+  ],
+  "tracks": [
+    {
+      "name": "MSU V7 genes",
+      "format": "gff3",
+      "description": " <a target = \"_blank\" href = \"https://rice.uga.edu/\">Rice Genome Annotation Project</a>",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/MSU_V7.gff3.gz",
+      "displayMode": "EXPANDED",
+      "height": 200
+    }
+  ]
+}
+,
+{
+  "id": "NC_016856.1",
+  "name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S",
+  "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.fna",
+  "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.fna.fai",
+  "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1_alias.tab",
+  "tracks": [
+    {
+      "url": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.gff.gz",
+      "name": "NC_016856.1.gff.gz",
+      "format": "gff3",
+      "type": "annotation",
+      "searchable": true
+    }
+  ]
+},
+{
+  "id": "GCA_000182895.1",
+  "name": "Coprinopsis cinerea okayama7#130 (GCA_000182895.1)",
+  "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1.fa",
+  "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1.fa.fai",
+  "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1_chromAlias.tab",
+  "blatDB": "GCA_000182895.1",
+  "tracks": [
+    {
+      "id": "ncbiGene",
+      "name": "Gene models",
+      "format": "bigGenePred",
+      "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/html/GCA_000182895.1_CC3.ncbiGene\">Gene models submitted to NCBI</a>",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/bbi/GCA_000182895.1_CC3.ncbiGene.bb",
+      "displayMode": "EXPANDED",
+      "color": "rgb(0,80,150)",
+      "altColor": "rgb(0,150,80)",
+      "colorBy": "strand",
+      "infoURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/https://www.ncbi.nlm.nih.gov/gene/?term=$$"
+    }
+  ]
+}
 ]
