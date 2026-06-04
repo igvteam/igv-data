@@ -5,7 +5,7 @@ Data, hubs, and genome definitions supporting [IGV](https://github.com/igvteam/i
 ## Hosting IGV genome data for IGV desktop
 
 Below are steps for setting up a host for IGV desktop genome data.  The instructions assume you have a server
-with base url 'https://myGenomeServer/igv-data' to an 'igv-data' directory on the server.  Adjust step 3 as needed for 
+with base url 'https://myGenomeServer/igv-data' to an 'igv-data' directory.  Adjust step 2 as needed for 
 your actual server url.
 
 1. Clone this repository
