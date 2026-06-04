@@ -11,7 +11,7 @@ your actual server url.
 1. Clone this repository
 2. Run the script
    
-   ```'update_base_url.sh https://myGenomeServer/igv-data```
+   ```update_base_url.sh https://myGenomeServer/igv-data```
    
 4. Copy the 'data' and 'genomes' directory to the 'igv-data' directory on your server.
 
