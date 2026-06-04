@@ -53,6 +53,7 @@
       "id": "refgene",
       "name": "RefSeq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/database/refGene.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "order": 100000
     }

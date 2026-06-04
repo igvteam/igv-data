@@ -53,6 +53,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
       "order": 100000

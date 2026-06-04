@@ -40,6 +40,7 @@
       "id": "refseqAll",
       "name": "Refseq All",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",
       "order": 100000

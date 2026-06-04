@@ -10,6 +10,7 @@
       "name": "Refseq Curated Genes",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "order": 1000000
     }
   ],

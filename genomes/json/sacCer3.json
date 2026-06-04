@@ -35,6 +35,7 @@
       "id": "refseqAll",
       "name": "Refseq All",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",

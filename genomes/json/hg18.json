@@ -36,6 +36,7 @@
       "id": "refGene",
       "name": "RefSeq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/refGene.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "html": "https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg18&g=refGene",
       "order": 100000

@@ -42,6 +42,7 @@
     {
       "name": "Refseq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/database/refGene.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "indexed": false,
       "order": 100000

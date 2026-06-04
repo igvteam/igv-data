@@ -12,6 +12,7 @@
       "name": "Refseq Genes",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "order": 100000,
       "visibilityWindow": 0
     }

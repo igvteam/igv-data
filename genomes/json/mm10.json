@@ -39,6 +39,7 @@
       "id": "ncbiRefSeq",
       "name": "RefSeq All",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "color": "rgb(12,12,120)",
       "order": 100000

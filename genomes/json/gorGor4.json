@@ -36,6 +36,7 @@
     {
       "name": "Refseq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor4/database/refGene.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "visibilityWindow": -1,
       "indexed": false,

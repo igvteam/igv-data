@@ -15,6 +15,7 @@
       "type": "annotation",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/panPan2/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "order": 100000
     }
   ],

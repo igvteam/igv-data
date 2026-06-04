@@ -22,6 +22,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
