@@ -19,7 +19,7 @@ Alternatively, the following line can be added to the user's pref.properties fil
 under the user home directory:
 
 ```
-genomeServerURL=https://myGenomeServer/igv-data/<genomes file>
+IGV.genome.sequence.dir=https://myGenomeServer/igv-data/<genomes file>
 ```
 
 The value of <genomes file> depends on the version of IGV desktop being used.  
@@ -29,7 +29,8 @@ The value of <genomes file> depends on the version of IGV desktop being used.
 * 2.11 to 2.16: legacy/genomes.tsv
 * 2.10 and earlier: legacy/genomes.txt
 
-
+Note: the hosted genome data does not contain any sequence or annotation,  only meta data in the form of text and json files.   
+These files reference sequence and annotation files hosted elsewhere, primarily the UCSC Genome Browser servers.
 
 
 
