@@ -1,6 +1,6 @@
 LOCUS       NC_012920              16569 bp    DNA     circular PRI 22-SEP-2014
 DEFINITION  Homo sapiens mitochondrion, complete genome.
-ALIASES     NC_012920,chrM,MT
+ALIASES     NC_012920,chrM,MT,mtDNA
 ACCESSION   NC_012920 AC_000021
 VERSION     NC_012920.1  GI:251831106
 DBLINK      BioProject: PRJNA30353
