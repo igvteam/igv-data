@@ -122,4 +122,7 @@ https://storage.googleapis.com/storage/v1/b/genomics-public-data/o/platinum-geno
 https://storage.googleapis.com/storage/v1/b/genomics-public-data/o/platinum-genomes%2Fbam%2FNA12878_S1.bam.bai&alt=media	https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/NHGRI_Illumina300X_novoalign_bams/HG001.hs37d5.300x.bam.bai
 gs://genomics-public-data/platinum-genomes/bam/NA12878_S1.bam	https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/NHGRI_Illumina300X_novoalign_bams/HG001.hs37d5.300x.bam
 gs://genomics-public-data/platinum-genomes/bam/NA12878_S1.bam.bai	https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/NHGRI_Illumina300X_novoalign_bams/HG001.hs37d5.300x.bam.bai
-
+https://s3.amazonaws.com/igv.org.demo/heart_slc25a3.bam	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/rna/heart_slc25a3.bam
+https://s3.amazonaws.com/igv.org.demo/heart_slc25a3.bam.bai	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/rna/heart_slc25a3.bam.bai
+https://s3.amazonaws.com/igv.org.demo/liver_slc25a3.bam	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/rna/liver_slc25a3.bam
+https://s3.amazonaws.com/igv.org.demo/liver_slc25a3.bam.bai	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/rna/liver_slc25a3.bam.bai
