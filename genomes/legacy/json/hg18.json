@@ -1,8 +1,8 @@
 {
   "id": "hg18",
   "name": "Human (hg18)",
-  "fastaURL": "https://igv.org/genomes/hg18/hg18.fasta",
-  "indexURL": "https://igv.org/genomes/hg18/hg18.fasta.fai",
+  "fastaURL": "https://igv.org/genomes/data/hg18/hg18.fasta",
+  "indexURL": "https://igv.org/genomes/data/hg18/hg18.fasta.fai",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/cytoBandIdeo.txt.gz",
   "tracks": [
     {
