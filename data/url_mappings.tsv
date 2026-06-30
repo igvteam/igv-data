@@ -118,6 +118,6 @@ https://s3.us-east-1.amazonaws.com/igv.org.genomes/bosTau8/refGene.sorted.txt.gz
 
 https://s3.us-east-1.amazonaws.com/igv.org.app/desktop_google	https://igv.org/services/desktop_google
 https://s3.amazonaws.com/igv.org.demo/gm12878_loops.bedpe	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/demo/gm12878_loops.bedpe
-https://storage.googleapis.com/storage/v1/b/genomics-public-data/o/platinum-genomes%2Fbam%2FNA12878_S1.bam?alt=media	https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/NHGRI_Illumina300X_novoalign_bams/HG001.hs37d5.300x.bam,
-https://storage.googleapis.com/storage/v1/b/genomics-public-data/o/platinum-genomes%2Fbam%2FNA12878_S1.bam.bai?alt=media	https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/NHGRI_Illumina300X_novoalign_bams/HG001.hs37d5.300x.bam.bai
+https://storage.googleapis.com/storage/v1/b/genomics-public-data/o/platinum-genomes%2Fbam%2FNA12878_S1.bam	https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/NHGRI_Illumina300X_novoalign_bams/HG001.hs37d5.300x.bam,
+https://storage.googleapis.com/storage/v1/b/genomics-public-data/o/platinum-genomes%2Fbam%2FNA12878_S1.bam.bai	https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/NHGRI_Illumina300X_novoalign_bams/HG001.hs37d5.300x.bam.bai
 
