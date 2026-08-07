@@ -68,7 +68,7 @@ https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes
 https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/refGene.hg19.bed.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz
 https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/ensGene.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ensGene.txt.gz
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg19/ensGene.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ensGene.txt.gz
-https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg19/ncbiRefSeq.sorted.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz
+https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg19/ncbiRefSeq.sorted.txt.gz	https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg19/hg19_alias.tab	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg19/hg19_alias.tab
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg19/refGene.sorted.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz
 

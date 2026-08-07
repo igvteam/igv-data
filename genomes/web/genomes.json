@@ -62,7 +62,7 @@
   "name": "Human (GRCh38/hg38)",
   "fastaURL": "https://igv.org/genomes/data/hg38/hg38.fa",
   "indexURL": "https://igv.org/genomes/data/hg38/hg38.fa.fai",
-  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit",
+  "twoBitURL": "https://igv.org/genomes/data/hg38/hg38.2bit",
   "wholeGenomeView": true,
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg38/hg38_alias.tab",
@@ -146,7 +146,7 @@
   "name": "Human (GRCh37/hg19)",
   "fastaURL": "https://igv.org/genomes/data/hg19/hg19.fasta",
   "indexURL": "https://igv.org/genomes/data/hg19/hg19.fasta.fai",
-  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit",
+  "twoBitURL": "https://igv.org/genomes/data/hg19/hg19.2bit",
   "wholeGenomeView": true,
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz",
   "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg19/hg19_alias.tab",
@@ -182,7 +182,7 @@
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
+      "url": "https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz",
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",
       "order": 100000

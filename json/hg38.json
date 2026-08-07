@@ -1,7 +1,7 @@
 {
   "id": "hg38",
   "name": "Human (GRCh38/hg38)",
-  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit",
+  "twoBitURL": "https://igv.org/genomes/data/hg38/hg38.2bit",
   "wholeGenomeView": true,
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg38/hg38_alias.tab",

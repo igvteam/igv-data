@@ -3,10 +3,11 @@
   "name": "Human (GRCh37/hg19)",
   "fastaURL": "https://igv.org/genomes/data/hg19/hg19.fasta",
   "indexURL": "https://igv.org/genomes/data/hg19/hg19.fasta.fai",
-  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit",
-  "wholeGenomeView": true,
-  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz",
-  "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg19/hg19_alias.tab",
+  "twoBitURL": "https://igv.org/genomes/data/hg19/hg19.2bit",
+  "cytobandURL": "https://igv.org/genomes/data/hg19/cytoBand.txt.gz",
+  "aliasURL": "https://igv.org/genomes/data/hg19/hg19_alias.tab",
+  "chromSizesURL": "https://igv.org/genomes/data/hg19/hg19.chrom.sizes",
+  "maneBbURL": "https://igv.org/genomes/data/hg19/ncbiRefSeqSelect.bb",
   "chromosomeOrder": [
     "chr1",
     "chr2",
@@ -33,13 +34,12 @@
     "chrX",
     "chrY"
   ],
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes",
-  "maneBbURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg19/ncbiRefSeqSelect.bb",
+  "wholeGenomeView": true,
   "tracks": [
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
+      "url": "https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz",
       "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",

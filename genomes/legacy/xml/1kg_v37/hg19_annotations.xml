@@ -10,7 +10,7 @@
                   path="https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeqCurated.txt.gz"
         />
         <Resource name="RefSeq All"
-                  path="https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz"
+                  path="https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz"
         />
         <Resource name="Ensembl Genes"
                   path="https://s3.amazonaws.com/igv.org.genomes/hg19/ensGene.txt.gz">

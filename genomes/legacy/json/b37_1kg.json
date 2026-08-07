@@ -10,7 +10,7 @@
       "name": "Refseq All",
       "format": "refgene",
       "id": "hg19_genes",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
+      "url": "https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz",
       "indexed": false,
       "order": 1000000,
       "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"

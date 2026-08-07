@@ -37,7 +37,7 @@ noInherit on
     shortLabel Refseq All
     longLabel Refseq All
     group genes
-    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz
+    bigDataUrl https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz
     html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
     parent refSeqComposite
 
