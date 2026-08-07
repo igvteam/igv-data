@@ -3,15 +3,15 @@
   "name": "Human (GRCh37/hg19)",
   "fastaURL": "https://igv.org/genomes/data/hg19/hg19.fasta",
   "indexURL": "https://igv.org/genomes/data/hg19/hg19.fasta.fai",
-  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz",
+  "cytobandURL": "https://igv.org/genomes/data/hg19/cytoBand.txt.gz",
   "aliasURL": "https://igv.org/genomes/data/hg19/hg19_alias.tab",
-  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes",
+  "twoBitURL": "https://igv.org/genomes/data/hg19/hg19.2bit",
+  "chromSizesURL": "https://igv.org/genomes/data/hg19/hg19.chrom.sizes",
   "tracks": [
     {
       "name": "Refseq All",
       "format": "refgene",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
+      "url": "https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz",
       "indexed": false,
       "order": 1000000,
       "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
