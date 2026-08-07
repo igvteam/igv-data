@@ -4,7 +4,7 @@
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
-INPUT="$DIR/web_genomes.txt"
+INPUT="$DIR/web/web_genomes.txt"
 JSON_DIR="$DIR/json"
 OUTPUT="$DIR/web/genomes.json"
 

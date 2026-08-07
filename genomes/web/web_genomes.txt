@@ -32,4 +32,3 @@ sacCer3.json
 ASM294v2.json
 ASM985889v3.json
 tair10.json
-GCA_000022165.1.json

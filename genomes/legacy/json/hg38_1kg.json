@@ -5,16 +5,16 @@
   "name": "Human (hg38 1kg/GATK)",
   "fastaURL": "https://1000genomes.s3.amazonaws.com/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
   "indexURL": "https://1000genomes.s3.amazonaws.com/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai",
-  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+  "cytobandURL": "https://igv.org/genomes/data/hg38/cytoBandIdeo.txt.gz",
   "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
-  "maneBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.bb",
-  "maneTrixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.ix",
+  "chromSizesURL": "https://igv.org/genomes/data/hg38/hg38.chrom.sizes",
+  "maneBbURL": "https://igv.org/genomes/data/hg38/mane.1.0.bb",
+  "maneTrixURL": "https://igv.org/genomes/data/hg38/mane.1.0.ix",
   "tracks": [
     {
       "name": "Refseq All",
       "format": "refgene",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
+      "url": "https://igv.org/genomes/data/hg38/ncbiRefSeq.txt.gz",
       "indexed": false,
       "order": 1000001,
       "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"

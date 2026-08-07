@@ -3,12 +3,12 @@
   "name": "Human (hg18)",
   "fastaURL": "https://igv.org/genomes/data/hg18/hg18.fasta",
   "indexURL": "https://igv.org/genomes/data/hg18/hg18.fasta.fai",
-  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/cytoBandIdeo.txt.gz",
+  "cytobandURL": "https://igv.org/genomes/data/hg18/cytoBandIdeo.txt.gz",
   "tracks": [
     {
       "name": "Refseq Genes",
       "format": "refgene",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/refGene.txt.gz",
+      "url": "https://igv.org/genomes/data/hg18/refGene.txt.gz",
       "indexed": false,
       "visibilityWindow": -1,
       "order": 1000000,

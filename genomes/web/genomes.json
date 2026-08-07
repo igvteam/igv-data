@@ -64,18 +64,19 @@
   "indexURL": "https://igv.org/genomes/data/hg38/hg38.fa.fai",
   "twoBitURL": "https://igv.org/genomes/data/hg38/hg38.2bit",
   "wholeGenomeView": true,
-  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
-  "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg38/hg38_alias.tab",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
+  "cytobandURL": "https://igv.org/genomes/data/hg38/cytoBandIdeo.txt.gz",
+  "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
+  "chromSizesURL": "https://igv.org/genomes/data/hg38/hg38.chrom.sizes",
   "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
-  "maneBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.bb",
-  "maneTrixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.ix",
-  "rsdbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/ncbiRefSeq/refSeqHistorical.bb",
+  "maneBbURL": "https://igv.org/genomes/data/hg38/mane.1.0.bb",
+  "maneTrixURL": "https://igv.org/genomes/data/hg38/mane.1.0.ix",
+  "rsdbURL": "https://igv.org/genomes/data/hg38/ncbiRefSeq/refSeqHistorical.bb",
   "tracks": [
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
+      "url": "https://igv.org/genomes/data/hg38/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",
       "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
@@ -83,7 +84,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg38/hub.txt"
+    "https://igv.org/genomes/data/hg38/hubs/hub.txt"
   ]
 },
 {
@@ -92,45 +93,21 @@
   "fastaURL": "https://1000genomes.s3.amazonaws.com/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
   "indexURL": "https://1000genomes.s3.amazonaws.com/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa.fai",
   "wholeGenomeView": true,
-  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
+  "cytobandURL": "https://igv.org/genomes/data/hg38/cytoBandIdeo.txt.gz",
   "blatDB": "hg38",
   "ucscID": "hg38",
-  "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg38/hg38_alias.tab",
-  "chromosomeOrder": [
-    "chr1",
-    "chr2",
-    "chr3",
-    "chr4",
-    "chr5",
-    "chr6",
-    "chr7",
-    "chr8",
-    "chr9",
-    "chr10",
-    "chr11",
-    "chr12",
-    "chr13",
-    "chr14",
-    "chr15",
-    "chr16",
-    "chr17",
-    "chr18",
-    "chr19",
-    "chr20",
-    "chr21",
-    "chr22",
-    "chrX",
-    "chrY"
-  ],
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
-  "maneBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.bb",
-  "maneTrixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/mane/mane.1.0.ix",
-  "rsdbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/ncbiRefSeq/refSeqHistorical.bb",
+  "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
+  "chromSizesURL": "https://igv.org/genomes/data/hg38/hg38.chrom.sizes",
+  "maneBbURL": "https://igv.org/genomes/data/hg38/mane.1.0.bb",
+  "maneTrixURL": "https://igv.org/genomes/data/hg38/mane.1.0.ix",
+  "rsdbURL": "https://igv.org/genomes/data/hg38/ncbiRefSeq/refSeqHistorical.bb",
   "tracks": [
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
+      "url": "https://igv.org/genomes/data/hg38/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",
       "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
@@ -138,7 +115,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg38/hub.txt"
+    "https://igv.org/genomes/data/hg38/hubs/hub.txt"
   ]
 },
 {
@@ -147,9 +124,10 @@
   "fastaURL": "https://igv.org/genomes/data/hg19/hg19.fasta",
   "indexURL": "https://igv.org/genomes/data/hg19/hg19.fasta.fai",
   "twoBitURL": "https://igv.org/genomes/data/hg19/hg19.2bit",
-  "wholeGenomeView": true,
-  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz",
-  "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg19/hg19_alias.tab",
+  "cytobandURL": "https://igv.org/genomes/data/hg19/cytoBand.txt.gz",
+  "aliasURL": "https://igv.org/genomes/data/hg19/hg19_alias.tab",
+  "chromSizesURL": "https://igv.org/genomes/data/hg19/hg19.chrom.sizes",
+  "maneBbURL": "https://igv.org/genomes/data/hg19/ncbiRefSeqSelect.bb",
   "chromosomeOrder": [
     "chr1",
     "chr2",
@@ -176,22 +154,22 @@
     "chrX",
     "chrY"
   ],
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes",
-  "maneBbURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg19/ncbiRefSeqSelect.bb",
+  "wholeGenomeView": true,
   "tracks": [
     {
       "id": "refseqAll",
       "name": "Refseq All",
       "url": "https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",
       "order": 100000
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg19/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg19/1kg/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg19/tutorials/hub.txt"
+    "https://igv.org/genomes/data/hg19/hubs/hg19/hub.txt",
+    "https://igv.org/genomes/data/hg19/hubs/hg19/hub_1kg.txt",
+    "https://igv.org/genomes/data/hg19/hubs/hg19/hub_tutorials.txt"
   ]
 },
 {
@@ -232,6 +210,7 @@
       "id": "refGene",
       "name": "RefSeq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/refGene.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "html": "https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg18&g=refGene",
       "order": 100000
@@ -279,6 +258,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -331,6 +311,7 @@
       "id": "ncbiRefSeq",
       "name": "RefSeq All",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "color": "rgb(12,12,120)",
       "order": 100000
@@ -422,6 +403,7 @@
       "id": "refseqCurated",
       "name": "Refseq All",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -503,6 +485,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor6/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -552,6 +535,7 @@
     {
       "name": "Refseq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor4/database/refGene.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "visibilityWindow": -1,
       "indexed": false,
@@ -573,6 +557,7 @@
       "name": "Refseq Curated",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "order": 1000000
     }
   ],
@@ -595,6 +580,7 @@
       "name": "Refseq Genes",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro5/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "order": 100000,
       "visibilityWindow": 0
     }
@@ -639,6 +625,7 @@
     {
       "name": "Refseq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro4/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "visibilityWindow": -1,
       "order": 100000
@@ -657,6 +644,7 @@
       "name": "Refseq Curated Genes",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "order": 1000000
     }
   ],
@@ -682,6 +670,7 @@
       "type": "annotation",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/panPan2/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "order": 100000
     }
   ],
@@ -703,6 +692,7 @@
       "name": "Refseq Curated",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "order": 1000000
     }
   ],
@@ -766,6 +756,7 @@
       "id": "refgene",
       "name": "RefSeq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/database/refGene.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "order": 100000
     }
@@ -829,6 +820,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
       "order": 100000
@@ -893,6 +885,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -948,6 +941,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -1003,6 +997,7 @@
     {
       "name": "Refseq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/database/refGene.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "indexed": false,
       "order": 100000
@@ -1044,6 +1039,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/ncbiRefSeqCurated.txt.gz",
+
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -1068,6 +1064,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "EXPANDED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -1174,6 +1171,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -1207,6 +1205,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
       "order": 100000
@@ -1241,6 +1240,7 @@
       "id": "refseqCurated",
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -1270,6 +1270,7 @@
     {
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/database/refGene.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "indexed": false,
       "order": 100000
@@ -1313,6 +1314,7 @@
       "id": "refseqAll",
       "name": "Refseq All",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeq.txt.gz",
+      "indexed": false,
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
