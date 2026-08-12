@@ -53,7 +53,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hs1/hub.txt",
+    "https://igv.org/genomes/hubs/hs1/hub.txt",
     "https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/hub.txt"
   ]
 },
@@ -167,9 +167,9 @@
     }
   ],
   "hubs": [
-    "https://igv.org/genomes/data/hg19/hubs/hg19/hub.txt",
-    "https://igv.org/genomes/data/hg19/hubs/hg19/hub_1kg.txt",
-    "https://igv.org/genomes/data/hg19/hubs/hg19/hub_tutorials.txt"
+    "https://igv.org/genomes/hubs/hg19/hub.txt",
+    "https://igv.org/genomes/hubs/hg19/hub_1kg.txt",
+    "https://igv.org/genomes/hubs/hg19/hub_tutorials.txt"
   ]
 },
 {
@@ -217,9 +217,9 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg18/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg18/tumorscape/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg18/gbm/hub.txt"
+    "https://igv.org/genomes/hubs/hg18/hub.txt",
+    "https://igv.org/genomes/hubs/hg18/tumorscape/hub.txt",
+    "https://igv.org/genomes/hubs/hg18/gbm/hub.txt"
   ]
 },
 {
@@ -266,7 +266,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/mm39/hub.txt",
+    "https://igv.org/genomes/hubs/mm39/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/hub.txt"
   ]
 },
@@ -318,7 +318,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/mm10/hub.txt",
+    "https://igv.org/genomes/hubs/mm10/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/hub.txt"
   ]
 },
@@ -411,7 +411,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/rn7/hub.txt",
+    "https://igv.org/genomes/hubs/rn7/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/hub.txt"
   ]
 },
@@ -493,7 +493,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/gorGor6/hub.txt",
+    "https://igv.org/genomes/hubs/gorGor6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/008/122/165/GCF_008122165.1/hub.txt"
   ]
 },
@@ -562,7 +562,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/panTro6/hub.txt",
+    "https://igv.org/genomes/hubs/panTro6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCA/002/880/755/GCA_002880755.3/hub.txt"
   ]
 },
@@ -649,7 +649,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/macFas5/hub.txt",
+    "https://igv.org/genomes/hubs/macFas5/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/364/345/GCA_000364345.1/hub.txt"
   ]
 },
@@ -697,7 +697,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/canFam6/hub.txt",
+    "https://igv.org/genomes/hubs/canFam6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/285/GCF_000002285.5/hub.txt"
   ]
 },
@@ -762,7 +762,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/canFam5/hub.txt"
+    "https://igv.org/genomes/hubs/canFam5/hub.txt"
   ]
 },
 {
@@ -827,7 +827,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/canFam4/hub.txt",
+    "https://igv.org/genomes/hubs/canFam4/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/hub.txt"
   ]
 },
@@ -893,7 +893,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/canFam3/hub.txt"
+    "https://igv.org/genomes/hubs/canFam3/hub.txt"
   ]
 },
 {
@@ -949,7 +949,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/bosTau9/hub.txt",
+    "https://igv.org/genomes/hubs/bosTau9/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/hub.txt"
   ]
 },
@@ -1047,7 +1047,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/susScr11/hub.txt",
+    "https://igv.org/genomes/hubs/susScr11/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/003/025/GCF_000003025.6/hub.txt"
   ]
 },
@@ -1072,7 +1072,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/galGal6/hub.txt",
+    "https://igv.org/genomes/hubs/galGal6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/315/GCF_000002315.6/hub.txt"
   ]
 },
@@ -1128,7 +1128,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/danRer11/hub.txt"
+    "https://igv.org/genomes/hubs/danRer11/hub.txt"
   ]
 },
 {
@@ -1179,7 +1179,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/danRer10/hub.txt"
+    "https://igv.org/genomes/hubs/danRer10/hub.txt"
   ]
 },
 {
@@ -1212,7 +1212,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/ce11/hub.txt",
+    "https://igv.org/genomes/hubs/ce11/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/985/GCF_000002985.6/hub.txt"
   ]
 },
@@ -1248,7 +1248,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/dm6/hub.txt",
+    "https://igv.org/genomes/hubs/dm6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/215/GCF_000001215.4/hub.txt"
   ]
 },
@@ -1322,7 +1322,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/sacCer3/hub.txt",
+    "https://igv.org/genomes/hubs/sacCer3/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/hub.txt"
   ]
 },

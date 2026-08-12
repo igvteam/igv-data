@@ -47,8 +47,8 @@
     }
   ],
   "hubs": [
-    "https://igv.org/genomes/data/hg19/hubs/hg19/hub.txt",
-    "https://igv.org/genomes/data/hg19/hubs/hg19/hub_1kg.txt",
-    "https://igv.org/genomes/data/hg19/hubs/hg19/hub_tutorials.txt"
+    "https://igv.org/genomes/hubs/hg19/hub.txt",
+    "https://igv.org/genomes/hubs/hg19/hub_1kg.txt",
+    "https://igv.org/genomes/hubs/hg19/hub_tutorials.txt"
   ]
 }

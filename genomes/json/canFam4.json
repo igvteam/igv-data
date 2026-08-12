@@ -60,7 +60,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/canFam4/hub.txt",
+    "https://igv.org/genomes/hubs/canFam4/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/hub.txt"
   ]
 }

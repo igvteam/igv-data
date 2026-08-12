@@ -46,9 +46,8 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg19/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg19/1kg/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg19/platinum_genomes/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg19/tutorials/hub.txt"
+    "https://igv.org/genomes/hubs/hg19/hub.txt",
+    "https://igv.org/genomes/hubs/hg19/hub_1kg.txt",
+    "https://igv.org/genomes/hubs/hg19/hub_tutorials.txt"
   ]
 }

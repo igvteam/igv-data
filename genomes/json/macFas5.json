@@ -15,7 +15,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/macFas5/hub.txt",
+    "https://igv.org/genomes/hubs/macFas5/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/364/345/GCA_000364345.1/hub.txt"
   ]
 }

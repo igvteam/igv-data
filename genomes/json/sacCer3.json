@@ -43,7 +43,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/sacCer3/hub.txt",
+    "https://igv.org/genomes/hubs/sacCer3/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/hub.txt"
   ]
 }

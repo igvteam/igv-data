@@ -46,6 +46,6 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/danRer10/hub.txt"
+    "https://igv.org/genomes/hubs/danRer10/hub.txt"
   ]
 }

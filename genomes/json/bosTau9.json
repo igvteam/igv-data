@@ -51,7 +51,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/bosTau9/hub.txt",
+    "https://igv.org/genomes/hubs/bosTau9/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/hub.txt"
   ]
 }

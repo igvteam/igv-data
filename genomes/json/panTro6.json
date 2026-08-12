@@ -17,7 +17,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/panTro6/hub.txt",
+    "https://igv.org/genomes/hubs/panTro6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCA/002/880/755/GCA_002880755.3/hub.txt"
   ]
 }
