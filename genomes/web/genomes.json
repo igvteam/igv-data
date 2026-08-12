@@ -84,7 +84,7 @@
     }
   ],
   "hubs": [
-    "https://igv.org/genomes/data/hg38/hubs/hub.txt"
+    "https://igv.org/genomes/hubs/hg38/hub.txt"
   ]
 },
 {
@@ -101,7 +101,7 @@
   "chromSizesURL": "https://igv.org/genomes/data/hg38/hg38.chrom.sizes",
   "maneBbURL": "https://igv.org/genomes/data/hg38/mane.1.0.bb",
   "maneTrixURL": "https://igv.org/genomes/data/hg38/mane.1.0.ix",
-  "rsdbURL": "https://igv.org/genomes/data/hg38/ncbiRefSeq/refSeqHistorical.bb",
+  "rsdbURL": "https://igv.org/genomes/data/hg38/refSeqHistorical.bb",
   "tracks": [
     {
       "id": "refseqAll",
@@ -115,7 +115,7 @@
     }
   ],
   "hubs": [
-    "https://igv.org/genomes/data/hg38/hubs/hub.txt"
+    "https://igv.org/genomes/hubs/hg38/hub.txt"
   ]
 },
 {

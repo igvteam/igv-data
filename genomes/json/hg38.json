@@ -25,6 +25,6 @@
     }
   ],
   "hubs": [
-    "https://igv.org/genomes/data/hg38/hubs/hub.txt"
+    "https://igv.org/genomes/hubs/hg38/hub.txt"
   ]
 }
