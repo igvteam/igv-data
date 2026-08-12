@@ -58,15 +58,15 @@ FILES=(
     gorGor6/groups.txt
     gorGor6/hub.txt
     gorGor6/trackDb.txt
-    hg18/genomes.txt
-    hg18/groups.txt
-    hg18/hub.txt
-    hg18/trackDb.txt
     hg18/gbm/Broad.080528.subtypes.seg.gz
     hg18/gbm/Broad_standard_080606.gistic.txt
     hg18/gbm/TCGA_GBM_Level3_Somatic_Mutations_08.28.2008.maf.gz
     hg18/gbm/hub.txt
     hg18/gbm/sampleTable.txt.gz
+    hg18/genomes.txt
+    hg18/groups.txt
+    hg18/hub.txt
+    hg18/trackDb.txt
     hg18/tumorscape/hub.txt
     hg18/tumorscape/tumorscape.html
     hg19/groups.txt
