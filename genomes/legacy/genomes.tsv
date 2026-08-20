@@ -1,11 +1,16 @@
 # Hosted genomes list.  Tab delimited file with 3 columns  Name (for menu),  url to .genome or .json file,  and genome ID. 
 C. elegans (ce11)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/ce11.json	ce11
+C. elegans (ce10)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/ce10.json	ce10
 D. melanogaster (dm6)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/dm6.json	dm6
+D. melanogaster (dm3)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/dm3.json	dm3
 Human (hg18)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/hg18.json	hg18
 Human (hg19)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/hg19.json	hg19
 Human (hg38)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/hg38.json	hg38
 Human (hg38 1kg/GATK)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/hg38_1kg.json	hg38_1kg
 Mouse mm10	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/mm10.json	mm10
+Mouse mm9	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/mm9.json	mm9
+Rat (rn7)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/rn7.json	rn7
+Rat (rn6)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/rn6.json	rn6
 S. cerevisiae (sacCer3)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/sacCer3.json	sacCer3
 Zebrafish (GRCz11/danRer11)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/danRer11.json	danRer11
 S. pombe (ASM294v2)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/ASM294v2.json	ASM294v2

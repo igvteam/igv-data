@@ -1,0 +1,20 @@
+{
+  "id": "ce10",
+  "name": "C. elegans (ce10)",
+  "fastaURL": "https://igv.org/genomes/data/ce10/ce10.fa",
+  "indexURL": "https://igv.org/genomes/data/ce10/ce10.fa.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/ce10.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/ce10.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/ce10.chromAlias.txt",
+  "chromosomeOrder": "chrI,chrII,chrIII,chrIV,chrV,chrX",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://igv.org/genomes/data/ce10/refGene.txt.gz",
+      "indexed": false,
+      "order": 1000000,
+      "searchable": true
+    }
+  ]
+}

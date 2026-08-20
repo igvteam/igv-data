@@ -1,16 +1,17 @@
 {
   "id": "dm3",
   "name": "D. melanogaster (dm3)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/dm3/dm3.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/dm3/dm3.fa.fai",
+  "fastaURL": "https://igv.org/genomes/data/dm3/dm3.fa",
+  "indexURL": "https://igv.org/genomes/data/dm3/dm3.fa.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/dm3.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/dm3.chrom.sizes",
+  "cytobandURL": "https://igv.org/genomes/data/dm3/cytoBandIdeo.txt.gz",
   "chromosomeOrder": "chr2L,chr2R,chr3L,chr3R,chr4,chrX",
   "tracks": [
     {
       "name": "Refseq Curated",
       "format": "refgene",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/database/refGene.txt.gz",
+      "url": "https://igv.org/genomes/data/dm3/refGene.txt.gz",
       "indexed": false,
       "order": 1000000,
       "searchable": true
