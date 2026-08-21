@@ -26,6 +26,7 @@ galGal6.json
 danRer11.json
 danRer10.json
 ce11.json
+ce10.json
 dm6.json
 dm3.json
 sacCer3.json

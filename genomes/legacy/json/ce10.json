@@ -5,7 +5,7 @@
   "indexURL": "https://igv.org/genomes/data/ce10/ce10.fa.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/ce10.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/ce10.chrom.sizes",
-  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce10/bigZips/ce10.chromAlias.txt",
+  "aliasURL": "https://hgdownload.gi.ucsc.edu/goldenPath/ce11/bigZips/ce11.chromAlias.txt",
   "chromosomeOrder": "chrI,chrII,chrIII,chrIV,chrV,chrX",
   "tracks": [
     {

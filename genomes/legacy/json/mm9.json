@@ -1,8 +1,8 @@
 {
   "id": "mm9",
   "name": "Mouse (NCBI37/mm9)",
-  "fastaURL": "https://igv.org/genomes/data/mm9/mm9.fasta",
-  "indexURL": "https://igv.org/genomes/data/mm9/mm9.fasta.fai",
+  "fastaURL": "https://igv.org/genomes/data/mm9/mm9.fa",
+  "indexURL": "https://igv.org/genomes/data/mm9/mm9.fa.fai",
   "cytobandURL": "https://igv.org/genomes/data/mm9/cytoBandIdeo.txt.gz",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/mm9.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/mm9.chrom.sizes",

@@ -1,6 +1,7 @@
 #url	accession	assembly	scientific name	common name	taxonId
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/tair10.json	GCF_000001735.3	tair10	Arabidopsis thaliana	A. thaliana (TAIR 10)	3702
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/ce11.json	GCA_000002985.3	ce11	Caenorhabditis elegans	C. elegans (ce11)	6239
+https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/ce10.json	.	ce10	Caenorhabditis elegans	C. elegans (ce10)	6239
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/galGal6.json	GCF_000002315.5	galGal6	Gallus gallus	Chicken (GRCg6a / galGal6)	9031
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/panTro4.json	GCA_000001515.4	panTro4	Pan troglodytes	Chimp (panTro4)	9598
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/panTro5.json	GCF_000001515.7	panTro5	Pan troglodytes	Chimp (panTro5)	9598

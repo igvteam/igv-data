@@ -1,6 +1,7 @@
 # Hosted genomes list.  Tab delimited file with 3 columns  Name (for menu),  url to .genome or .json file,  and genome ID. 
 A. thaliana (TAIR 10)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/tair10.json	tair10
 C. elegans (ce11)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/ce11.json	ce11
+C. elegans (ce10)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/json/ce10.json	ce10
 Chicken (GRCg6a / galGal6)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/galGal6.json	galGal6
 Chimp (panTro4)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/panTro4.json	panTro4
 Cow (bosTau8)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/bosTau8.json	bosTau8
