@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Session genome="hg19" locus="All" version="8">
     <Resources>
-        <Resource path="/Users/jrobinso/igv-team Dropbox/James Robinson/projects/igv-data/data/test/gbm/GBMCopyNumber.seg.gz" type="seg"/>
-        <Resource path="/Users/jrobinso/igv-team Dropbox/James Robinson/projects/igv-data/data/test/gbm/GBM-sampletable-samplemapping-colors.txt" type="/users/jrobinso/igv-team dropbox/james robinson/projects/igv-data/data/test/gbm/gbm-sampletable-samplemapping-colors"/>
+        <Resource path="https://github.com/igvteam/igv-data/raw/refs/heads/main/data/test/gbm/GBM-TP.seg.gz" type="seg"/>
     </Resources>
 </Session>
