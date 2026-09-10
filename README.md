@@ -14,12 +14,16 @@ Below are steps for setting up a host for the genome data.  The instructions ass
 with base url 'https://myGenomeServer/igv-data' to an 'igv-data' directory.  Adjust step 2 as needed for
 your actual server url.
 
-1. Download 'scripts/buildMirror.sh' from this repository
+1. Download 'scripts/buildMirror.sh' and 'scripts/verifyMirror.py' from this repository
 2. Run it
 
    ```buildMirror.sh /tmp/mirror https://myGenomeServer/igv-data```
 
-3. Copy the 'genomes' directory written to /tmp/mirror to the 'igv-data' directory on
+3. Check it, which follows the genome lists and the hubs they reference
+
+   ```verifyMirror.py /tmp/mirror https://myGenomeServer/igv-data```
+
+4. Copy the 'genomes' directory written to /tmp/mirror to the 'igv-data' directory on
    your server.
 
 The script needs nothing but curl and tar: it downloads the current 'genomes' tree as a
