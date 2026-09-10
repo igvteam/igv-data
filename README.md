@@ -37,9 +37,14 @@ and repoints the URLs in it at the host given on the command line.  Run it from 
 with '--local' to mirror work that is not pushed yet, or with '--ref <ref>' for a particular
 branch or tag; both use git rather than the download.
 
+To refresh a mirror later, run the same command with '--update'.  Without that option an
+existing mirror is left alone, so a mistyped output directory cannot damage one.  The script
+never deletes anything: the files in the new tree replace their counterparts, and everything
+else in the mirror, including files the site has added itself, is left as it is.
+
 The genome lists ('genomes2.tsv', 'genomes3.tsv', the four under 'legacy', and
-'web/genomes.json') are included; they rarely change, so '--no-lists' omits them when
-refreshing a mirror that already has them.
+'web/genomes.json') are included.  They rarely change, so '--no-lists' leaves them out of the
+mirror; they are not unpacked at all, so on an update the deployed copies are untouched.
 
 Only URLs that point into the mirrored tree are rewritten.  Two kinds of reference are left
 alone:

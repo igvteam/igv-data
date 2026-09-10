@@ -10,17 +10,25 @@
 #                       A path is allowed, e.g. https://myserver/igv-data.
 #
 # Options:
-#   --no-lists          omit the genome list files (see LISTS below).  They rarely
-#                       change, so an update to an established mirror can leave the
-#                       deployed copies alone.  A new mirror needs them.
+#   --no-lists          leave the genome list files (see LISTS below) out of the
+#                       mirror: they are not unpacked.  They rarely change, so with
+#                       --update this leaves the deployed copies as they are.  A new
+#                       mirror needs them.
 #   --local             build from this checkout with git, rather than downloading.
 #                       Use it to mirror work that is not pushed yet.
 #   --ref <ref>         git ref to build from, implies --local.  Default "main".
 #   --url <url>         download the genomes tarball from here instead of the
 #                       release asset.
+#   --update            write into an existing mirror, overwriting the files that
+#                       are in the new tree and leaving the rest in place.  Without
+#                       it an existing mirror is left alone, so a mistyped output
+#                       directory cannot damage one.
 #
 # The genomes tree is downloaded as a tarball built by .github/workflows/genomes-tarball.yml
 # and attached to the "genomes-latest" release, so curl and tar are the only requirements.
+#
+# Nothing is ever deleted: files in the new tree replace their counterparts, and anything
+# else already in the output directory is left as it is.
 #
 # The repository is the source of truth and every internal URL in it points at
 # raw.githubusercontent.com.  The same tree is also served from https://igv.org/genomes.
@@ -50,11 +58,12 @@ LISTS=(
 )
 
 usage() {
-    echo "Usage: $0 [--no-lists] [--local] [--ref <ref>] [--url <url>] <output directory> [<host>]" >&2
+    echo "Usage: $0 [--no-lists] [--update] [--local] [--ref <ref>] [--url <url>] <output directory> [<host>]" >&2
     exit 1
 }
 
 lists=1
+update=0
 local_build=0
 REF="main"
 URL="$DEFAULT_URL"
@@ -62,6 +71,7 @@ URL="$DEFAULT_URL"
 while [ $# -gt 0 ]; do
     case "$1" in
         --no-lists) lists=0; shift ;;
+        --update) update=1; shift ;;
         --local) local_build=1; shift ;;
         --ref) [ $# -ge 2 ] || usage; REF="$2"; local_build=1; shift 2 ;;
         --url) [ $# -ge 2 ] || usage; URL="$2"; shift 2 ;;
@@ -87,12 +97,22 @@ HOST="${HOST%/}"
 
 HOST_PREFIX="$HOST/genomes"
 
-if [ -e "$OUT/genomes" ]; then
-    echo "ERROR: $OUT/genomes already exists, refusing to overwrite" >&2
+if [ -e "$OUT/genomes" ] && [ $update -eq 0 ]; then
+    echo "ERROR: $OUT/genomes already exists.  Pass --update to write into it." >&2
     exit 1
 fi
 
 mkdir -p "$OUT"
+
+# --no-lists is done by not unpacking the lists, rather than by removing them after the
+# fact, so a deployed copy is never touched.
+EXCLUDES=()
+if [ $lists -eq 0 ]; then
+    for list in "${LISTS[@]}"; do
+        # bash 3.2 treats an empty array as unset under "set -u", hence the guard.
+        EXCLUDES=(${EXCLUDES[@]+"${EXCLUDES[@]}"} --exclude "genomes/$list")
+    done
+fi
 
 if [ $local_build -eq 1 ]; then
     SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
@@ -104,10 +124,10 @@ if [ $local_build -eq 1 ]; then
     fi
 
     echo "Building from $REF ($(git -C "$ROOT" rev-parse --short "$REF")) in $ROOT"
-    git -C "$ROOT" archive "$REF" genomes | tar -x -C "$OUT"
+    git -C "$ROOT" archive "$REF" genomes | tar -x ${EXCLUDES[@]+"${EXCLUDES[@]}"} -C "$OUT"
 else
     echo "Downloading $URL"
-    if ! curl -f -s -S -L "$URL" | tar -xz -C "$OUT"; then
+    if ! curl -f -s -S -L "$URL" | tar -xz ${EXCLUDES[@]+"${EXCLUDES[@]}"} -C "$OUT"; then
         echo "ERROR: could not download the genomes tarball" >&2
         echo "       It is published by .github/workflows/genomes-tarball.yml; use --local to" >&2
         echo "       build from this checkout instead." >&2
@@ -123,23 +143,24 @@ fi
 echo "Mirror of $OUT/genomes will be served as $HOST_PREFIX"
 
 if [ $lists -eq 0 ]; then
+    kept=0
     for list in "${LISTS[@]}"; do
-        file="$OUT/genomes/$list"
-        if [ -f "$file" ]; then
-            rm -f "$file"
-        else
-            echo "WARNING: genome list not found: genomes/$list" >&2
-        fi
+        [ -f "$OUT/genomes/$list" ] && kept=$((kept + 1))
     done
-    echo "Omitted ${#LISTS[@]} genome list file(s)"
+    if [ $kept -eq 0 ]; then
+        echo "Left out ${#LISTS[@]} genome list file(s)"
+    else
+        echo "Left out ${#LISTS[@]} genome list file(s), $kept already in the mirror and untouched"
+    fi
 fi
 
 # Repoint the internal URLs.  Binary files (the hg18 track data) are skipped by
-# grep -I, and files without a match are left untouched.
+# grep -I, and files without a match are left untouched.  Each file is rewritten to
+# its side and moved into place, so a file is only ever replaced.
 edited=0
 while IFS= read -r file; do
-    sed -i.bak "s|$RAW_PREFIX|$HOST_PREFIX|g" "$file"
-    rm -f "$file.bak"
+    sed "s|$RAW_PREFIX|$HOST_PREFIX|g" "$file" > "$file.new"
+    mv "$file.new" "$file"
     edited=$((edited + 1))
 done < <(grep -rIl "$RAW_PREFIX" "$OUT/genomes")
 
