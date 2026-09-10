@@ -11,7 +11,6 @@ D. melanogaster (dm3)	https://raw.githubusercontent.com/igvteam/igv-data/refs/he
 Dog (canFam3)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/canFam3.json	canFam3
 Dog (UU_Cfam_GSD_1.0/canFam4)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/canFam4.json	canFam4
 Dog (canFam5)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/canFam5.json	canFam5
-Human (1kg, b37+decoy)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/b37_1kg.json	1kg_v37
 Human (T2T CHM13-v2.0/hs1)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hs1.json	hs1
 Human (hg18)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg18.json	hg18
 Human (hg19)	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg19.json	hg19

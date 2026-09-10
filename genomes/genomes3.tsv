@@ -18,7 +18,6 @@ https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg18.json		hg18	Homo sapiens	Human (hg18)	9606
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg19.json	GRCh37	hg19	Homo sapiens	Human (hg19)	9606
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg38.json	GCA_000001405.29	hg38	Homo sapiens	Human (hg38)	9606
-https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/b37_1kg.json		b37_1kg	Homo sapiens	Human (1kg, b37+decoy)	9606
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg38_1kg.json		hg38_1kg	Homo sapiens	Human (hg38 1kg/GATK)	9606
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/gbk/NC_012920.1.gbk		NC_012920.1	Homo sapiens mitochondrion	Human Mitochondria (NC_012920)	9606
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/macFas5.json	GCA_000364345.1	macFas5	Macaca fascicularis	Macaca fascicularis (macFas5)	9541
