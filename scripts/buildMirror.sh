@@ -46,17 +46,16 @@ RAW_PREFIX="https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/g
 DEFAULT_HOST="https://igv.org"
 DEFAULT_URL="https://github.com/igvteam/igv-data/releases/download/genomes-latest/genomes.tar.gz"
 
-# The genome lists, relative to the genomes/ directory.  Note this is an explicit list,
-# not a "genomes.*" glob: the genomes.txt files under hubs/ are UCSC hub genomesFile
-# declarations, named by the hub.txt that references them.
+# The genome server lists, relative to the genomes/ directory.  web/genomes.json and
+# legacy/genomes.json are not here: they are always safe to copy.  Note this is an
+# explicit list, not a "genomes.*" glob: the genomes.txt files under hubs/ are UCSC hub
+# genomesFile declarations, named by the hub.txt that references them.
 LISTS=(
     genomes2.tsv
     genomes3.tsv
-    legacy/genomes.json
     legacy/genomes.tab
     legacy/genomes.tsv
     legacy/genomes.txt
-    web/genomes.json
 )
 
 usage() {

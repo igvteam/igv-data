@@ -52,9 +52,10 @@ left world readable and writable -- an update is not always run by the same pers
 owned by another user can be written but not chmod'ed from here; if an old mirror refuses to
 update, one 'chmod -R a+rwX' by its owner settles it.
 
-The genome lists ('genomes2.tsv', 'genomes3.tsv', the four under 'legacy', and
-'web/genomes.json') are included.  They rarely change, so '--no-lists' leaves them out of the
-mirror; they are not unpacked at all, so on an update the deployed copies are untouched.
+The genome server lists ('genomes2.tsv', 'genomes3.tsv', and 'genomes.tsv', 'genomes.txt'
+and 'genomes.tab' under 'legacy') are included.  They rarely change, so '--no-lists' leaves
+them out of the mirror; they are not unpacked at all, so on an update the deployed copies are
+untouched.  'web/genomes.json' and 'legacy/genomes.json' are always copied.
 
 Only URLs that point into the mirrored tree are rewritten.  Two kinds of reference are left
 alone:
