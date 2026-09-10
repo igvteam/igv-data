@@ -42,6 +42,16 @@ existing mirror is left alone, so a mistyped output directory cannot damage one.
 never deletes anything: the files in the new tree replace their counterparts, and everything
 else in the mirror, including files the site has added itself, is left as it is.
 
+The new tree is unpacked and rewritten in a temporary directory and only copied into the
+mirror once it is complete, so an interrupted download cannot leave a half updated mirror.
+The copy writes each file in place, which needs no more than write permission on the file
+itself, and leaves the permissions of a file that is already there alone.
+
+A file the copy creates takes its mode from the archive, which is 644, so the mirror is
+left world readable and writable -- an update is not always run by the same person.  A file
+owned by another user can be written but not chmod'ed from here; if an old mirror refuses to
+update, one 'chmod -R a+rwX' by its owner settles it.
+
 The genome lists ('genomes2.tsv', 'genomes3.tsv', the four under 'legacy', and
 'web/genomes.json') are included.  They rarely change, so '--no-lists' leaves them out of the
 mirror; they are not unpacked at all, so on an update the deployed copies are untouched.

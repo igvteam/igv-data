@@ -19,16 +19,18 @@
 #   --ref <ref>         git ref to build from, implies --local.  Default "main".
 #   --url <url>         download the genomes tarball from here instead of the
 #                       release asset.
-#   --update            write into an existing mirror, overwriting the files that
-#                       are in the new tree and leaving the rest in place.  Without
-#                       it an existing mirror is left alone, so a mistyped output
-#                       directory cannot damage one.
+#   --update            write into an existing mirror.  Without it an existing mirror
+#                       is left alone, so a mistyped output directory cannot damage one.
 #
 # The genomes tree is downloaded as a tarball built by .github/workflows/genomes-tarball.yml
 # and attached to the "genomes-latest" release, so curl and tar are the only requirements.
 #
-# Nothing is ever deleted: files in the new tree replace their counterparts, and anything
-# else already in the output directory is left as it is.
+# The tree is unpacked and rewritten in a temporary directory, and only copied into the
+# mirror once it is complete, so a failed download cannot leave a half updated mirror.
+# The copy writes each file in place rather than replacing it, which needs no more than
+# write permission on the file, and leaves the permissions of a file that is already
+# there alone.  Nothing is ever deleted from the mirror: files in the new tree replace
+# their counterparts, and anything else is left as it is.
 #
 # The repository is the source of truth and every internal URL in it points at
 # raw.githubusercontent.com.  The same tree is also served from https://igv.org/genomes.
@@ -44,9 +46,9 @@ RAW_PREFIX="https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/g
 DEFAULT_HOST="https://igv.org"
 DEFAULT_URL="https://github.com/igvteam/igv-data/releases/download/genomes-latest/genomes.tar.gz"
 
-# The genome lists for various versions of igv.js and IGV desktop, relative to the exported genomes/ directory.
-# Note the genomes.txt files under hubs/ are UCSC hub genomesFile declarations, named by the hub.txt that references them,
-# they are unrelated to the genome lists used by igv.js and IGV desktop, and are not included here.
+# The genome lists, relative to the genomes/ directory.  Note this is an explicit list,
+# not a "genomes.*" glob: the genomes.txt files under hubs/ are UCSC hub genomesFile
+# declarations, named by the hub.txt that references them.
 LISTS=(
     genomes2.tsv
     genomes3.tsv
@@ -102,10 +104,11 @@ if [ -e "$OUT/genomes" ] && [ $update -eq 0 ]; then
     exit 1
 fi
 
-mkdir -p "$OUT"
+# The staging directory is the one thing this script removes, and it made it.
+STAGE="$(mktemp -d)"
+trap 'rm -rf "$STAGE"' EXIT
 
-# --no-lists is done by not unpacking the lists, rather than by removing them after the
-# fact, so a deployed copy is never touched.
+# --no-lists is done by not unpacking the lists, so a deployed copy is never touched.
 EXCLUDES=()
 if [ $lists -eq 0 ]; then
     for list in "${LISTS[@]}"; do
@@ -124,23 +127,42 @@ if [ $local_build -eq 1 ]; then
     fi
 
     echo "Building from $REF ($(git -C "$ROOT" rev-parse --short "$REF")) in $ROOT"
-    git -C "$ROOT" archive "$REF" genomes | tar -x ${EXCLUDES[@]+"${EXCLUDES[@]}"} -C "$OUT"
+    git -C "$ROOT" archive "$REF" genomes |
+        tar -x ${EXCLUDES[@]+"${EXCLUDES[@]}"} -C "$STAGE"
 else
     echo "Downloading $URL"
-    if ! curl -f -s -S -L "$URL" | tar -xz ${EXCLUDES[@]+"${EXCLUDES[@]}"} -C "$OUT"; then
-        echo "ERROR: could not download the genomes tarball" >&2
+    if ! curl -f -s -S -L "$URL" | tar -xz ${EXCLUDES[@]+"${EXCLUDES[@]}"} -C "$STAGE"; then
+        echo "ERROR: could not download and unpack the genomes tarball" >&2
         echo "       It is published by .github/workflows/genomes-tarball.yml; use --local to" >&2
         echo "       build from this checkout instead." >&2
         exit 1
     fi
 fi
 
-if [ ! -d "$OUT/genomes" ]; then
-    echo "ERROR: no genomes directory in the extracted tree" >&2
+if [ ! -d "$STAGE/genomes" ]; then
+    echo "ERROR: no genomes directory in the unpacked tree" >&2
     exit 1
 fi
 
-echo "Mirror of $OUT/genomes will be served as $HOST_PREFIX"
+# Repoint the internal URLs, while the tree is still staged.  Binary files (the hg18
+# track data) are skipped by grep -I, and files without a match are left untouched.
+edited=0
+while IFS= read -r file; do
+    sed "s|$RAW_PREFIX|$HOST_PREFIX|g" "$file" > "$file.new"
+    mv "$file.new" "$file"
+    edited=$((edited + 1))
+done < <(grep -rIl "$RAW_PREFIX" "$STAGE/genomes")
+
+echo "Repointed URLs in $edited file(s) to $HOST_PREFIX"
+
+# Anything still pointing at raw.githubusercontent should be a reference outside the
+# mirrored tree.  Report the rest, which would be a URL this script does not know how
+# to map.
+if remaining="$(grep -rIoh "https://raw.githubusercontent.com/igvteam/igv-data/[^\"' ,)]*" "$STAGE/genomes" | grep -v "/refs/heads/main/data/" | sort -u)" \
+   && [ -n "$remaining" ]; then
+    echo "WARNING: unmapped raw.githubusercontent URLs remain:" >&2
+    echo "$remaining" | sed 's|^|    |' >&2
+fi
 
 if [ $lists -eq 0 ]; then
     kept=0
@@ -154,25 +176,20 @@ if [ $lists -eq 0 ]; then
     fi
 fi
 
-# Repoint the internal URLs.  Binary files (the hg18 track data) are skipped by
-# grep -I, and files without a match are left untouched.  Each file is rewritten to
-# its side and moved into place, so a file is only ever replaced.
-edited=0
-while IFS= read -r file; do
-    sed "s|$RAW_PREFIX|$HOST_PREFIX|g" "$file" > "$file.new"
-    mv "$file.new" "$file"
-    edited=$((edited + 1))
-done < <(grep -rIl "$RAW_PREFIX" "$OUT/genomes")
-
-echo "Repointed URLs in $edited file(s)"
-
-# Anything still pointing at raw.githubusercontent should be a reference outside the
-# mirrored tree.  Report the rest, which would be a URL this script does not know how
-# to map.
-if remaining="$(grep -rIoh "https://raw.githubusercontent.com/igvteam/igv-data/[^\"' ,)]*" "$OUT/genomes" | grep -v "/refs/heads/main/data/" | sort -u)" \
-   && [ -n "$remaining" ]; then
-    echo "WARNING: unmapped raw.githubusercontent URLs remain:" >&2
-    echo "$remaining" | sed 's|^|    |' >&2
+# Copy the staged tree into the mirror.  "-R ... /." copies the contents of the
+# directory, so an existing mirror is written into rather than nested inside itself.
+mkdir -p "$OUT/genomes"
+if ! cp -R "$STAGE/genomes/." "$OUT/genomes/"; then
+    echo "ERROR: could not copy the new tree into $OUT/genomes" >&2
+    echo "       Every file it replaces has to be writable by $(id -un)." >&2
+    exit 1
 fi
 
-echo "Mirror written to $OUT"
+# A file the copy created takes its mode from the archive, which is 644, so without
+# this the next person to update the mirror -- not necessarily this user -- would not
+# be able to write it.  A file owned by someone else cannot be chmod'ed from here.
+if ! chmod -R a+rwX "$OUT/genomes" 2> /dev/null; then
+    echo "WARNING: could not set permissions on every file, some are owned by another user" >&2
+fi
+
+echo "Mirror written to $OUT, to be served as $HOST_PREFIX"
