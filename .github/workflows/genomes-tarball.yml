@@ -1,0 +1,37 @@
+# Packages the genomes tree as a release asset, so a mirror can be built with curl
+# alone -- see scripts/buildMirror.sh.
+#
+# The release tag is reused, so the download URL never changes:
+#
+#   https://github.com/igvteam/igv-data/releases/download/genomes-latest/genomes.tar.gz
+
+name: genomes tarball
+
+on:
+  push:
+    branches: [main]
+    paths: ['genomes/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build tarball
+        run: tar czf genomes.tar.gz genomes
+
+      # The tag is moved to the current commit rather than versioned, so the
+      # asset URL stays constant.  Deleting the release first replaces the asset.
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release delete genomes-latest --yes --cleanup-tag || true
+          gh release create genomes-latest genomes.tar.gz \
+              --title "genomes tree" \
+              --notes "Built from ${GITHUB_SHA}"
