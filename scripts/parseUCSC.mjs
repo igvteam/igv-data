@@ -20,7 +20,7 @@ async function processGenome(genomeId) {
         "bam", "sampleinfo", "vcf.list", "ucscsnp", "bed", "tdf", "gff", "gff3", "gtf", "vcf"])
 
     const urlProperties = new Set(["descriptionUrl", "desriptionUrl",
-        "twoBitPath", "blat", "chromAliasBb", "twoBitBptURL", "twoBitBptUrl", "htmlPath", "bigDataUrl",
+        "twoBitPath", "chromAliasBb", "twoBitBptURL", "twoBitBptUrl", "htmlPath", "bigDataUrl",
         "genomesFile", "trackDb", "groups", "include", "html", "searchTrix", "linkDataUrl"])
 
     const excludeTracks = new Set(["cytoBandIdeo", "assembly", "gap", "gapOverlap", "allGaps",

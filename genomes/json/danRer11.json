@@ -3,7 +3,6 @@
   "name": "Zebrafish (GRCZ11/danRer11)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.2bit",
   "wholeGenomeView": true,
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/002/035/GCF_000002035.6",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.chromAlias.txt",
   "chromosomeOrder": [

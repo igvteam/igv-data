@@ -8,7 +8,6 @@
   "nameSet": "ucsc",
   "wholeGenomeView": true,
   "description": "baker's yeast S288C (2014)\nSaccharomyces cerevisiae S288C/GCF_000146045.2_R64 genome assembly",
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/146/045/GCF_000146045.2",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chromAlias.bb",
   "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/bbi/GCF_000146045.2_R64.cytoBand.bb",
   "chromosomeOrder": [

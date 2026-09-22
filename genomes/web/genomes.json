@@ -62,7 +62,7 @@
   "name": "Human (GRCh38/hg38)",
   "fastaURL": "https://igv.org/genomes/data/hg38/hg38.fa",
   "indexURL": "https://igv.org/genomes/data/hg38/hg38.fa.fai",
-  "twoBitURL": "https://igv.org/genomes/data/hg38/hg38.2bit",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit",
   "wholeGenomeView": true,
   "cytobandURL": "https://igv.org/genomes/data/hg38/cytoBandIdeo.txt.gz",
   "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
@@ -75,7 +75,7 @@
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "url": "https://igv.org/genomes/data/hg38/ncbiRefSeq.txt.gz",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
       "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",
@@ -106,7 +106,7 @@
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "url": "https://igv.org/genomes/data/hg38/ncbiRefSeq.txt.gz",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
       "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",
@@ -126,7 +126,7 @@
   "twoBitURL": "https://igv.org/genomes/data/hg19/hg19.2bit",
   "cytobandURL": "https://igv.org/genomes/data/hg19/cytoBand.txt.gz",
   "aliasURL": "https://igv.org/genomes/data/hg19/hg19_alias.tab",
-  "chromSizesURL": "https://igv.org/genomes/data/hg19/hg19.chrom.sizes",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes",
   "maneBbURL": "https://igv.org/genomes/data/hg19/ncbiRefSeqSelect.bb",
   "chromosomeOrder": [
     "chr1",
@@ -154,12 +154,11 @@
     "chrX",
     "chrY"
   ],
-  "wholeGenomeView": true,
   "tracks": [
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "url": "https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
       "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",
@@ -279,7 +278,6 @@
   "nameSet": "ucsc",
   "wholeGenomeView": true,
   "description": "house mouse (GRCm38.p6 2017)\nMus musculus/GCF_000001635.26_GRCm38.p6 genome assembly",
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/001/635/GCF_000001635.26",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBand.txt.gz",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/GCF_000001635.26.chromAlias.txt",
   "chromosomeOrder": [
@@ -370,7 +368,6 @@
   "nameSet": "ucsc",
   "wholeGenomeView": true,
   "description": "Norway rat BN7.2\nRattus norvegicus/GCF_015227675.2_mRatBN7.2 genome assembly",
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/015/227/675/GCF_015227675.2",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/GCF_015227675.2.chromAlias.bb",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/cytoBandIdeo.txt.gz",
   "chromosomeOrder": [
@@ -423,7 +420,6 @@
   "nameSet": "ucsc",
   "wholeGenomeView": true,
   "description": "Norway rat Rnor6.0\nRattus norvegicus/GCF_000001895.5_Rnor_6.0 genome assembly",
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/895/GCF_000001895.5/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/001/895/GCF_000001895.5",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/895/GCF_000001895.5/GCF_000001895.5.chromAlias.bb",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn6/database/cytoBandIdeo.txt.gz",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/895/GCF_000001895.5/GCF_000001895.5.chrom.sizes.txt",
@@ -1081,7 +1077,6 @@
   "name": "Zebrafish (GRCZ11/danRer11)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.2bit",
   "wholeGenomeView": true,
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/002/035/GCF_000002035.6",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.chromAlias.txt",
   "chromosomeOrder": [
@@ -1307,7 +1302,6 @@
   "nameSet": "ucsc",
   "wholeGenomeView": true,
   "description": "baker's yeast S288C (2014)\nSaccharomyces cerevisiae S288C/GCF_000146045.2_R64 genome assembly",
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/146/045/GCF_000146045.2",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chromAlias.bb",
   "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/bbi/GCF_000146045.2_R64.cytoBand.bb",
   "chromosomeOrder": [

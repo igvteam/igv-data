@@ -6,7 +6,6 @@
   "nameSet": "ucsc",
   "wholeGenomeView": true,
   "description": "Norway rat BN7.2\nRattus norvegicus/GCF_015227675.2_mRatBN7.2 genome assembly",
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/015/227/675/GCF_015227675.2",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/GCF_015227675.2.chromAlias.bb",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/cytoBandIdeo.txt.gz",
   "chromosomeOrder": [

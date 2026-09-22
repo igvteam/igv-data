@@ -6,7 +6,6 @@
   "nameSet": "ucsc",
   "wholeGenomeView": true,
   "description": "Norway rat Rnor6.0\nRattus norvegicus/GCF_000001895.5_Rnor_6.0 genome assembly",
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/895/GCF_000001895.5/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/001/895/GCF_000001895.5",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/895/GCF_000001895.5/GCF_000001895.5.chromAlias.bb",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn6/database/cytoBandIdeo.txt.gz",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/895/GCF_000001895.5/GCF_000001895.5.chrom.sizes.txt",

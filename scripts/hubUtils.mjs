@@ -14,7 +14,7 @@ async function toAbsolute(hubURL, outputFile) {
     const baseURL = hubURL.substring(0, idx + 1)
 
     const urlProperties = new Set(["descriptionUrl", "desriptionUrl",
-        "twoBitPath", "blat", "chromAliasBb", "twoBitBptURL", "twoBitBptUrl", "htmlPath", "bigDataUrl",
+        "twoBitPath", "chromAliasBb", "twoBitBptURL", "twoBitBptUrl", "htmlPath", "bigDataUrl",
         "genomesFile", "trackDb", "groups", "include", "html", "searchTrix", "linkDataUrl", "chromSizes"])
 
     // Fetch hub text
