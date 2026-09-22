@@ -3,7 +3,7 @@
   "name": "Human (GRCh38/hg38)",
   "fastaURL": "https://igv.org/genomes/data/hg38/hg38.fa",
   "indexURL": "https://igv.org/genomes/data/hg38/hg38.fa.fai",
-  "twoBitURL": "https://igv.org/genomes/data/hg38/hg38.2bit",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit",
   "wholeGenomeView": true,
   "cytobandURL": "https://igv.org/genomes/data/hg38/cytoBandIdeo.txt.gz",
   "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
@@ -16,7 +16,7 @@
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "url": "https://igv.org/genomes/data/hg38/ncbiRefSeq.txt.gz",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
       "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",

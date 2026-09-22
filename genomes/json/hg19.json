@@ -6,7 +6,7 @@
   "twoBitURL": "https://igv.org/genomes/data/hg19/hg19.2bit",
   "cytobandURL": "https://igv.org/genomes/data/hg19/cytoBand.txt.gz",
   "aliasURL": "https://igv.org/genomes/data/hg19/hg19_alias.tab",
-  "chromSizesURL": "https://igv.org/genomes/data/hg19/hg19.chrom.sizes",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes",
   "maneBbURL": "https://igv.org/genomes/data/hg19/ncbiRefSeqSelect.bb",
   "chromosomeOrder": [
     "chr1",
@@ -34,12 +34,11 @@
     "chrX",
     "chrY"
   ],
-  "wholeGenomeView": true,
   "tracks": [
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "url": "https://igv.org/genomes/data/hg19/ncbiRefSeq.txt.gz",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
       "indexed": false,
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/",

@@ -14,7 +14,7 @@
     {
       "name": "Refseq All",
       "format": "refgene",
-      "url": "https://igv.org/genomes/data/hg38/ncbiRefSeq.txt.gz",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz",
       "indexed": false,
       "order": 1000001,
       "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
