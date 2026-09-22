@@ -604,33 +604,6 @@
   ]
 },
 {
-  "id": "GCF_016699485.2",
-  "name": "Gallus gallus (GCF_016699485.2)",
-  "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2.fa",
-  "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2.fa.fai",
-  "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_chromAlias.tab",
-  "blatDB": "GCF_016699485.2",
-  "tracks": [
-    {
-      "name": "Genes",
-      "format": "bed",
-      "url": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_gene_names.bed",
-      "hidden": true,
-      "displayMode": "COLLAPSED"
-    },
-    {
-      "id": "ncbiRefSeqCurated",
-      "name": "RefSeq Transcripts",
-      "description": " <a target = \"_blank\" href = \"https://hgdownload.gi.ucsc.edu/hubs/birds/https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/html/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
-      "url": "https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/bbi/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.ncbiRefSeqCurated.bb",
-      "displayMode": "EXPANDED",
-      "color": "rgb(12,12,120)",
-      "parent": "refSeqComposite on",
-      "height": 300
-    }
-  ]
-},
-{
   "id": "danRer11",
   "name": "Zebrafish (GRCZ11/danRer11)",
   "fastaURL": "https://igv.org/genomes/data/danRer11/danRer11.fa",
@@ -901,45 +874,6 @@
       "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/MSU_V7.gff3.gz",
       "displayMode": "EXPANDED",
       "height": 200
-    }
-  ]
-}
-,
-{
-  "id": "NC_016856.1",
-  "name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S",
-  "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.fna",
-  "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.fna.fai",
-  "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1_alias.tab",
-  "tracks": [
-    {
-      "url": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.gff.gz",
-      "name": "NC_016856.1.gff.gz",
-      "format": "gff3",
-      "type": "annotation",
-      "searchable": true
-    }
-  ]
-},
-{
-  "id": "GCA_000182895.1",
-  "name": "Coprinopsis cinerea okayama7#130 (GCA_000182895.1)",
-  "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1.fa",
-  "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1.fa.fai",
-  "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1_chromAlias.tab",
-  "blatDB": "GCA_000182895.1",
-  "tracks": [
-    {
-      "id": "ncbiGene",
-      "name": "Gene models",
-      "format": "bigGenePred",
-      "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/html/GCA_000182895.1_CC3.ncbiGene\">Gene models submitted to NCBI</a>",
-      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/bbi/GCA_000182895.1_CC3.ncbiGene.bb",
-      "displayMode": "EXPANDED",
-      "color": "rgb(0,80,150)",
-      "altColor": "rgb(0,150,80)",
-      "colorBy": "strand",
-      "infoURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/https://www.ncbi.nlm.nih.gov/gene/?term=$$"
     }
   ]
 }
