@@ -31,6 +31,6 @@ visibility hide
 group phenDis
 html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg18&g=geneReviews
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg18/geneReviews/geneReviews.bb
-color 0, 80, 0
+color 0,80,0
 noScoreFilter on
 url https://www.ncbi.nlm.nih.gov/books/NBK1116/?term=$$

@@ -541,7 +541,7 @@ mouseOver $name disease(s): $diseases
 visibility hide
 group phenDis
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneReviews/geneReviews.bb
-color 0, 80, 0
+color 0,80,0
 noScoreFilter on
 url https://www.ncbi.nlm.nih.gov/books/NBK1116/?term=$$
 
@@ -983,7 +983,7 @@ noScoreFilter .
 urlLabel DGV Browser and Report:
 url https://dgv.tcag.ca/dgv/app/variant?id=$$&ref=$D
 dataVersion 2020-02-25
-html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19g=dgvPlus
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=dgvPlus
 
     track dgvGold
     shortLabel DGV Gold Standard
