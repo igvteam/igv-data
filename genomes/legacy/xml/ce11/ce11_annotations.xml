@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations" version="1">
+
+    <Category name="Genes and Gene Predictions">
+        <Resource name="Augustus Genes"
+                  path="https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/augustusGene.txt.gz"/>
+        <Resource name="Ensembl Genes"
+                  path="https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/ensGene.txt.gz"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=ce11&amp;g=ensGene"/>
+        <Category name="RefSeq genes from NCBI">
+            <Resource name="Refseq Curated"
+                      path="https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/ncbiRefSeqCurated.txt.gz"
+                      hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"/>
+            <Resource name="Refseq All"
+                      path="https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/ncbiRefSeq.txt.gz"
+                      hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"/>
+        </Category>
+    </Category>
+
+</Global>

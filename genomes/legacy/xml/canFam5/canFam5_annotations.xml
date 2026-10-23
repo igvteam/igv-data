@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations" version="1">
+
+    <Category name="Genes and Gene Predictions">
+        <Resource name="RefSeq Genes"
+                  path="https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/database/refGene.txt.gz"/>
+        <Resource name="TOGA vs. hg38"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/TOGAvHg38v1/HLTOGAannotVsHg38v1.bb"
+                  description="TOGA annotations using human/hg38 as reference"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=canFam5&amp;g=TOGAannotation"/>
+        <Category name="UniProt SwissProt/TrEMBL Protein Annotations">
+            <Resource name="Seq. Conflicts"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipConflict.bb"
+                      description="UniProt Sequence Conflicts"/>
+            <Resource name="Repeats"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipRepeat.bb"
+                      description="UniProt Repeats"/>
+            <Resource name="Structure"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipStruct.bb"
+                      description="UniProt Protein Primary/Secondary Structure Annotations"/>
+            <Resource name="Other Annot."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipOther.bb"
+                      description="UniProt Other Annotations"/>
+            <Resource name="Mutations"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipMut.bb"
+                      description="UniProt Amino Acid Mutations"/>
+            <Resource name="AA Modifications"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipModif.bb"
+                      description="UniProt Amino Acid Modifications"/>
+            <Resource name="Domains"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipDomain.bb"
+                      description="UniProt Domains"/>
+            <Resource name="Disulf. Bonds"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipDisulfBond.bb"
+                      description="UniProt Disulfide Bonds"/>
+            <Resource name="Chains"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipChain.bb"
+                      description="UniProt Mature Protein Products (Polypeptide Chains)"/>
+            <Resource name="Cytoplasmic"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipLocCytopl.bb"
+                      description="UniProt Cytoplasmic Domains"
+                      color="255,150,0"/>
+            <Resource name="Transmembrane"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipLocTransMemb.bb"
+                      description="UniProt Transmembrane Domains"
+                      color="0,150,0"/>
+            <Resource name="Interest"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipInterest.bb"
+                      description="UniProt Regions of Interest"/>
+            <Resource name="Extracellular"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipLocExtra.bb"
+                      description="UniProt Extracellular Domain"
+                      color="0,150,255"/>
+            <Resource name="Signal Peptide"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipLocSignal.bb"
+                      description="UniProt Signal Peptides"
+                      color="255,0,150"/>
+            <Resource name="TrEMBL Aln."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipAliTrembl.bb"
+                      description="UCSC alignment of TrEMBL proteins to genome"
+                      labelField="name"/>
+            <Resource name="SwissProt Aln."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam5/uniprot/unipAliSwissprot.bb"
+                      description="UCSC alignment of SwissProt proteins to genome (dark blue: main isoform, light blue: alternative isoforms)"
+                      labelField="name"/>
+        </Category>
+    </Category>
+
+</Global>

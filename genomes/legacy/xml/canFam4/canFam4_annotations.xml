@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations" version="1">
+
+    <Category name="Genes and Gene Predictions">
+        <Resource name="TOGA vs. hg38"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/canFam4/TOGAvHg38v1/HLTOGAannotVsHg38v1.bb"
+                  description="TOGA annotations using human/hg38 as reference"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=canFam4&amp;g=TOGAannotation"/>
+        <Category name="RefSeq genes from NCBI">
+            <Resource name="Refseq Curated"
+                      path="https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/ncbiRefSeqCurated.txt.gz"
+                      hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"/>
+            <Resource name="Refseq All"
+                      path="https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/ncbiRefSeq.txt.gz"
+                      hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"/>
+            <Resource name="RefSeq Diffs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam4/ncbiRefSeq/ncbiRefSeqGenomicDiff.bb"
+                      description="Differences between NCBI RefSeq Transcripts and the Reference Genome"/>
+            <Resource name="RefSeq Other"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/canFam4/ncbiRefSeq/ncbiRefSeqOther.bb"
+                      description="NCBI RefSeq Other Annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)"
+                      labelField="gene"
+                      color="32,32,32"/>
+        </Category>
+    </Category>
+
+</Global>

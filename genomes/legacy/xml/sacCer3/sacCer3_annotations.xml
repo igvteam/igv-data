@@ -1,2 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>FN0DS3XTW3JC0WZN</RequestId><HostId>6n0Aq5f0yrFjNUPBGmHjKl3v+hdN170QvxzmPl6By8svwuNtXA4jel7laNDUl1aCKLrxAmwMErk=</HostId></Error>
+<Global name="Annotations" version="1">
+
+    <Category name="Genes and Gene Predictions">
+        <Resource name="Augustus Genes"
+                  path="https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/augustusGene.txt.gz"/>
+        <Resource name="Ensembl Genes"
+                  path="https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ensGene.txt.gz"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=ce11&amp;g=ensGene"/>
+        <Category name="RefSeq genes from NCBI">
+            <Resource name="Refseq Curated"
+                      path="https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeqCurated.txt.gz"
+                      hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"/>
+            <Resource name="Refseq All"
+                      path="https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeq.txt.gz"
+                      hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"/>
+            <Resource name="RefSeq Diffs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/ncbiRefSeq/ncbiRefSeqGenomicDiff.bb"
+                      description="Differences between NCBI RefSeq Transcripts and the Reference Genome"/>
+            <Resource name="RefSeq Other"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/ncbiRefSeq/ncbiRefSeqOther.bb"
+                      description="NCBI RefSeq Other Annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)"
+                      labelField="gene"
+                      color="32,32,32"/>
+        </Category>
+        <Category name="UniProt SwissProt/TrEMBL Protein Annotations">
+            <Resource name="Seq. Conflicts"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipConflict.bb"
+                      description="UniProt Sequence Conflicts"/>
+            <Resource name="Repeats"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipRepeat.bb"
+                      description="UniProt Repeats"/>
+            <Resource name="Structure"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipStruct.bb"
+                      description="UniProt Protein Primary/Secondary Structure Annotations"/>
+            <Resource name="Other Annot."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipOther.bb"
+                      description="UniProt Other Annotations"/>
+            <Resource name="Mutations"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipMut.bb"
+                      description="UniProt Amino Acid Mutations"/>
+            <Resource name="AA Modifications"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipModif.bb"
+                      description="UniProt Amino Acid Modifications"/>
+            <Resource name="Domains"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipDomain.bb"
+                      description="UniProt Domains"/>
+            <Resource name="Disulf. Bonds"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipDisulfBond.bb"
+                      description="UniProt Disulfide Bonds"/>
+            <Resource name="Chains"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipChain.bb"
+                      description="UniProt Mature Protein Products (Polypeptide Chains)"/>
+            <Resource name="Cytoplasmic"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipLocCytopl.bb"
+                      description="UniProt Cytoplasmic Domains"
+                      color="255,150,0"/>
+            <Resource name="Transmembrane"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipLocTransMemb.bb"
+                      description="UniProt Transmembrane Domains"
+                      color="0,150,0"/>
+            <Resource name="Interest"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipInterest.bb"
+                      description="UniProt Regions of Interest"/>
+            <Resource name="Extracellular"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipLocExtra.bb"
+                      description="UniProt Extracellular Domain"
+                      color="0,150,255"/>
+            <Resource name="Signal Peptide"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipLocSignal.bb"
+                      description="UniProt Signal Peptides"
+                      color="255,0,150"/>
+            <Resource name="TrEMBL Aln."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipAliTrembl.bb"
+                      description="UCSC alignment of TrEMBL proteins to genome"
+                      labelField="name"/>
+            <Resource name="SwissProt Aln."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/uniprot/unipAliSwissprot.bb"
+                      description="UCSC alignment of SwissProt proteins to genome (dark blue: main isoform, light blue: alternative isoforms)"
+                      labelField="name"/>
+        </Category>
+    </Category>
+
+    <Category name="Variation">
+        <Category name="EVA SNP">
+            <Resource name="EVA SNP Release 6"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/sacCer3/bbi/evaSnp6.bb"
+                      description="Short Genetic Variants from European Variant Archive Release 6"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=sacCer3&amp;g=evaSnpContainer"
+                      url="https://www.ebi.ac.uk/eva/?variant&amp;accessionID=$$"
+                      trackLine="visibilityWindow=250000"/>
+        </Category>
+    </Category>
+
+</Global>

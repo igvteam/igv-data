@@ -1,142 +1,1045 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Global name="Annotations" version="1">
 
-    <Category name="Genes">
+    <Category name="Genes and Gene Predictions">
         <Resource name="Refseq Select"
                   path="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqSelect.txt.gz"
-                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"
-        />
+                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"/>
         <Resource name="Refseq Curated"
                   path="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqCurated.txt.gz"
-        />
-        <Resource name="RefSeq All"
+                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/"/>
+        <Resource name="Refseq All"
                   path="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz"
-        />
-        <Resource name="MANE v1.0 transcripts with RefSeq labels"
+                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/"/>
+        <Resource name="MANE v1.0 - Refseq"
                   path="https://ftp.ncbi.nlm.nih.gov/refseq/MANE/trackhub/data/release_1.0/MANE.GRCh38.v1.0.refseq.bb"
-                  labelField="nucAcc"
-                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/MANE/"/>
-        <Resource name="MANE v1.0 transcripts with Ensembl labels"
+                  description="MANE v1.0 transcripts with RefSeq labels"
+                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/MANE/"
+                  labelField="nucAcc"/>
+        <Resource name="MANE v1.0 - Ensembl"
                   path="https://ftp.ncbi.nlm.nih.gov/refseq/MANE/trackhub/data/release_1.0/MANE.GRCh38.v1.0.ensembl.bb"
-                  labelField="nucAcc"
-                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/MANE/"/>
-        <Resource name="Gencode v44"
-                  path="https://igv-genepattern-org.s3.amazonaws.com/genomes/hg38/gencode.v44.basic.annotation.gff3.gz"
-                  index="https://igv-genepattern-org.s3.amazonaws.com/genomes/hg38/gencode.v44.basic.annotation.gff3.gz.tbi"
-                  labelField="transcript_name"
-                  hyperlink="https://www.gencodegenes.org/"/>
-        <!--        <Resource name="Gencode v46"-->
-        <!--                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV46.bb"-->
-        <!--                  labelField="transcript_name"-->
-        <!--                  hyperlink="http://www.gencodegenes.org/"/>-->
-        <!--        <Resource name="Gencode v44"-->
-        <!--                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV44.bb"-->
-        <!--                  labelField="transcript_name"-->
-        <!--                  hyperlink="http://www.gencodegenes.org/"/>-->
-        <Resource name="Gencode v44 lncRNAs"
-                  path="https://igv-genepattern-org.s3.amazonaws.com/genomes/hg38/gencode.v44.long_noncoding_RNAs.gff3.gz"
-                  index="https://igv-genepattern-org.s3.amazonaws.com/genomes/hg38/gencode.v44.long_noncoding_RNAs.gff3.gz.tbi"
-                  labelField="transcript_name"
-                  hyperlink="http://www.gencodegenes.org/"/>
-        <Resource name="Gencode v47"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV47.bb"
+                  description="MANE v1.0 transcripts with Ensembl labels"
+                  hyperlink="https://www.ncbi.nlm.nih.gov/refseq/MANE/"
+                  labelField="nucAcc"/>
+        <Resource name="Augustus"
+                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.augustus.bb"
+                  description="Augustus Gene Predictions"
+                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.augustus"
+                  color="180,0,0"/>
+        <Resource name="RefSeq mRNAs"
+                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.xenoRefGene.bb"
+                  description="RefSeq mRNAs mapped to this assembly"
+                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.xenoRefGene"
+                  url="https://www.ncbi.nlm.nih.gov/nuccore/$$"
                   labelField="geneName"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?g=knownGene"
-        />
-    </Category>
-    <Category name="Phenotype and Disease Associations">
-        <Resource name="Clinvar"
-                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=gwasCatalog"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinvar/clinvarMain.bb"/>
-        <Resource name="Clinvar CNVs"
-                  hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=gwasCatalog"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinvar/clinvarCnv.bb"/>
-
-    </Category>
-
-    <Category name="Variation and Repeats">
-        <Category name="Repeat Masker"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?g=rmsk">
-
-
-            <Resource name="Simple_repeat"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Simple_repeat.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Simple_repeat.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="Satellite"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Satellite.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Satellite.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="LINE"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/LINE.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/LINE.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="DNA"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/DNA.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/DNA.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="SINE"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/SINE.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/SINE.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="LTR"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/LTR.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/LTR.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="Low_complexity"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Low_complexity.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Low_complexity.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="snRNA"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/snRNA.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/snRNA.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="tRNA"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/tRNA.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/tRNA.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="Retroposon"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Retroposon.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Retroposon.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="srpRNA"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/srpRNA.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/srpRNA.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="rRNA"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/rRNA.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/rRNA.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="Unknown"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Unknown.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/Unknown.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="RC"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/RC.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/RC.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="scRNA"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/scRNA.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/scRNA.bed.gz.tbi"
-                      trackLine='useScore=1'/>
-            <Resource name="RNA"
-                      path="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/RNA.bed.gz"
-                      index="https://data.broadinstitute.org/igvdata/annotations/hg38/rmsk/RNA.bed.gz.tbi"
-                      trackLine='useScore=1'/>
+                  color="180,0,0"/>
+        <Category name="GENCODE">
+            <Resource name="GENCODE V47"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV47.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=knownGene"
+                      labelField="geneName"/>
+            <Resource name="GENCODE V36"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV36.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=knownGeneV36"
+                      labelField="geneName"/>
+            <Resource name="GENCODE V38"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV38.bb"
+                      labelField="geneName"/>
+            <Resource name="GENCODE V39"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV39.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=knownGeneV39"
+                      labelField="geneName"/>
+            <Resource name="GENCODE V43"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV43.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=knownGeneV43"
+                      labelField="geneName"/>
+            <Resource name="GENCODE V44"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV44.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=knownGeneV44"
+                      labelField="geneName"/>
+            <Resource name="GENCODE V45"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV45.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=knownGeneV45"
+                      labelField="geneName"/>
+            <Resource name="GENCODE V46"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV46.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=knownGeneV46"
+                      labelField="geneName"/>
+        </Category>
+        <Category name="UniProt SwissProt/TrEMBL Protein Annotations">
+            <Resource name="Seq. Conflicts"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipConflict.bb"
+                      description="UniProt Sequence Conflicts"/>
+            <Resource name="Repeats"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipRepeat.bb"
+                      description="UniProt Repeats"/>
+            <Resource name="Structure"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipStruct.bb"
+                      description="UniProt Protein Primary/Secondary Structure Annotations"/>
+            <Resource name="Other Annot."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipOther.bb"
+                      description="UniProt Other Annotations"/>
+            <Resource name="Mutations"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipMut.bb"
+                      description="UniProt Amino Acid Mutations"/>
+            <Resource name="AA Modifications"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipModif.bb"
+                      description="UniProt Amino Acid Modifications"/>
+            <Resource name="Domains"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipDomain.bb"
+                      description="UniProt Domains"/>
+            <Resource name="Disulf. Bonds"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipDisulfBond.bb"
+                      description="UniProt Disulfide Bonds"/>
+            <Resource name="Chains"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipChain.bb"
+                      description="UniProt Mature Protein Products (Polypeptide Chains)"/>
+            <Resource name="Cytoplasmic"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipLocCytopl.bb"
+                      description="UniProt Cytoplasmic Domains"
+                      color="255,150,0"/>
+            <Resource name="Transmembrane"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipLocTransMemb.bb"
+                      description="UniProt Transmembrane Domains"
+                      color="0,150,0"/>
+            <Resource name="Interest"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipInterest.bb"
+                      description="UniProt Regions of Interest"/>
+            <Resource name="Extracellular"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipLocExtra.bb"
+                      description="UniProt Extracellular Domain"
+                      color="0,150,255"/>
+            <Resource name="Signal Peptide"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipLocSignal.bb"
+                      description="UniProt Signal Peptides"
+                      color="255,0,150"/>
+            <Resource name="TrEMBL Aln."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipAliTrembl.bb"
+                      description="UCSC alignment of TrEMBL proteins to genome"
+                      labelField="name"/>
+            <Resource name="SwissProt Aln."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipAliSwissprot.bb"
+                      description="UCSC alignment of SwissProt proteins to genome (dark blue: main isoform, light blue: alternative isoforms)"
+                      labelField="name"/>
         </Category>
     </Category>
-    <Resource name="CpG Islands"
-              trackLine="color=0,155,0"
-              hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=cpgIslandExt"
-              path="https://data.broadinstitute.org/igvdata/annotations/hg38/cpgIslandExt.bed.gz">
-    </Resource>
-    <Resource trackLine='viewLimits=0:100'
-              name="GC %"
-              path="http://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/gc5BaseBw/gc5Base.bw"/>
 
-    <Resource name="Phastcons (20 way)"
-              path="https://data.broadinstitute.org/igvdata/annotations/hg38/hg38.phastCons20way.bw"
-              hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?g=cons20way"/>
+    <Category name="Phenotype, Variants, and Literature">
+        <Resource name="AbSplice Scores"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/abSplice/AbSplice.bb"
+                  description="Aberrant Splicing Prediction Scores"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=abSplice"/>
+        <Resource name="Avada Variants"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/avada.bb"
+                  description="Avada Variants extracted from full text publications"/>
+        <Resource name="CADD 1.7 Del"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd1.7/del.bb"
+                  description="CADD 1.7 Score: Deletions - label is length of deletion"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper1_7"
+                  color="100,130,160"/>
+        <Resource name="CADD 1.7 Ins"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd1.7/ins.bb"
+                  description="CADD 1.7 Score: Insertions - label is length of insertion"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper1_7"
+                  color="100,130,160"/>
+        <Resource name="CADD 1.6 Del"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd/del.bb"
+                  description="CADD 1.6 Score: Deletions - label is length of deletion"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper"
+                  color="100,130,160"/>
+        <Resource name="CADD 1.6 Ins"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd/ins.bb"
+                  description="CADD 1.6 Score: Insertions - label is length of insertion"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper"
+                  color="100,130,160"/>
+        <Resource name="CIViC"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/civic/civic.bb"
+                  description="CIViC - Expert &amp; crowd-sourced cancer variant interpretation"/>
+        <Resource name="COVID Rare Harmful Var"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/covidMuts/covidMuts.bb"
+                  description="Rare variants underlying COVID-19 severity and susceptibility from the COVID Human Genetics Effort"
+                  labelField="gene"
+                  color="179,0,0"/>
+        <Resource name="DECIPHER CNVs"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/decipher/decipherCnv.bb"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=decipherContainer"
+                  url="https://www.deciphergenomics.org/patient/$$"/>
+        <Resource name="DECIPHER Population CNVs"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/decipher/population_cnv.bb"
+                  description="DECIPHER: Population CNVs"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=decipherContainer"/>
+        <Resource name="GenCC"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/genCC.bb"
+                  description="GenCC: The Gene Curation Coalition Annotations"
+                  url="https://search.thegencc.org/genes/$&lt;gene_curie&gt;"/>
+        <Resource name="GeneReviews"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneReviews/geneReviews.bb"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=geneReviews"
+                  url="https://www.ncbi.nlm.nih.gov/books/NBK1116/?term=$$"
+                  color="0,80,0"/>
+        <Resource name="HGMD public"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/hgmd.bb"
+                  description="Human Gene Mutation Database - Public Version Dec 2024"
+                  url="https://www.hgmd.cf.ac.uk/ac/gene.php?gene=$P&amp;accession=$p"
+                  trackLine="visibilityWindow=10000000"/>
+        <Resource name="HMC"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hmc/hmc.bw"
+                  description="HMC - Homologous Missense Constraint Score on PFAM domains"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=constraintSuper"
+                  color="0,130,0"
+                  trackLine="visibilityWindow=10000000 viewLimits=0:2 maxHeightPixels=128:40:8"/>
+        <Resource name="Gene Interactions"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/interactions.bb"
+                  description="Protein Interactions from Curated Databases and Text-Mining"/>
+        <Resource name="JARVIS"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/jarvis/jarvis.bw"
+                  description="JARVIS: score to prioritize non-coding regions for disease relevance"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=constraintSuper"
+                  color="150,130,160"
+                  trackLine="visibilityWindow=10000000 viewLimits=0.0:1.0 maxHeightPixels=8:40:128"/>
+        <Resource name="Mastermind Variants"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/mastermind.bb"
+                  description="Genomenon Mastermind Variants extracted from full text publications"
+                  trackLine="visibilityWindow=40000"/>
+        <Resource name="Orphanet"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/orphanet/orphadata.bb"
+                  description="Orphadata: Aggregated Data From Orphanet"
+                  url="https://www.orpha.net/consor/cgi-bin/OC_Exp.php?lng=en&amp;Expert=$$"/>
+        <Resource name="UniProt Variants"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipMut.bb"
+                  description="UniProt/SwissProt Amino Acid Substitutions"
+                  trackLine="visibilityWindow=10000000"/>
+        <Resource name="UKB Depl. Rank Score"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/ukbDepletion/ukbDepletion.bw"
+                  description="UK Biobank / deCODE Genetics Depletion Rank Score"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=constraintSuper"
+                  trackLine="viewLimits=0.0:1.0 maxHeightPixels=128:40:8"/>
+        <Resource name="enGenome VarChat"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/varChat.bb"
+                  description="enGenome VarChat: Literature match and variant's summary"
+                  url="https://varchat.engenome.com/search?source=ucsc&amp;text=$&lt;VariantUrl&gt;"
+                  trackLine="visibilityWindow=40000"/>
+        <Category name="AlphaMissense">
+            <Resource name="Mutation: T"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/alphaMissense/t.bw"
+                      description="AlphaMissense Score: Mutation is T"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=alphaMissense"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=0:1 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: G"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/alphaMissense/g.bw"
+                      description="AlphaMissense Score: Mutation is G"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=alphaMissense"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=0:1 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: C"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/alphaMissense/c.bw"
+                      description="AlphaMissense Score: Mutation is C"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=alphaMissense"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=0:1 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: A"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/alphaMissense/a.bw"
+                      description="AlphaMissense Score: Mutation is A"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=alphaMissense"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=0:1 maxHeightPixels=128:20:8"/>
+        </Category>
+        <Category name="CADD 1.6">
+            <Resource name="Mutation: T"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd/t.bw"
+                      description="CADD 1.6 Score: Mutation is T"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=10:50 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: G"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd/g.bw"
+                      description="CADD 1.6 Score: Mutation is G"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=10:50 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: C"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd/c.bw"
+                      description="CADD 1.6 Score: Mutation is C"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=10:50 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: A"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd/a.bw"
+                      description="CADD 1.6 Score: Mutation is A"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=10:50 maxHeightPixels=128:20:8"/>
+        </Category>
+        <Category name="CADD 1.7">
+            <Resource name="Mutation: T"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd1.7/t.bw"
+                      description="CADD 1.7 Score: Mutation is T"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper1_7"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=10:50 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: G"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd1.7/g.bw"
+                      description="CADD 1.7 Score: Mutation is G"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper1_7"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=10:50 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: C"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd1.7/c.bw"
+                      description="CADD 1.7 Score: Mutation is C"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper1_7"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=10:50 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: A"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd1.7/a.bw"
+                      description="CADD 1.7 Score: Mutation is A"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=caddSuper1_7"
+                      color="100,130,160"
+                      trackLine="visibilityWindow=10000000 viewLimits=10:50 maxHeightPixels=128:20:8"/>
+        </Category>
+        <Category name="ClinGen">
+            <Resource name="ClinGen VCEP Specifications"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinGen/clinGenCspec.bb"
+                      description="Clingen CSpec Variant Interpretation VCEP Specifications"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=clinGen"/>
+            <Resource name="ClinGen Validity"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinGen/clinGenGeneDisease.bb"
+                      description="ClinGen Gene-Disease Validity Classification"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=clinGen"/>
+            <Resource name="ClinGen Triplosensitivity"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinGen/clinGenTriplo.bb"
+                      description="ClinGen Dosage Sensitivity Map - Triplosensitivity"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=clinGen"/>
+            <Resource name="ClinGen Haploinsufficiency"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinGen/clinGenHaplo.bb"
+                      description="ClinGen Dosage Sensitivity Map - Haploinsufficiency"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=clinGen"/>
+        </Category>
+        <Category name="ClinVar Variants">
+            <Resource name="ClinVar CNVs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinvar/clinvarCnv.bb"
+                      description="ClinVar Copy Number Variants &gt;= 50bp"/>
+            <Resource name="ClinVar SNVs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinvar/clinvarMain.bb"
+                      description="ClinVar Short Variants &lt; 50bp"
+                      trackLine="visibilityWindow=10000000"/>
+        </Category>
+        <Category name="MITOMAP: A human mitochondrial genome database">
+            <Resource name="MITOMAP Disease Muts"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/mitoMapDiseaseMuts.bb"
+                      description="MITOMAP Disease Mutations"
+                      url="https://www.mitomap.org/foswiki/bin/view/MITOMAP/$&lt;_mutsCodingOrRNA&gt;"/>
+            <Resource name="MITOMAP Variants"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/mitoMapVars.bb"
+                      description="MITOMAP Control and Coding Variants"
+                      url="https://www.mitomap.org/foswiki/bin/view/MITOMAP/$&lt;_varType&gt;"/>
+        </Category>
+        <Category name="Genomics England PanelApp Diagnostics">
+            <Resource name="PanelApp STRs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/panelApp/tandRep.bb"
+                      description="Genomics England PanelApp Short Tandem Repeats"
+                      labelField="hgncSymbol"/>
+            <Resource name="PanelApp Genes"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/panelApp/genes.bb"
+                      description="Genomics England PanelApp Genes"
+                      url="https://panelapp.genomicsengland.co.uk/panels/$&lt;panelID&gt;/gene/$&lt;geneSymbol&gt;/"
+                      labelField="geneSymbol"/>
+            <Resource name="PanelApp CNVs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/panelApp/cnv.bb"
+                      description="Genomics England PanelApp CNV Regions"
+                      labelField="entityName"/>
+        </Category>
+        <Category name="REVEL Scores">
+            <Resource name="REVEL overlaps"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/revel/overlap.bb"
+                      description="REVEL: Positions with &gt;1 score due to overlapping transcripts (mouseover for details)"
+                      color="150,80,200"/>
+            <Resource name="Mutation: T"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/revel/t.bw"
+                      description="REVEL: Mutation is T"
+                      color="150,80,200"
+                      trackLine="visibilityWindow=10000000 viewLimits=0:1.0 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: G"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/revel/g.bw"
+                      description="REVEL: Mutation is G"
+                      color="150,80,200"
+                      trackLine="visibilityWindow=10000000 viewLimits=0:1.0 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: C"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/revel/c.bw"
+                      description="REVEL: Mutation is C"
+                      color="150,80,200"
+                      trackLine="visibilityWindow=10000000 viewLimits=0:1.0 maxHeightPixels=128:20:8"/>
+            <Resource name="Mutation: A"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/revel/a.bw"
+                      description="REVEL: Mutation is A"
+                      color="150,80,200"
+                      trackLine="visibilityWindow=10000000 viewLimits=0:1.0 maxHeightPixels=128:20:8"/>
+        </Category>
+        <Category name="SNPedia">
+            <Resource name="SNPedia all"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/snpediaAll.bb"
+                      description="SNPedia all SNPs (including empty pages)"
+                      url="https://www.snpedia.com/index.php/$$"
+                      color="50,0,100"/>
+        </Category>
+        <Category name="SpliceAI: Splice Variant Prediction Score">
+            <Resource name="SpliceAI indels (masked)"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIindelsMasked.bb"
+                      description="SpliceAI Indels (masked)"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=spliceAI"/>
+            <Resource name="SpliceAI SNVs (masked)"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIsnvsMasked.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=spliceAI"/>
+            <Resource name="SpliceAI indels"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIindels.bb"
+                      description="SpliceAI Indels (unmasked)"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=spliceAI"/>
+            <Resource name="SpliceAI SNVs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIsnvs.bb"
+                      description="SpliceAI SNVs (unmasked)"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=spliceAI"/>
+        </Category>
+    </Category>
 
+    <Category name="Human Pangenome - HPRC">
+        <Resource name="HPRC All Variants"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprc/decomposed.vcf.gz"
+                  description="HPRC variants decomposed from hprc-v1.0-mc.grch38.vcfbub.a100k.wave.vcf.gz (Liao et al 2023), no size filtering"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=hprcVCF"
+                  trackLine="visibilityWindow=200000"/>
+        <Resource name="HPRC Variants &gt; 3bp"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprc/decomposedOver3.vcf.gz"
+                  description="HPRC VCF variants filtered for items size &gt; 3bp"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=hprcVCF"
+                  trackLine="visibilityWindow=200000"/>
+        <Resource name="HPRC Variants &lt;= 3bp"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprc/decomposedUnder4.vcf.gz"
+                  description="HPRC VCF variants filtered for items size &lt;= 3bp"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=hprcVCF"
+                  trackLine="visibilityWindow=200000"/>
+        <Category name="Rearrangements">
+            <Resource name="Other Rearrangements"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprcArrV1/hprcDoubleV1.bb"
+                      description="Other Rearrangements: Unalignable sequences in both assemblies (inversions, partial transpositions)"
+                      labelField="label"
+                      color="0,0,0"/>
+            <Resource name="Duplications"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprcArrV1/hprcArrDupV1.bb"
+                      description="Duplications with respect to hg38 in HPRC assemblies"
+                      labelField="label"
+                      color="0,0,0"/>
+            <Resource name="Inversions"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprcArrV1/hprcArrInvV1.bb"
+                      description="Inversions with respect to hg38 in HPRC assemblies"
+                      labelField="label"
+                      color="0,0,0"/>
+            <Resource name="Deletions"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprcArrV1/hprcDeletionsV1.bb"
+                      description="Insertions in hg38 = Deletion in the HPRC assemblies"
+                      labelField="label"
+                      color="0,0,0"/>
+            <Resource name="Insertions"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprcArrV1/hprcInsertsV1.bb"
+                      description="Deletions in hg38 = Insertion in the HPRC assemblies"
+                      labelField="label"
+                      color="0,0,0"/>
+        </Category>
+    </Category>
+
+    <Category name="Expression">
+        <Category name="Promoters from EPDnew">
+            <Resource name="EPDnew NC v1"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/epdNewHumanNc001.hg38.bb"
+                      description="ncRNA promoters from EPDnewNC human version 001"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=../../epdNewPromoter"
+                      url="https://epd.epfl.ch/cgi-bin/get_doc?db=hsNCEpdNew&amp;format=genome&amp;entry=$$"
+                      color="180,0,134"/>
+            <Resource name="EPDnew v6"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/epdNewHuman006.hg38.bb"
+                      description="Promoters from EPDnew human version 006"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=../../epdNewPromoter"
+                      url="https://epd.epfl.ch/cgi-bin/get_doc?db=hgEpdNew&amp;format=genome&amp;entry=$$"
+                      color="50,50,200"/>
+        </Category>
+        <Category name="GTEx V8 RNA-Seq Read Coverage by Tissue">
+            <Resource name="Whole Blood"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1LG7Z-0005-SM-DKPQ6.Whole_Blood.RNAseq.bw"
+                      color="255,0,255"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Vagina"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1IDJU-1026-SM-AHZ2U.Vagina.RNAseq.bw"
+                      color="238,213,210"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Uterus"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1MA7W-1526-SM-DHXKS.Uterus.RNAseq.bw"
+                      color="238,213,210"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Thyroid"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1HSGN-0726-SM-A9G2F.Thyroid.RNAseq.bw"
+                      color="0,139,69"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Testis"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1JKYN-1026-SM-CGQG4.Testis.RNAseq.bw"
+                      color="166,166,166"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Stomach"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-NFK9-1526-SM-3LK7B.Stomach.RNAseq.bw"
+                      color="255,211,155"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Spleen"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-14PKU-0526-SM-6871A.Spleen.RNAseq.bw"
+                      color="205,183,158"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Small Intestine"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1PIEJ-1526-SM-E6CP8.Small_Intestine_Terminal_Ileum.RNAseq.bw"
+                      description="Small Intestine Terminal Ileum"
+                      color="205,183,158"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Skin sun exp"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1C475-1826-SM-73KWA.Skin_Sun_Exposed_Lower_leg.RNAseq.bw"
+                      description="Skin Sun Exposed Lower leg"
+                      color="30,144,255"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Skin not sun exp"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1JN76-0626-SM-CKZOQ.Skin_Not_Sun_Exposed_Suprapubic.RNAseq.bw"
+                      description="Skin Not Sun Exposed Suprapubic"
+                      color="58,95,205"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Prostate"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-14DAR-1026-SM-73KV3.Prostate.RNAseq.bw"
+                      color="217,217,217"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Pituitary"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-Y111-2926-SM-4TT25.Pituitary.RNAseq.bw"
+                      color="180,238,180"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Pancreas"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1H1E6-0826-SM-9WG83.Pancreas.RNAseq.bw"
+                      color="205,155,29"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Ovary"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-ZVT2-0326-SM-5E44G.Ovary.RNAseq.bw"
+                      color="255,182,193"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Nerve Tibial"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-TML8-1626-SM-32QOO.Nerve_Tibial.RNAseq.bw"
+                      color="255,215,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Muscle Skeletal"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-NFK9-0626-SM-2HMIV.Muscle_Skeletal.RNAseq.bw"
+                      color="122,103,238"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Minor Saliv Gland"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-Y5LM-1826-SM-4VDT9.Minor_Salivary_Gland.RNAseq.bw"
+                      description="Minor Salivary Gland"
+                      color="205,183,158"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Lung"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-Y5V5-0826-SM-4VBQD.Lung.RNAseq.bw"
+                      color="154,205,50"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Liver"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-Y5LM-0426-SM-4VBRO.Liver.RNAseq.bw"
+                      color="205,183,158"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Kidney Medulla"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-T5JC-1626-SM-EZ6KW.Kidney_Medulla.RNAseq.bw"
+                      color="205,183,158"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Kidney Cortex"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-13OVI-1126-SM-5KLZF.Kidney_Cortex.RNAseq.bw"
+                      color="205,183,158"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Heart Left Ventr"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-NFK9-0926-SM-2HMJU.Heart_Left_Ventricle.RNAseq.bw"
+                      description="Heart Left Ventricle"
+                      color="122,55,139"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Heart Atr Append"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-13S86-0326-SM-5SI6K.Heart_Atrial_Appendage.RNAseq.bw"
+                      description="Heart Atrial Appendage"
+                      color="180,82,205"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Fallopian Tube"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-OHPK-2326-SM-3MJH2.Fallopian_Tube.RNAseq.bw"
+                      color="238,213,210"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Esoph Muscularis"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1C475-0726-SM-73KVL.Esophagus_Muscularis.RNAseq.bw"
+                      description="Esophagus Muscularis"
+                      color="205,170,125"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Esoph Mucosa"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-11NSD-1126-SM-5N9BQ.Esophagus_Mucosa.RNAseq.bw"
+                      description="Esophagus Mucosa"
+                      color="139,115,85"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Esoph Gastroes Junc"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1I1GU-1226-SM-A9SKT.Esophagus_Gastroesophageal_Junction.RNAseq.bw"
+                      description="Esophagus Gastroesophageal Junction"
+                      color="139,115,85"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Colon Transverse"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1IDJC-1326-SM-CL53H.Colon_Transverse.RNAseq.bw"
+                      color="238,197,145"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Colon Sigmoid"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1KXAM-1926-SM-D3LAG.Colon_Sigmoid.RNAseq.bw"
+                      color="205,183,158"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Cervix Endocerv"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-ZPIC-1326-SM-DO91Y.Cervix_Endocervix.RNAseq.bw"
+                      description="Cervix Endocervix"
+                      color="238,213,210"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Cervix Ectocerv"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-S341-1126-SM-4AD6T.Cervix_Ectocervix.RNAseq.bw"
+                      description="Cervix Ectocervix"
+                      color="238,213,210"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Cells fibrobl cult"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-117XS-0008-SM-5Q5DQ.Cells_Cultured_fibroblasts.RNAseq.bw"
+                      description="Cells Cultured fibroblasts"
+                      color="154,192,205"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Cells EBV lymphoc"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1122O-0003-SM-5Q5DL.Cells_EBV-transformed_lymphocytes.RNAseq.bw"
+                      description="Cells EBV-transformed lymphocytes"
+                      color="238,130,238"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Breast Mammary"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-ZT9W-2026-SM-51MRA.Breast_Mammary_Tissue.RNAseq.bw"
+                      description="Breast Mammary Tissue"
+                      color="0,205,205"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Subst nigr"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-Z93S-0011-R2a-SM-4RGNG.Brain_Substantia_nigra.RNAseq.bw"
+                      description="Brain Substantia nigra"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Spinal cord cerv"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-YFC4-0011-R9a-SM-4SOK4.Brain_Spinal_cord_cervical_c-1.RNAseq.bw"
+                      description="Brain Spinal cord cervical c-1"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Put bas gang"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1HFI6-0011-R7b-SM-CM2SS.Brain_Putamen_basal_ganglia.RNAseq.bw"
+                      description="Brain Putamen basal ganglia"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Nucl acc bas gang"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-14BIN-0011-R6a-SM-5S2RH.Brain_Nucleus_accumbens_basal_ganglia.RNAseq.bw"
+                      description="Brain Nucleus accumbens basal ganglia"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Hypothal"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-T5JC-0011-R8A-SM-32PLM.Brain_Hypothalamus.RNAseq.bw"
+                      description="Brain Hypothalamus"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Hippocamp"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1HSKV-0011-R1b-SM-CMKH7.Brain_Hippocampus.RNAseq.bw"
+                      description="Brain Hippocampus"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Front Cortex"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-T5JC-0011-R10A-SM-32PM2.Brain_Frontal_Cortex_BA9.RNAseq.bw"
+                      description="Brain Frontal Cortex BA9"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Cortex"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-UTHO-3026-SM-3GAFB.Brain_Cortex.RNAseq.bw"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Cereb Hemisph"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-13X6J-0011-R11a-SM-5P9HE.Brain_Cerebellar_Hemisphere.RNAseq.bw"
+                      description="Brain Cerebellar Hemisphere"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Cereb"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-145MH-2926-SM-5Q5D2.Brain_Cerebellum.RNAseq.bw"
+                      description="Brain Cerebellum"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Caud bas gangl"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1HGF4-0011-R5b-SM-CM2ST.Brain_Caudate_basal_ganglia.RNAseq.bw"
+                      description="Brain Caudate basal ganglia"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Ant cin cort"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-14PN4-0011-R3b-SM-686ZU.Brain_Anterior_cingulate_cortex_BA24.RNAseq.bw"
+                      description="Brain Anterior cingulate cortex BA24"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Brain Amygd"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-T5JC-0011-R4A-SM-32PLT.Brain_Amygdala.RNAseq.bw"
+                      description="Brain Amygdala"
+                      color="238,238,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Bladder"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-S3XE-1226-SM-4AD4L.Bladder.RNAseq.bw"
+                      color="205,183,158"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Artery Tibia"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-XPT6-2226-SM-4B66R.Artery_Tibial.RNAseq.bw"
+                      description="Artery Tibial"
+                      color="255,0,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Artery Coron"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1GMR3-0626-SM-9WYT3.Artery_Coronary.RNAseq.bw"
+                      description="Artery Coronary"
+                      color="238,106,80"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Artery Aorta"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-WYVS-0426-SM-4ONDL.Artery_Aorta.RNAseq.bw"
+                      color="139,28,98"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Adren Gland"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-Y5LM-0126-SM-4VBRL.Adrenal_Gland.RNAseq.bw"
+                      description="Adrenal Gland"
+                      color="143,188,143"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Adip Visc Om"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-14BMU-0626-SM-73KZ6.Adipose_Visceral_Omentum.RNAseq.bw"
+                      description="Adipose Visceral Omentum - GTEX-14BMU-0626-SM-73KZ6"
+                      color="238,154,0"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+            <Resource name="Adip Subcut"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-NFK9-0326-SM-3MJGV.Adipose_Subcutaneous.RNAseq.bw"
+                      description="Adipose Subcutaneous"
+                      color="255,165,79"
+                      trackLine="autoScale=group maxHeightPixels=100:50:8"/>
+        </Category>
+    </Category>
+
+    <Category name="Regulation">
+        <Resource name="TF rPeak Clusters"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/ENCODE4/TFrPeakClusters.bb"
+                  description="Transcription Factor Representative Peak (rPeak) Clusters (912 factors in 1152 biosamples) from ENCODE 4"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=TFrPeakClusters"
+                  labelField="factor"/>
+        <Resource name="ENCODE cCREs"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/encode3/ccre/encodeCcreCombined.bb"
+                  description="ENCODE Candidate Cis-Regulatory Elements (cCREs) combined from all cell types"
+                  url="https://screen-v2.wenglab.org/search/?q=$$&amp;assembly=GRCh38"
+                  labelField="accessionLabel"/>
+        <Resource name="RefSeq Func Elems"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/ncbiRefSeq/refSeqFuncElems.bb"
+                  description="NCBI RefSeq Functional Elements"/>
+        <Resource name="VISTA Enhancers"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/vistaEnhancers/vistaEnhancers.bb"
+                  url="https://enhancer.lbl.gov/vista/browse?filter=$$"/>
+        <Category name="CpG Islands (Islands &lt; 300 Bases are Light Green)">
+            <Resource name="CpG Islands"
+                      path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cpgIslandExt.bb"
+                      description="CpG Islands (Islands &lt; 300 Bases are Light Green)"
+                      hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.cpgIslands"/>
+            <Resource name="Unmasked CpG"
+                      path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cpgIslandExtUnmasked.bb"
+                      description="CpG Islands on All Sequence (Islands &lt; 300 Bases are Light Green)"
+                      hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.cpgIslands"/>
+        </Category>
+        <Category name="ReMap Atlas of Regulatory Regions">
+            <Resource name="ReMap ChIP-seq"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/reMap/reMap2022.bb"
+                      description="ReMap Atlas of Regulatory Regions"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=ReMap"
+                      labelField="name"
+                      trackLine="visibilityWindow=20000"/>
+            <Resource name="ReMap density"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/reMap/reMapDensity2022.bw"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=ReMap"
+                      trackLine="autoScale=on"/>
+        </Category>
+        <Category name="GeneHancer">
+            <Category name="Reg Elem">
+                <Resource name="GH Reg Elems"
+                          path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerRegElementsAll.hg38.bb"
+                          description="Enhancers and promoters from GeneHancer"
+                          url="https://www.genecards.org/Search/Keyword?queryString=$$"/>
+                <Resource name="GH Reg Elems (DE)"
+                          path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerRegElementsDoubleElite.hg38.bb"
+                          description="Enhancers and promoters from GeneHancer (Double Elite)"
+                          url="https://www.genecards.org/Search/Keyword?queryString=$$"/>
+            </Category>
+            <Category name="Gene TSS">
+                <Resource name="GH genes TSS"
+                          path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerGenesTssAll.hg38.bb"
+                          url="https://www.genecards.org/cgi-bin/carddisp.pl?gene=$$"/>
+                <Resource name="GH genes TSS (DE)"
+                          path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerGenesTssDoubleElite.hg38.bb"
+                          description="GeneCards genes TSS (Double Elite)"
+                          url="https://www.genecards.org/cgi-bin/carddisp.pl?gene=$$"/>
+            </Category>
+        </Category>
+        <Category name="GTEx fine-mapped cis-eQTLs">
+            <Resource name="GTEx DAP-G eQTLs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/eQtl/gtexDapg.bb"
+                      description="GTEx High-Confidence cis-eQTLs from DAP-G (no chrX)"/>
+            <Resource name="GTEx CAVIAR eQTLs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/eQtl/gtexCaviar.bb"
+                      description="GTEx High-Confidence cis-eQTLs from CAVIAR (no chrX)"/>
+        </Category>
+        <Category name="JASPAR Transcription Factor Binding Site Database">
+            <Resource name="JASPAR 2018 TFBS"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/jaspar/JASPAR2018.bb"
+                      description="JASPAR CORE 2018 - Predicted Transcription Factor Binding Sites"
+                      url="https://jaspar.genereg.net/search?q=$$&amp;collection=all&amp;tax_group=all&amp;tax_id=all&amp;type=all&amp;class=all&amp;family=all&amp;version=all"
+                      trackLine="visibilityWindow=15000"/>
+            <Resource name="JASPAR 2020 TFBS"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/jaspar/JASPAR2020.bb"
+                      description="JASPAR CORE 2020 - Predicted Transcription Factor Binding Sites"
+                      url="https://jaspar.genereg.net/search?q=$$&amp;collection=all&amp;tax_group=all&amp;tax_id=all&amp;type=all&amp;class=all&amp;family=all&amp;version=all"
+                      trackLine="visibilityWindow=15000"/>
+            <Resource name="JASPAR 2022 TFBS"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/jaspar/JASPAR2022.bb"
+                      description="JASPAR CORE 2022 - Predicted Transcription Factor Binding Sites"
+                      url="https://jaspar.genereg.net/search?q=$$&amp;collection=all&amp;tax_group=all&amp;tax_id=all&amp;type=all&amp;class=all&amp;family=all&amp;version=all"
+                      labelField="TFName"
+                      trackLine="visibilityWindow=15000"/>
+            <Resource name="JASPAR 2024 TFBS"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/jaspar/JASPAR2024.bb"
+                      description="JASPAR CORE 2024 - Predicted Transcription Factor Binding Sites"
+                      url="https://jaspar.genereg.net/search?q=$$&amp;collection=all&amp;tax_group=all&amp;tax_id=all&amp;type=all&amp;class=all&amp;family=all&amp;version=all"
+                      labelField="TFName"
+                      trackLine="visibilityWindow=15000"/>
+        </Category>
+    </Category>
+
+    <Category name="Variation">
+        <Category name="Short Genetic Variants from dbSNP release 155">
+            <Resource name="All dbSNP(155)"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/snp/dbSnp155.bb"
+                      description="All Short Genetic Variants from dbSNP Release 155"
+                      url="https://www.ncbi.nlm.nih.gov/snp/$$"
+                      trackLine="visibilityWindow=4000000"/>
+            <Resource name="Mult. dbSNP(155)"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/snp/dbSnp155Mult.bb"
+                      description="Short Genetic Variants from dbSNP Release 155 that Map to Multiple Genomic Loci"
+                      url="https://www.ncbi.nlm.nih.gov/snp/$$"
+                      trackLine="visibilityWindow=4000000"/>
+            <Resource name="ClinVar dbSNP(155)"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/snp/dbSnp155ClinVar.bb"
+                      description="Short Genetic Variants from dbSNP Release 155 Included in ClinVar"
+                      url="https://www.ncbi.nlm.nih.gov/snp/$$"
+                      trackLine="visibilityWindow=4000000"/>
+            <Resource name="Common dbSNP(155)"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/snp/dbSnp155Common.bb"
+                      description="Common (1000 Genomes Phase 3 MAF &gt;= 1%) Short Genetic Variants from dbSNP Release 155"
+                      url="https://www.ncbi.nlm.nih.gov/snp/$$"
+                      trackLine="visibilityWindow=4000000"/>
+            <Resource name="Map Err dbSnp(155)"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/snp/dbSnp155BadCoords.bb"
+                      description="Mappings with Inconsistent Coordinates from dbSNP 155"
+                      url="https://www.ncbi.nlm.nih.gov/snp/$$"
+                      color="100,100,100"
+                      trackLine="visibilityWindow=4000000"/>
+        </Category>
+        <Category name="DGV Struct Var">
+            <Resource name="DGV Gold Standard"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/dgv/dgvGold.bb"
+                      description="Database of Genomic Variants: Gold Standard Variants"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=dgvPlus"
+                      url="https://dgv.tcag.ca/gb2/gbrowse_details/dgv2_hg38?ref=$S;start=${;end=$};name=$$;class=Sequence"/>
+            <Resource name="DGV Supp Var"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/dgv/dgvSupporting.bb"
+                      description="Database of Genomic Variants: Supporting Structural Var (CNV, Inversion, In/del)"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=dgvPlus"
+                      url="https://dgv.tcag.ca/dgv/app/variant?id=$$&amp;ref=$D"/>
+            <Resource name="DGV Struct Var"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/dgv/dgvMerged.bb"
+                      description="Database of Genomic Variants: Structural Var Regions (CNV, Inversion, In/del)"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=dgvPlus"
+                      url="https://dgv.tcag.ca/dgv/app/variant?id=$$&amp;ref=$D"/>
+        </Category>
+        <Category name="Platinum genome variants">
+            <Resource name="NA12878"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/platinumGenomes/NA12878.vcf.gz"
+                      description="Platinum genome variant NA12878"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=../platinumGenomes"
+                      trackLine="visibilityWindow=200000"/>
+            <Resource name="NA12877"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/platinumGenomes/NA12877.vcf.gz"
+                      description="Platinum genome variant NA12877"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=../platinumGenomes"
+                      trackLine="visibilityWindow=200000"/>
+            <Resource name="hybrid"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/platinumGenomes/hg38.hybrid.vcf.gz"
+                      description="Platinum genome hybrid"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=../platinumGenomes"
+                      trackLine="visibilityWindow=200000"/>
+        </Category>
+    </Category>
+
+    <Category name="Repeats">
+        <Resource name="Simple Repeats"
+                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.simpleRepeat.bb"
+                  description="Simple Tandem Repeats by TRF"
+                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.simpleRepeat"/>
+        <Resource name="WM + SDust"
+                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.windowMasker.bb"
+                  description="Genomic Intervals Masked by WindowMasker + SDust"
+                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.windowMasker"/>
+        <Resource name="NuMTs Sequence"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/nuMtSeq/nuMtSeq_hg38.bb"
+                  description="Nuclear mitochondrial DNA segments"/>
+    </Category>
+
+    <Category name="Mapping and Sequencing">
+        <Resource name="GC Percent"
+                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gc5Base.bw"
+                  description="GC Percent in 5-Base Windows"
+                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.gc5Base"
+                  color="0,0,0"
+                  trackLine="viewLimits=30:70 autoScale=off maxHeightPixels=128:36:16"/>
+        <Resource name="Gap (AGP defined)"
+                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gap.bb"
+                  description="AGP gap"
+                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.gap"
+                  color="0,0,0"/>
+        <Resource name="Recomb. 1k Genomes"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/recomb1000GAvg.bw"
+                  description="Recombination rate: 1000 Genomes, lifted from hg19 (PR Loh)"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=recombRate2"
+                  color="0,130,0"
+                  trackLine="viewLimits=0.0:100 maxHeightPixels=128:60:8"/>
+        <Resource name="Recomb. deCODE Avg"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/recombAvg.bw"
+                  description="Recombination rate: deCODE Genetics, average from paternal and maternal (mat for chrX)"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=recombRate2"
+                  color="0,130,0"
+                  trackLine="viewLimits=0.0:100 maxHeightPixels=128:60:8"/>
+        <Resource name="Recomb. deCODE Dmn"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/recombDenovo.bb"
+                  description="Recombination rate: De-novo mutations found in deCODE samples"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=recombRate2"
+                  color="0,130,0"/>
+        <Resource name="Recomb. deCODE Evts"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/events.bb"
+                  description="Recombination events in deCODE Genetic Map (zoom to &lt; 10kbp to see the events)"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=recombRate2"
+                  color="0,130,0"/>
+        <Resource name="Recomb. deCODE Mat"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/recombMat.bw"
+                  description="Recombination rate: deCODE Genetics, maternal"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=recombRate2"
+                  color="0,130,0"
+                  trackLine="viewLimits=0.0:100 maxHeightPixels=128:60:8"/>
+        <Resource name="Recomb. deCODE Pat"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/recombPat.bw"
+                  description="Recombination rate: deCODE Genetics, paternal"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=recombRate2"
+                  color="0,130,0"
+                  trackLine="viewLimits=0.0:100 maxHeightPixels=128:60:8"/>
+        <Category name="Paired identical sequences">
+            <Resource name="Gap Overlaps"
+                      path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gapOverlap.bb"
+                      description="Paired exactly identical sequence on each side of a gap"
+                      hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.tanDups"/>
+            <Resource name="Tandem Dups"
+                      path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.tandemDups.bb"
+                      description="Paired exactly identical sequence survey over entire genome assembly"
+                      hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.tanDups"/>
+        </Category>
+        <Category name="Highly Reproducible genomic regions and variants">
+            <Resource name="HR_NA12878 Variants"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/highRepro/HR_NA12878.sort.vcf.gz"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="HR_NA12249 Variants"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/highRepro/HR_NA12249.sort.vcf.gz"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="HR_NA12248 Variants"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/highRepro/HR_NA12248.sort.vcf.gz"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="HR_NA10835 Variants"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/highRepro/HR_NA10835.sort.vcf.gz"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="CQ-8 Variants"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/highRepro/CQ-8.sort.vcf.gz"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="CQ-7 Variants"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/highRepro/CQ-7.sort.vcf.gz"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="CQ-56 Variants"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/highRepro/CQ-56.sort.vcf.gz"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="Highly Reproducible Regions"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/highRepro/highRepro.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+        </Category>
+        <Category name="Problematic Regions">
+            <Resource name="GRC Exclusions"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/grcExclusions.bb"
+                      description="GRC Exclusion list: contaminations or false duplications"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="ENCODE Blacklist V2"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/encBlacklist.bb"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="UCSC Unusual Regions"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/comments.bb"
+                      description="UCSC unusual regions on assembly structure (manually annotated)"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+        </Category>
+        <Category name="Difficult regions from GIAB via NCBI">
+            <Resource name="Not lowMap+SegDup"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/GIAB/notinalllowmapandsegdupregions.bb"
+                      description="Genome In a Bottle: not lowMap+SegDup mapping regions"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="Not difficult regions"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/GIAB/notinalldifficultregions.bb"
+                      description="Genome In a Bottle: not difficult regions"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="LowMap+SegDup"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/GIAB/alllowmapandsegdupregions.bb"
+                      description="Genome In a Bottle: lowMap+SegDup regions"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+            <Resource name="All difficult regions"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/GIAB/alldifficultregions.bb"
+                      description="Genome In a Bottle: all difficult regions"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=problematic"/>
+        </Category>
+        <Category name="Single-read and multi-read mappability by Umap">
+            <Resource name="Umap M100"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k100.Umap.MultiTrackMappability.bw"
+                      description="Multi-read mappability with 100-mers"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=mappability"
+                      color="80,170,240"/>
+            <Resource name="Umap M50"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k50.Umap.MultiTrackMappability.bw"
+                      description="Multi-read mappability with 50-mers"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=mappability"
+                      color="80,120,240"/>
+            <Resource name="Umap M36"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k36.Umap.MultiTrackMappability.bw"
+                      description="Multi-read mappability with 36-mers"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=mappability"
+                      color="80,70,240"/>
+            <Resource name="Umap M24"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k24.Umap.MultiTrackMappability.bw"
+                      description="Multi-read mappability with 24-mers"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=mappability"
+                      color="80,20,240"/>
+            <Resource name="Umap S100"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k100.Unique.Mappability.bb"
+                      description="Single-read mappability with 100-mers"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=mappability"
+                      color="80,170,240"/>
+            <Resource name="Umap S50"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k50.Unique.Mappability.bb"
+                      description="Single-read mappability with 50-mers"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=mappability"
+                      color="80,120,240"/>
+            <Resource name="Umap S36"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k36.Unique.Mappability.bb"
+                      description="Single-read mappability with 36-mers"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=mappability"
+                      color="80,70,240"/>
+            <Resource name="Umap S24"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k24.Unique.Mappability.bb"
+                      description="Single-read mappability with 24-mers"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=mappability"
+                      color="80,20,240"/>
+        </Category>
+    </Category>
 
 </Global>

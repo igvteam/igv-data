@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Annotations" version="1">
+
+    <Category name="Genes and Gene Predictions">
+        <Resource name="TOGA vs. hg38"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/TOGAvHg38v1/HLTOGAannotVsHg38v1.bb"
+                  description="TOGA annotations using human/hg38 as reference"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=bosTau9&amp;g=TOGAannotation"/>
+        <Resource name="CRISPR Targets"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/crisprAll/crispr.bb"
+                  description="CRISPR/Cas9 -NGG Targets, whole genome"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=bosTau9&amp;g=crisprAll"
+                  url="https://crispor.gi.ucsc.edu/crispor.py?org=$D&amp;pos=$S:${&amp;pam=NGG"/>
+        <Category name="RefSeq genes from NCBI">
+            <Resource name="Refseq Curated"
+                      path="https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/database/ncbiRefSeqCurated.txt.gz"
+                      hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"/>
+            <Resource name="Refseq All"
+                      path="https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/database/ncbiRefSeq.txt.gz"
+                      hyperlink="https://www.ncbi.nlm.nih.gov/refseq/refseq_select/"/>
+            <Resource name="NCBI Orthologs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/ncbiOrtho/ncbiOrtho.bb"
+                      description="NCBI Gene Orthologs"
+                      labelField="hugo"
+                      color="136,0,204"/>
+            <Resource name="RefSeq Diffs"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/ncbiRefSeq/ncbiRefSeqGenomicDiff.bb"
+                      description="Differences between NCBI RefSeq Transcripts and the Reference Genome"/>
+            <Resource name="RefSeq Other"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/ncbiRefSeq/ncbiRefSeqOther.bb"
+                      description="NCBI RefSeq Other Annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)"
+                      labelField="gene"
+                      color="32,32,32"/>
+        </Category>
+        <Category name="UniProt SwissProt/TrEMBL Protein Annotations">
+            <Resource name="Seq. Conflicts"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipConflict.bb"
+                      description="UniProt Sequence Conflicts"/>
+            <Resource name="Repeats"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipRepeat.bb"
+                      description="UniProt Repeats"/>
+            <Resource name="Structure"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipStruct.bb"
+                      description="UniProt Protein Primary/Secondary Structure Annotations"/>
+            <Resource name="Other Annot."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipOther.bb"
+                      description="UniProt Other Annotations"/>
+            <Resource name="Mutations"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipMut.bb"
+                      description="UniProt Amino Acid Mutations"/>
+            <Resource name="AA Modifications"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipModif.bb"
+                      description="UniProt Amino Acid Modifications"/>
+            <Resource name="Domains"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipDomain.bb"
+                      description="UniProt Domains"/>
+            <Resource name="Disulf. Bonds"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipDisulfBond.bb"
+                      description="UniProt Disulfide Bonds"/>
+            <Resource name="Chains"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipChain.bb"
+                      description="UniProt Mature Protein Products (Polypeptide Chains)"/>
+            <Resource name="Cytoplasmic"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipLocCytopl.bb"
+                      description="UniProt Cytoplasmic Domains"
+                      color="255,150,0"/>
+            <Resource name="Transmembrane"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipLocTransMemb.bb"
+                      description="UniProt Transmembrane Domains"
+                      color="0,150,0"/>
+            <Resource name="Interest"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipInterest.bb"
+                      description="UniProt Regions of Interest"/>
+            <Resource name="Extracellular"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipLocExtra.bb"
+                      description="UniProt Extracellular Domain"
+                      color="0,150,255"/>
+            <Resource name="Signal Peptide"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipLocSignal.bb"
+                      description="UniProt Signal Peptides"
+                      color="255,0,150"/>
+            <Resource name="TrEMBL Aln."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipAliTrembl.bb"
+                      description="UCSC alignment of TrEMBL proteins to genome"
+                      labelField="name"/>
+            <Resource name="SwissProt Aln."
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/uniprot/unipAliSwissprot.bb"
+                      description="UCSC alignment of SwissProt proteins to genome (dark blue: main isoform, light blue: alternative isoforms)"
+                      labelField="name"/>
+        </Category>
+    </Category>
+
+    <Category name="Variation">
+        <Category name="EVA SNP">
+            <Resource name="EVA SNP Release 5"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/bbi/evaSnp5.bb"
+                      description="Short Genetic Variants from European Variant Archive Release 5"
+                      url="https://www.ebi.ac.uk/eva/?variant&amp;accessionID=$$"
+                      trackLine="visibilityWindow=250000"/>
+            <Resource name="EVA SNP Release 4"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/bbi/evaSnp4.bb"
+                      description="Short Genetic Variants from European Variant Archive Release 4"
+                      url="https://www.ebi.ac.uk/eva/?variant&amp;accessionID=$$"
+                      trackLine="visibilityWindow=250000"/>
+            <Resource name="EVA SNP Release 3"
+                      path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/bbi/evaSnp.bb"
+                      description="Short Genetic Variants from European Variant Archive Release 3"
+                      url="https://www.ebi.ac.uk/eva/?variant&amp;accessionID=$$"
+                      trackLine="visibilityWindow=250000"/>
+        </Category>
+    </Category>
+
+    <Category name="Comparative Genomics">
+        <Resource name="ClinVar Lift"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/bosTau9/bbi/clinvarLift.bb"
+                  description="Human ClinVar variants lifted to Cow"/>
+    </Category>
+
+</Global>
