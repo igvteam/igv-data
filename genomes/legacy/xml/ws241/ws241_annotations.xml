@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Global name="C. elegans (241)" version="1">
-
-    <Resource name="WormBase SNPs"
-            path="http://dn7ywbm9isq8j.cloudfront.net/annotations/ws241/c_elegans.PRJNA13758.WS241.annotations.SNP.gff3.gz">
-    </Resource>
-   
-</Global>

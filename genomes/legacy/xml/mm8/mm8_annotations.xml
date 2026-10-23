@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Global name="Annotations (mm8)" version="1">
        <Resource name="GC % (5 base)"
-                  path="http://www.broadinstitute.org/igvdata/annotations/mm8/sequence/mm8.gc5Base.tdf"
+                  path="https://data.broadinstitute.org/igvdata/annotations/mm8/sequence/mm8.gc5Base.tdf"
                   hyperlink="http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=gc5Base"
                   trackLine="viewLimits=0:100"/>
 

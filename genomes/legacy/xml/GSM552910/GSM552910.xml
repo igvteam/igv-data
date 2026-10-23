@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Global name="GSM552910 data" version="1">
-    <Resource name="Nucleosome Counts" hyperlink="http://www.ncbi.nlm.nih.gov/projects/geo/query/acc.cgi?acc=GSM552910"
-            path="http://igv.broadinstitute.org.s3.amazonaws.com/data/GSM552910/GSM552910_Scer_CM_Jul2108_nucCount_100.wig.gz">
-    </Resource>
-
-</Global>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Global name="Annotations (canFam2)" version="1">
-
-    <Resource name="Ensemble Genes"
-            path="http://igvdata.broadinstitute.org/data/canFam2/ensGene.txt.gz"/>
-    <Resource name="CPG Islands"
-                  path="http://igvdata.broadinstitute.org/data/canFam2/cpgIslandExt.bed.gz"/>
-  
-</Global>

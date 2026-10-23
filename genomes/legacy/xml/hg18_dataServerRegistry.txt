@@ -3,5 +3,4 @@ https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legac
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/hg18/tcga_external.xml
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/hg18/Tumorscape.xml
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/hg18/29mammals.xml
-https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/hg18/BodyMapCoverage.xml
 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/xml/hg18/tutorials.xml
