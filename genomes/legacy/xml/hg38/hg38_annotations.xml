@@ -55,14 +55,6 @@
     </Category>
 
     <Category name="Variation and Repeats">
-        <Resource name="All Snps 1.4.2"
-                  path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg38/dbsnp142_All.vcf.gz"
-                  index="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg38/dbsnp142_All.vcf.gz.tbi"
-                  hyperlink="http://www.ncbi.nlm.nih.gov/variation/docs/human_variation_vcf/"/>
-        <Resource name="Common Snps 1.4.2"
-                  path="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg38/dbsnp142_common_all.vcf.gz"
-                  index="https://s3.amazonaws.com/igv.broadinstitute.org/annotations/hg38/dbsnp142_common_all.vcf.gz.tbi"
-                  hyperlink="http://www.ncbi.nlm.nih.gov/variation/docs/human_variation_vcf/"/>
         <Category name="Repeat Masker"
                   hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?g=rmsk">
 
