@@ -1,2 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7FAHKZ26CZCW13KX</RequestId><HostId>mrZ6zdPO+61yox//V/Sx4Eyx2djVEazVZajekFbMWqEWzlmkIIsM51y+GC3Tj+0zsmDBBEpM05JeOBu1jH20+3ySgVz9tXYbmI+gUGfy5YE=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="Genes and Gene Predictions">
+    <Resource altColor="120,12,12" color="12,12,120" format="bigGenePred" name="RefSeq All"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.ncbiRefSeq.bb"/>
+    <Resource color="12,12,120" format="bigGenePred" name="RefSeq Curated"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.ncbiRefSeqCurated.bb"/>
+    <Resource color="12,12,120" format="bigGenePred" name="RefSeq Predicted"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.ncbiRefSeqPredicted.bb"/>
+    <Resource color="32,32,32" format="bigBed" name="RefSeq Other"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.ncbiRefSeqOther.bb"/>
+    <Resource color="0,0,0" format="bigPsl" name="RefSeq Alignments"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.bigPsl.bb"/>
+    <Resource color="180,0,0" format="bigGenePred" name="Augustus"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.augustus.bb"/>
+</Global>

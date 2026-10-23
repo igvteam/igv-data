@@ -1,2 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>VXVEA27BM1SQJ8P4</RequestId><HostId>vfmKO7NTerZOah7vImU+U4jkgWwmeFeHx+ZqOT2x2VaaQbYCeXy4rQG5XJOsBx0MOUNoEjzwjwU=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="Genes and Gene Predictions">
+    <Resource color="180,0,0" format="bigGenePred" name="Augustus"
+              path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.augustus.bb"/>
+<!--    <Resource color="rgb(150,0,0)" format="bigBed" name="Ensembl genes"-->
+<!--              path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.ensGene.bb"/>-->
+    <Resource color="150,0,0" format="bed" name="UCSC Ensembl genes"
+              path="https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/GCA_011100615.1_ucsc_ensGene.bed"/>
+</Global>

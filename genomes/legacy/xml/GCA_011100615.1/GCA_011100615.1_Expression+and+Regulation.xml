@@ -1,2 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>JBWC736JTECSCMAN</RequestId><HostId>vmVxPkxXQcw8x5eZNR8nAgZVManexgFZNacOk2BXoCCwnk4NdL31aqH6f2DhNz1XvM2XseClKUg=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="Expression and Regulation">
+  <Resource format="bigBed" name="CpG Islands" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.cpgIslandExt.bb"/>
+  <Resource format="bigBed" name="Unmasked CpG" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.cpgIslandExtUnmasked.bb"/>
+</Global>

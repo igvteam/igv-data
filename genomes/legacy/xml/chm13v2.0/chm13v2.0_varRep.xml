@@ -1,2 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>27PR76DCZRY0NBQ7</RequestId><HostId>s7H+xfJWAvbqu4pHzXOLMq9Jkmrw7MCL9nW3pXVCyZV69Jp6+/P3yoXuQrrSy7UnqAUezvlIYXkeuFsEriaYUMm21wC0xYjo</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="Variation and Repeats">
+    <Resource format="bigBed"
+              name="Repeat Masker"
+              trackLine="visibility=expanded visibilitywindow=30000000"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.t2tRepeatMasker.html"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.t2tRepeatMasker/chm13v2.0_rmsk.bb"/>
+    <Resource format="bigBed"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.simpleRepeat"
+              name="Simple Repeats"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.simpleRepeat.bb"/>
+    <Resource format="bigBed"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.windowMasker"
+              name="WM + SDust"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.windowMasker.bb"/>
+    <Resource format="bed"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.sedefSegDups.html"
+              name="SEDEF Segmental Dups"
+              path="https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/sedefSegDups.bed.gz"
+              index="https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/sedefSegDups.bed.gz.tbi"
+    />
+    <Resource format="vcf"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.clinVar20220313.html"
+              index="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.clinVar20220313/chm13v2.0_ClinVar20220313.ncbi-names.vcf.gz.tbi"
+              name="ClinVar Variants"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.clinVar20220313/chm13v2.0_ClinVar20220313.ncbi-names.vcf.gz"/>
+    <Resource format="vcf"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.gwasSNPs2022-03-08.html"
+              index="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.gwasSNPs2022-03-08/chm13v2.0_GWASv1.0rsids_e100_r2022-03-08.ncbi-names.vcf.gz.tbi"
+              name="GWAS Variants"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.gwasSNPs2022-03-08/chm13v2.0_GWASv1.0rsids_e100_r2022-03-08.ncbi-names.vcf.gz"/>
+</Global>

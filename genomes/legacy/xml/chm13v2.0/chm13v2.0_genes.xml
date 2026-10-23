@@ -1,2 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6AVHRW6SWDHT3N30</RequestId><HostId>JZGJiynHnk7MBkloPCHdQNaBwCaCC/iiuhnWbyVaSg6iVp4c08QXcyCi4XlyiiwLjur+5OhaneM=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="Genes">
+    <Resource
+            hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.catLiftOffGenesV1.html"
+            name="CAT/Liftoff Genes"
+            path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.catLiftOffGenesV1/catLiftOffGenesV1.bb"
+            visibilityWindow="-1"/>
+    <Resource
+            hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.augustus"
+            name="Augustus"
+            path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.augustus.bb"
+            visibilityWindow="-1"/>
+</Global>

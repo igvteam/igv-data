@@ -1,2 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>7FAJT4Z88ED9317H</RequestId><HostId>GOuvNYVpuo8hRDgZXEL4xjGCk0OOdon9CM4Rg4UWwkPOmvAKXY/z1/Og+Zw4KzXO4sJgLskMa8/eId+dDE0Vh7lDPuuqXKQu9BzNchOBjGk=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="Mapping and Sequencing">
+    <Resource altColor="128,128,128" color="0,0,0" format="bigWig" name="GC Percent"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.gc5Base.bw"/>
+    <Resource format="bigBed" name="Gap Overlaps"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.gapOverlap.bb"/>
+    <Resource format="bigBed" name="Tandem Dups"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.tandemDups.bb"/>
+    <Resource format="bigBed" name="All Gaps"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.allGaps.bb"/>
+</Global>

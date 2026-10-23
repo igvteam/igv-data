@@ -1,2 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6AVP9ATDQZGRZX28</RequestId><HostId>RsgCbICjhDD/34MTtCO/dcvZ2Rw8n4IxWAbom+RAN87l1BJWn9MWQWhBLnnDACkQLl70RUFmmyY=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="mRNA and EST">
+<!--    <Resource color="180,0,0" format="bigbed"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.xenoRefGene"
+              name="RefSeq mRNAs"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.xenoRefGene.bb"
+    />-->
+    <Resource altColor="0,0,255" color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html"
+              name="PROseq default POS"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_default_pos.bw"/>
+    <Resource altColor="0,0,255" color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html"
+              name="PROseq default NEG"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_default_neg.bw"/>
+    <Resource altColor="0,0,255" color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html"
+              name="PROseq k100 POS"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_pos.bw"/>
+    <Resource altColor="0,0,255" color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html"
+              name="PROseq k100 NEG"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_neg.bw"/>
+    <Resource altColor="0,0,255" color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html"
+              name="PROseq k100-21mer POS"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_21mer_pos.bw"/>
+    <Resource altColor="0,0,255" color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html"
+              name="PROseq k100-21mer NEG"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_21mer_neg.bw"/>
+    <Resource altColor="0,0,255" color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html"
+              name="PROseq k100-dual-21mer POS"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_dual-21mer_pos.bw"/>
+    <Resource altColor="0,0,255" color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html"
+              name="PROseq k100-dual-21mer NEG"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_dual-21mer_neg.bw"/>
+    <Resource color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.rnaseq.html"
+              name="RNA-Seq default"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.rnaseq/RNAseq_default.bw"/>
+    <Resource color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.rnaseq.html"
+              name="RNA-Seq k100"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.rnaseq/RNAseq_k100.bw"/>
+    <Resource color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.rnaseq.html"
+              name="RNA-Seq k100 21mer"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.rnaseq/RNAseq_k100_21mer.bw"/>
+    <Resource color="255,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.rnaseq.html"
+              name="RNA-Seq k100 dual 21mer"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.rnaseq/RNAseq_k100_dual_21mer.bw"/>
+</Global>

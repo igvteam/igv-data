@@ -1,2 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>JBW776FS930FZYYR</RequestId><HostId>VAsrv37YXOCOzZoimc7TQUv53vZfd0ykYeun0hl2xP+0NGesXG7a9yXO5LUYbjD/o5VJJNOow/s=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="Variation and Repeats">
+  <Resource format="bigRmsk" name="RepeatMasker" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.rmsk.bb"/>
+  <Resource format="bigBed" name="Simple Repeats" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.simpleRepeat.bb"/>
+  <Resource format="bigBed" name="WM + SDust" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.windowMasker.bb"/>
+</Global>

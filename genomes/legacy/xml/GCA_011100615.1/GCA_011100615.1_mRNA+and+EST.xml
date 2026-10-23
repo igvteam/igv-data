@@ -1,2 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>JBW0BHKKDSFPT7RS</RequestId><HostId>hE8KTnmzvIrHWyj+LvRtAuQEuooFjBLEZBusL/3kNxwDoD7fm+KliWQ9KwM8ye6kzfZR8e8eRA0=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="mRNA and EST">
+  <Resource color="180,0,0" format="bigGenePred" name="RefSeq mRNAs" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.xenoRefGene.bb"/>
+</Global>

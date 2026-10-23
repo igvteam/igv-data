@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6AVG58QB709K12BA</RequestId><HostId>B8XtCOvkpMmW13kP/imwC/QDgVPpzkUjH6hFrODExiDaeEURY1Q3Qo+mosqwFgLZdqnCDH7s9lU=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="Mapping and Sequencing">
+   <Resource altColor="128,128,128" color="0,0,0" format="bigWig"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.gc5Base"
+              name="GC Percent"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.gc5Base.bw"/>
+    <Resource format="bigBed"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.tanDups"
+              name="Tandem Dups"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.tandemDups.bb"/>
+   <Resource format="bigBed"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.rdnaModel.html"
+              name="rDNA models"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.rdnaModel/rdnaModel.bb"/>
+    <Resource format="bigBed"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.censat.html"
+              name="CenSat Annotation"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.censat/censat.bb"/>
+</Global>

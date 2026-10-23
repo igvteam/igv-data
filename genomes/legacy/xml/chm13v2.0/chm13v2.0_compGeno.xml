@@ -1,2 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>27PJSPKEJWJY3FPA</RequestId><HostId>ZT0nVeezw1c4BbPuagKA9svKuuDTov9Nyi1MlibN1fa7Q7y/olZNuSpxYRWmI2fiFEXP7FnKNVg=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="Comparative Genomics">
+    <Resource color="100,0,200" format="bigBed"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.hgUnique.html"
+              name="CHM13 unique for hg38"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.hgUnique/hgUnique.hg38.bb"/>
+    <Resource color="200,0,100" format="bigBed"
+              hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.hgUnique.html"
+              name="CHM13 unique for hg19"
+              path="https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.hgUnique/hgUnique.hg19.bb"/>
+</Global>

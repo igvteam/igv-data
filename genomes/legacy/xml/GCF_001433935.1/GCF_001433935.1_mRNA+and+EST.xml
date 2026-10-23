@@ -1,2 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BPVGFH5XH5KR471F</RequestId><HostId>akj6jXnk+xZHx19+vecHXYs5SNufsb7HctitPAGQM9A9k10Y2fIA5gnMI5MeHxE8KfhDd3Y//f8=</HostId></Error>
+<?xml version="1.0" ?>
+<Global name="mRNA and EST">
+    <Resource color="180,0,0" format="bigGenePred" name="RefSeq mRNAs"
+              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.xenoRefGene.bb"/>
+</Global>
