@@ -2518,7 +2518,7 @@ autoScale group
     longLabel Thyroid
     parent gtexCov
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-1HSGN-0726-SM-A9G2F.Thyroid.RNAseq.bw
-    color 0, 139, 69
+    color 0,139,69
 
     track gtexCovTestis
     shortLabel Testis
