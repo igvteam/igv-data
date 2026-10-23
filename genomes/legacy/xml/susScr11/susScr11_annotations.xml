@@ -11,30 +11,6 @@
                   path="https://hgdownload.soe.ucsc.edu/gbdb/susScr11/TOGAvHg38v1/HLTOGAannotVsHg38v1.bb"
                   description="TOGA annotations using human/hg38 as reference"
                   hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=susScr11&amp;g=TOGAannotation"/>
-        <Resource name="TransMap Ensembl"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/susScr11/transMap/V5/susScr11.ensembl.transMapV5.bigPsl"
-                  description="TransMap Ensembl and GENCODE Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=susScr11&amp;g=transMapEnsembl"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap ESTs"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/susScr11/transMap/V5/susScr11.est.transMapV5.bigPsl"
-                  description="TransMap EST Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=susScr11&amp;g=transMapEst"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RefGene"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/susScr11/transMap/V5/susScr11.refseq.transMapV5.bigPsl"
-                  description="TransMap RefSeq Gene Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=susScr11&amp;g=transMapRefSeq"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RNA"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/susScr11/transMap/V5/susScr11.rna.transMapV5.bigPsl"
-                  description="TransMap GenBank RNA Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=susScr11&amp;g=transMapRna"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
         <Category name="RefSeq genes from NCBI">
             <Resource name="Refseq Curated"
                       path="https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/ncbiRefSeqCurated.txt.gz"

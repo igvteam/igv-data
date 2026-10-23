@@ -7,30 +7,6 @@
                   description="CRISPR/Cas9 -NGG Targets, whole genome"
                   hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer10&amp;g=crisprAll"
                   url="https://crispor.tefor.net/crispor.py?org=$D&amp;pos=$S:${&amp;pam=NGG"/>
-        <Resource name="TransMap Ensembl"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/danRer10/transMap/V5/danRer10.ensembl.transMapV5.bigPsl"
-                  description="TransMap Ensembl and GENCODE Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer10&amp;g=transMapEnsembl"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap ESTs"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/danRer10/transMap/V5/danRer10.est.transMapV5.bigPsl"
-                  description="TransMap EST Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer10&amp;g=transMapEst"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RefGene"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/danRer10/transMap/V5/danRer10.refseq.transMapV5.bigPsl"
-                  description="TransMap RefSeq Gene Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer10&amp;g=transMapRefSeq"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RNA"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/danRer10/transMap/V5/danRer10.rna.transMapV5.bigPsl"
-                  description="TransMap GenBank RNA Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer10&amp;g=transMapRna"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
         <Category name="RefSeq genes from NCBI">
             <Resource name="Refseq Curated"
                       path="https://hgdownload.soe.ucsc.edu/goldenPath/danRer10/database/ncbiRefSeqCurated.txt.gz"

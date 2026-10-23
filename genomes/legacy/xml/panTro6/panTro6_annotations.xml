@@ -11,30 +11,6 @@
                   path="https://hgdownload.soe.ucsc.edu/gbdb/panTro6/TOGAvHg38v1/HLTOGAannotVsHg38v1.bb"
                   description="TOGA annotations using human/hg38 as reference"
                   hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&amp;g=TOGAannotation"/>
-        <Resource name="TransMap Ensembl"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/panTro6/transMap/V5/panTro6.ensembl.transMapV5.bigPsl"
-                  description="TransMap Ensembl and GENCODE Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&amp;g=transMapEnsembl"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap ESTs"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/panTro6/transMap/V5/panTro6.est.transMapV5.bigPsl"
-                  description="TransMap EST Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&amp;g=transMapEst"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RefGene"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/panTro6/transMap/V5/panTro6.refseq.transMapV5.bigPsl"
-                  description="TransMap RefSeq Gene Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&amp;g=transMapRefSeq"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RNA"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/panTro6/transMap/V5/panTro6.rna.transMapV5.bigPsl"
-                  description="TransMap GenBank RNA Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&amp;g=transMapRna"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
         <Category name="RefSeq genes from NCBI">
             <Resource name="Refseq Curated"
                       path="https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ncbiRefSeqCurated.txt.gz"

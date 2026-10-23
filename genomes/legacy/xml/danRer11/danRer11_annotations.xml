@@ -12,30 +12,6 @@
                   description="CRISPR/Cas9 -NGG Targets, whole genome"
                   hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer11&amp;g=crisprAll"
                   url="https://crispor.gi.ucsc.edu/crispor.py?org=$D&amp;pos=$S:${&amp;pam=NGG"/>
-        <Resource name="TransMap Ensembl"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/danRer11/transMap/V5/danRer11.ensembl.transMapV5.bigPsl"
-                  description="TransMap Ensembl and GENCODE Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer11&amp;g=transMapEnsembl"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap ESTs"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/danRer11/transMap/V5/danRer11.est.transMapV5.bigPsl"
-                  description="TransMap EST Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer11&amp;g=transMapEst"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RefGene"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/danRer11/transMap/V5/danRer11.refseq.transMapV5.bigPsl"
-                  description="TransMap RefSeq Gene Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer11&amp;g=transMapRefSeq"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RNA"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/danRer11/transMap/V5/danRer11.rna.transMapV5.bigPsl"
-                  description="TransMap GenBank RNA Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=danRer11&amp;g=transMapRna"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
         <Category name="RefSeq gene predictions from NCBI">
             <Resource name="RefSeq All"
                       path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/bbi/GCF_000002035.6_GRCz11.ncbiRefSeq.bb"

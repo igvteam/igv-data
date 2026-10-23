@@ -2,30 +2,6 @@
 <Global name="Annotations" version="1">
 
     <Category name="Genes and Gene Predictions">
-        <Resource name="TransMap Ensembl"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/canFam3/transMap/V5/canFam3.ensembl.transMapV5.bigPsl"
-                  description="TransMap Ensembl and GENCODE Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=canFam3&amp;g=transMapEnsembl"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap ESTs"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/canFam3/transMap/V5/canFam3.est.transMapV5.bigPsl"
-                  description="TransMap EST Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=canFam3&amp;g=transMapEst"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RefGene"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/canFam3/transMap/V5/canFam3.refseq.transMapV5.bigPsl"
-                  description="TransMap RefSeq Gene Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=canFam3&amp;g=transMapRefSeq"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
-        <Resource name="TransMap RNA"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/canFam3/transMap/V5/canFam3.rna.transMapV5.bigPsl"
-                  description="TransMap GenBank RNA Mappings Version 5"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=canFam3&amp;g=transMapRna"
-                  labelField="orgAbbrev"
-                  color="0,100,0"/>
         <Category name="RefSeq genes from NCBI">
             <Resource name="Refseq Curated"
                       path="https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/database/ncbiRefSeqCurated.txt.gz"
