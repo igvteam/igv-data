@@ -3,13 +3,6 @@
         version="1">
 
         
-    <Category name="GBM Subtypes (Verhaak et. al.)"
-              hyperlink="http://www.cell.com/cancer-cell/abstract/S1535-6108%2809%2900432-2">
-        <!--
-        <Resource name="DNA Methylation "
-                  path="http://www.broadinstitute.org/igvdata/tcga/gbmsubtypes/methylation.subtypes.igv.tdf"/>
-                  -->
-    </Category>
 
     <Global hyperlink="https://gdac.broadinstitute.org" name="TCGA Broad GDAC">
         <Category hyperlink="https://confluence.broadinstitute.org/display/GDAC/Standardized+Data+Run+Release+Notes" name="Firehose Standard Data">

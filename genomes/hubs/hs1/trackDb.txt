@@ -140,24 +140,6 @@ dataVersion NCBI Homo sapiens Updated Annotation Release 110 (2022-04-12)
     skipEmptyFields on
 
 
-track catLiftOffGenesV1
-type bigGenePred
-html https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/catLiftOffGenesV1.html
-maxItems 10000000
-visibility pack
-shortLabel CAT/Liftoff Genes
-group genes
-searchIndex name,name2,txId,geneName,sourceGene,sourceTranscript,alignmentId
-labelFields name,name2,txId,geneName,sourceGene,sourceTranscript,alignmentId
-maxWindowToDraw 10000000000
-priority 1
-itemRgb on
-bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/gbdb/hs1/catLiftOffGenesV1/catLiftOffGenesV1.bb
-labelSeparator " "
-defaultLabelFields name
-longLabel CAT + Liftoff Gene Annotations
-
-
 track T2T_Encode
 compositeContainer TRUE
 shortLabel T2T Encode

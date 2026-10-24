@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
 <Global name="mRNA and EST">
     <Resource color="180,0,0" format="bigGenePred" name="RefSeq mRNAs"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.xenoRefGene.bb"/>
+              path="https://hgdownload.gi.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.xenoRefGene.bb"/>
 </Global>

@@ -4,9 +4,6 @@
     <Category name="Genes and Gene Predictions">
         <Resource name="Augustus Genes"
                   path="https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/augustusGene.txt.gz"/>
-        <Resource name="Ensembl Genes"
-                  path="https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ensGene.txt.gz"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=ce11&amp;g=ensGene"/>
         <Resource name="TOGA vs. hg38"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/panTro6/TOGAvHg38v1/HLTOGAannotVsHg38v1.bb"
                   description="TOGA annotations using human/hg38 as reference"

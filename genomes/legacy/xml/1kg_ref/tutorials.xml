@@ -35,19 +35,6 @@
         
         </Category>
     </Category>
-<!--    <Category name="GBM Subtypes (Verhaak et. al.)"
-              hyperlink="http://www.cell.com/cancer-cell/abstract/S1535-6108%2809%2900432-2">
-        <Resource name="Sample Information"
-                  path="http://igv.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/sampleTable.txt.gz"/>
-        <Resource name="Segmented Copy Number (Broad Affy 6.0)"
-                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/Broad.080528.subtypes.seg.gz"/>
-        <Resource name="Expression"
-                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/unifiedScaled.tab.gz"/>
-        <Resource name="Somatic Mutations"
-                  path="http://igvdata.broadinstitute.org/data/hg18/tcga/gbm/gbmsubtypes/TCGA_GBM_Level3_Somatic_Mutations_08.28.2008.maf.gz"/>
-    </Category>
-     
--->
 
 
 </Global>

@@ -1,25 +1,9 @@
 <?xml version="1.0" ?>
 <Global name="Variation and Repeats">
-    <Resource altColor="150,50,5" color="0,50,150" format="bigBed" name="SINE"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.SINE.bb"/>
-    <Resource altColor="150,50,5" color="0,50,150" format="bigBed" name="LINE"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.LINE.bb"/>
-    <Resource altColor="150,50,5" color="0,50,150" format="bigBed" name="LTR"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.LTR.bb"/>
-    <Resource altColor="150,50,5" color="0,50,150" format="bigBed" name="DNA"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.DNA.bb"/>
-    <Resource altColor="150,50,5" color="0,50,150" format="bigBed" name="Simple"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.Simple.bb"/>
-    <Resource altColor="150,50,5" color="0,50,150" format="bigBed" name="Low Complexity"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.Low_complexity.bb"/>
-    <Resource altColor="150,50,5" color="0,50,150" format="bigBed" name="Satellite"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.Satellite.bb"/>
-    <Resource altColor="150,50,5" color="0,50,150" format="bigBed" name="RNA"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.RNA.bb"/>
-    <Resource altColor="150,50,5" color="0,50,150" format="bigBed" name="Other"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.Other.bb"/>
+    <Resource format="bigBed" name="Repeat Masker"
+              path="https://hgdownload.gi.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.rmsk.bb"/>
     <Resource format="bigBed" name="Simple Repeats"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.simpleRepeat.bb"/>
+              path="https://hgdownload.gi.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.simpleRepeat.bb"/>
     <Resource format="bigBed" name="WM + SDust"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.windowMasker.bb"/>
+              path="https://hgdownload.gi.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.windowMasker.bb"/>
 </Global>

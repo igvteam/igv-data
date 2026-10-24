@@ -4,9 +4,6 @@
     <Category name="Genes and Gene Predictions">
         <Resource name="Augustus Genes"
                   path="https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/augustusGene.txt.gz"/>
-        <Resource name="Ensembl Genes"
-                  path="https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/ensGene.txt.gz"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=ce11&amp;g=ensGene"/>
         <Resource name="CRISPR Targets"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/rn7/crisprAll/crispr.bb"
                   description="CRISPR/Cas9 -NGG Targets, whole genome"

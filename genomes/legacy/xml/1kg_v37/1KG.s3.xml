@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Global name="1000 Genomes" hyperlink="http://www.1000genomes.org" version="1">
-   <!-- <Resource name="Sample Information"
-              path="http://www.broadinstitute.org/igvdata/1KG/b37/allsamples.1KG.samplInfo.txt"/>
-    <Resource name="All phase 1 sites"
-              path="http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20110521/ALL.wgs.phase1_release_v3.20101123.snps_indels_sv.sites.vcf.gz"/>
-    <Resource name="All phase 1 genotypes"
-              path="http://www.broadinstitute.org/igvdata/1KG/release/ALL.chr1.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.list"/>
-    -->
 <Resource name="Sample information"
               path="http://1000genomes.s3.amazonaws.com/release/20130502/integrated_call_samples_v3.20130502.ALL.panel"/>
 <Resource name="Phase 3 sites"

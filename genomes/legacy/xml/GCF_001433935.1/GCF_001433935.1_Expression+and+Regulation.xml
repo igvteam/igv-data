@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Global name="Expression and Regulation">
     <Resource format="bigBed" name="CpG Islands"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.cpgIslandExt.bb"/>
+              path="https://hgdownload.gi.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.cpgIslandExt.bb"/>
     <Resource format="bigBed" name="Unmasked CpG"
-              path="https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.cpgIslandExtUnmasked.bb"/>
+              path="https://hgdownload.gi.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.cpgIslandExtUnmasked.bb"/>
 </Global>

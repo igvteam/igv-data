@@ -5,13 +5,6 @@ group genes
 bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/augustusGene.txt.gz
 https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=ce11&g=augustusGene
 
-track ensGene
-shortLabel Ensembl Genes
-type refgene
-group genes
-bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ensGene.txt.gz
-html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=ce11&g=ensGene
-
 track HLTOGAannotvHg38v1
 shortLabel TOGA vs. hg38
 type bigBed 12

@@ -13,12 +13,6 @@
                   description="CRISPR/Cas9 -NGG Targets, whole genome"
                   hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hs1&amp;g=crisprHs1"
                   url="https://crispor.tefor.net/crispor.py?org=$D&amp;pos=$S:${&amp;pam=NGG"/>
-        <Resource name="CAT/Liftoff Genes"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/gbdb/hs1/catLiftOffGenesV1/catLiftOffGenesV1.bb"
-                  description="CAT + Liftoff Gene Annotations"
-                  hyperlink="https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/catLiftOffGenesV1.html"
-                  labelField="name"
-                  trackLine="visibilityWindow=2147483647"/>
         <Category name="RefSeq gene predictions from NCBI">
             <Resource name="RefSeq All"
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeq.bb"

@@ -16,7 +16,7 @@
         </Resource>
         <!--
        <Resource name="ACEView Genes" hyperlink="http://genomebiology.com/2006/7/S1/S12"
-              path="http://www.broadinstitute.org/igvdata/annotations/hg18/acembly.genepred.gz">
+              path="https://data.broadinstitute.org/igvdata/annotations/hg18/acembly.genepred.gz">
         -->
     </Category>
     <Category name="mRNA">
@@ -38,24 +38,6 @@
                   hyperlink="http://www.ncbi.nlm.nih.gov/omim" 
                   url="http://www.ncbi.nlm.nih.gov/omim/$$"
                   path="https://data.broadinstitute.org/igvdata/annotations/hg18/phenotype/omim.hg18.bed"/>
-        <!--<Resource name="OMIM Genes"
-                  hyperlink="http://www.ncbi.nlm.nih.gov/omim"
-                  resourceType="DAS"
-                  url="http://www.ncbi.nlm.nih.gov/entrez/dispomim.cgi?id=$$"
-                  path="http://das.ensembl.org/das/ens_36_omim_genes/features"
-                  trackLine="featureVisibilityWindow=0"/>-->
-      <!--  <Resource name="COSMIC"
-                  resourceType="DAS"
-                  hyperlink="http://www.sanger.ac.uk/genetics/CGP/cosmic/"
-                  path="http://das.sanger.ac.uk/das/cosmic_mutations/features"
-                  trackLine="featureVisibilityWindow=0">
-        </Resource> -->
-     <!--   <Resource name="eQTL Sanger"
-                  resourceType="DAS"
-                  hyperlink="http://www.dasregistry.org/showdetails.jsp?auto_id=DS_585"
-                  path="http://www.ebi.ac.uk/das-srv/genomicdas/das/hydragenevar_eQTL_1mb/features"
-                  trackLine="featureVisibilityWindow=0">
-        </Resource>  -->
         <Resource name="Quantitative Trait Locus from RGD"
                   hyperlink="http://genome.ucsc.edu/cgi-bin/hgc?g=rgdQtl"
                   path="https://data.broadinstitute.org/igvdata/annotations/hg18/phenotype/rgd_qtl.hg18.bed.gz"/>
@@ -129,11 +111,6 @@
                   path="https://data.broadinstitute.org/igvdata/annotations/hg18/sequence/hg18.gc5Base.tdf"/>
     </Category>
 
-    <!-- Disabled until tracks can be linkable.  The link for this track will have the form http://geneticassociationdb.nih.gov/cgi-bin/tableview.cgi?table=allview&cond=gene=%27EGFR%27
-        <Resource name="Genetic Assoc Studies (GAD)" hyperlink="http://geneticassociationdb.nih.gov/gad.pdf"
-                  path="http://www.broadinstitute.org/igvdata/annotations/hg18/GAD.bed" serverURL="http://www.broadinstitute.org/webservices/igv">
-        </Resource>
-        -->
 
 
     <Category name="Comparative Genomics">
