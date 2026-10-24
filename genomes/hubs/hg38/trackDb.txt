@@ -42,33 +42,6 @@ bigDataUrl https://ftp.ncbi.nlm.nih.gov/refseq/MANE/trackhub/data/release_1.0/MA
 labelFields nucAcc
 html https://www.ncbi.nlm.nih.gov/refseq/MANE/
 
-track augustus
-shortLabel Augustus
-longLabel Augustus Gene Predictions
-group genes
-visibility dense
-color 180,0,0
-type bigGenePred
-bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.augustus.bb
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.augustus
-
-
-track xenoRefGene
-shortLabel RefSeq mRNAs
-longLabel RefSeq mRNAs mapped to this assembly
-group genes
-visibility pack
-color 180,0,0
-type bigGenePred
-bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.xenoRefGene.bb
-url https://www.ncbi.nlm.nih.gov/nuccore/$$
-urlLabel NCBI Nucleotide database:
-labelFields name,geneName,geneName2
-defaultLabelFields geneName
-searchIndex name
-searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.xenoRefGene.ix
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.xenoRefGene
-
 track gencode
 compositeTrack on
 shortLabel GENCODE
@@ -398,41 +371,7 @@ color 0,0,0
 altColor 128,128,128
 viewLimits 30:70
 type bigWig 0 100
-bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gc5Base.bw
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.gc5Base
-
-track gap
-longLabel AGP gap
-shortLabel Gap (AGP defined)
-visibility hide
-color 0,0,0
-bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gap.bb
-type bigBed 4
-group map
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.gap
-
-track tanDups
-shortLabel Tandem Dups
-longLabel Paired identical sequences
-compositeTrack on
-visibility hide
-type bigBed 12
-group map
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.tanDups
-
-    track gapOverlap
-    parent tanDups on
-    shortLabel Gap Overlaps
-    longLabel Paired exactly identical sequence on each side of a gap
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gapOverlap.bb
-    type bigBed 12
-
-    track tandemDups
-    parent tanDups on
-    shortLabel Tandem Dups
-    longLabel Paired exactly identical sequence survey over entire genome assembly
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.tandemDups.bb
-    type bigBed 12
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/gc5BaseBw/gc5Base.bw
 
 
 track highlyReproducible
@@ -1405,49 +1344,6 @@ noScoreFilter on
 defaultLabelFields gene, name
 multiRegionsBedUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/covidMuts/covidMuts.regions.bed
 
-track decipher
-shortLabel DECIPHER CNVs
-type bigBed 9 +
-longLabel DECIPHER CNVs
-parent decipherContainer
-visibility pack
-group phenDis
-html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=decipherContainer
-searchIndex name
-filter.size 0
-filterValues.pathogenicity Benign,Likely Benign,Likely Pathogenic,Pathogenic,Uncertain,Unknown
-filterLimits.size 2:170487333
-itemRgb on
-priority 1
-filterValues.variant_class Amplification,Copy-Number Gain,Deletion,Duplication,Duplication/Trip
-filterByRange.size on
-superTrack on
-bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/decipher/decipherCnv.bb
-cartVersion 7
-urlLabel Decipher Patient View:
-mergeSpannedItems on
-url https://www.deciphergenomics.org/patient/$$
-mouseOverField _mouseOvera
-
-track decipherPopulation
-shortLabel DECIPHER Population CNVs
-type bigBed 9 +
-longLabel DECIPHER: Population CNVs
-parent decipherContainer
-mouseOver <b>Position</b>: $chrom:${chromStart}-${chromEnd}<br> <b>Type of CNV</b>: $type<br> <b>Frequency of CNV</b>: $frequency<br> <b>Number of Observations</b>: $observations<br> <b>Sample Size of Study</b>: $sample_size<br>
-visibility pack
-pennantIcon New red ../goldenPath/newsarch.html#121024 "Released December 10, 2024"
-group phenDis
-html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=decipherContainer
-searchIndex name
-filter.sample_size 0
-priority 3
-superTrack on
-bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/decipher/population_cnv.bb
-cartVersion 7
-filterValues.type loss,gain,del/dup
-noScoreFilter on
-
 track gdcCancer
 compositeContainer TRUE
 shortLabel TCGA Pan-Cancer
@@ -1930,21 +1826,6 @@ color 0,80,0
 noScoreFilter on
 url https://www.ncbi.nlm.nih.gov/books/NBK1116/?term=$$
 
-track hgmd
-shortLabel HGMD public
-type bigBed 9 .
-longLabel Human Gene Mutation Database - Public Version Dec 2024
-maxItems 1000
-visibility hide
-group phenDis
-maxWindowCoverage 10000000
-itemRgb on
-bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/hgmd.bb
-noScoreFilter on
-urlLabel Link to HGMD
-url https://www.hgmd.cf.ac.uk/ac/gene.php?gene=$P&accession=$p
-mouseOverField variantType
-
 track hmc
 shortLabel HMC
 type bigWig
@@ -2251,87 +2132,6 @@ bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/uniprot/unipMut.bb
 noScoreFilter on
 mouseOverField comments
 urls variationId="https://www.uniprot.org/uniprot/$$" uniProtId="https://www.uniprot.org/uniprot/$$" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
-
-track spliceAI
-compositeContainer TRUE
-shortLabel SpliceAI
-type bigBed 9 +
-longLabel SpliceAI: Splice Variant Prediction Score
-parent spliceImpactSuper on
-visibility dense
-group phenDis
-compositeTrack on
-superTrack on hide
-cartVersion 8
-dataVersion Illumina SpliceAI Score v1.3
-
-    track spliceAIindelsMasked
-    shortLabel SpliceAI indels (masked)
-    type bigBed 9 +
-    longLabel SpliceAI Indels (masked)
-    parent spliceAI off
-    parentParent spliceImpactSuper
-    filter.AIscore 0.02
-    mouseOver <b>Change:</b> $name<br><b>Gene:</b> $gene<br><b>Type of change:</b> $spliceType<br><b>Affected splice location:</b> $relativePos<br><b>Score:</b> $AIscore
-    filterValues.spliceType donor_gain|Donor gain,donor_loss|Donor loss,acceptor_gain|Acceptor gain,acceptor_loss|Acceptor loss
-    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=spliceAI
-    itemRgb on
-    priority 1.3
-    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIindelsMasked.bb
-    noScoreFilter on
-    filterLimits.AIscore 0.02:1
-    filterLabel.spliceType Splice type
-
-    track spliceAIsnvsMasked
-    shortLabel SpliceAI SNVs (masked)
-    type bigBed 9 +
-    longLabel SpliceAI SNVs (masked)
-    parent spliceAI off
-    parentParent spliceImpactSuper
-    filter.AIscore 0.02
-    mouseOver <b>Change:</b> $name<br><b>Gene:</b> $gene<br><b>Type of change:</b> $spliceType<br><b>Affected splice location:</b> $relativePos<br><b>Score:</b> $AIscore
-    filterValues.spliceType donor_gain|Donor gain,donor_loss|Donor loss,acceptor_gain|Acceptor gain,acceptor_loss|Acceptor loss
-    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=spliceAI
-    itemRgb on
-    priority 1.2
-    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIsnvsMasked.bb
-    noScoreFilter on
-    filterLimits.AIscore 0.02:1
-    filterLabel.spliceType Splice type
-
-    track spliceAIindels
-    shortLabel SpliceAI indels
-    type bigBed 9 +
-    longLabel SpliceAI Indels (unmasked)
-    parent spliceAI on
-    parentParent spliceImpactSuper
-    filter.AIscore 0.02
-    mouseOver <b>Change:</b> $name<br><b>Gene:</b> $gene<br><b>Type of change:</b> $spliceType<br><b>Affected splice location:</b> $relativePos<br><b>Score:</b> $AIscore
-    filterValues.spliceType donor_gain|Donor gain,donor_loss|Donor loss,acceptor_gain|Acceptor gain,acceptor_loss|Acceptor loss
-    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=spliceAI
-    itemRgb on
-    priority 1.1
-    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIindels.bb
-    noScoreFilter on
-    filterLimits.AIscore 0.02:1
-    filterLabel.spliceType Splice type
-
-    track spliceAIsnvs
-    shortLabel SpliceAI SNVs
-    type bigBed 9 +
-    longLabel SpliceAI SNVs (unmasked)
-    parent spliceAI on
-    parentParent spliceImpactSuper
-    filter.AIscore 0.02
-    mouseOver <b>Change:</b> $name<br><b>Gene:</b> $gene<br><b>Type of change:</b> $spliceType<br><b>Affected splice location:</b> $relativePos<br><b>Score:</b> $AIscore
-    filterValues.spliceType donor_gain|Donor gain,donor_loss|Donor loss,acceptor_gain|Acceptor gain,acceptor_loss|Acceptor loss
-    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=spliceAI
-    itemRgb on
-    priority 1
-    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIsnvs.bb
-    noScoreFilter on
-    filterLimits.AIscore 0.02:1
-    filterLabel.spliceType Splice type
 
 track spliceVarDb
 shortLabel SpliceVarDB
@@ -3019,31 +2819,6 @@ maxLimit 52000
 
 ####### Regulation
 
-track cpgIslands
-compositeTrack on
-shortLabel CpG Islands
-longLabel CpG Islands (Islands < 300 Bases are Light Green)
-group regulation
-visibility dense
-type bigBed 4 +
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.cpgIslands
-
-    track cpgIslandExt
-    parent cpgIslands off
-    shortLabel CpG Islands
-    longLabel CpG Islands (Islands < 300 Bases are Light Green)
-    type bigBed 4 +
-    priority 1
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cpgIslandExt.bb
-
-    track cpgIslandExtUnmasked
-    parent cpgIslands on
-    shortLabel Unmasked CpG
-    longLabel CpG Islands on All Sequence (Islands < 300 Bases are Light Green)
-    type bigBed 4 +
-    priority 2
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cpgIslandExtUnmasked.bb
-
 
 track ReMap
 compositeContainer TRUE
@@ -3137,154 +2912,6 @@ urlLabel cCRE details at ENCODE SCREEN:
 defaultLabelFields accessionLabel,ucscLabel
 url https://screen-v2.wenglab.org/search/?q=$$&assembly=GRCh38
 mouseOverField description
-
-track geneHancer
-compositeContainer TRUE
-shortLabel GeneHancer
-type bed 3
-longLabel GeneHancer Regulatory Elements and Gene Interactions
-sortOrder set=+ view=+
-subGroup1 view View a_GH=Regulatory_Elements b_TSS=Gene_TSS c_I=Interactions d_I=Clusters
-visibility hide
-subGroup2 set Set a_ELITE=Double_Elite b_ALL=All
-group regulation
-compositeTrack on
-dimensions dimX=set dimY=view
-tableBrowser noGenome
-dataVersion January 2019 (V2: Corrections to Experiment field)
-
-    track ghGeneHancer
-    compositeViewContainer TRUE
-    shortLabel Reg Elem
-    type bigBed 9 +
-    longLabel GeneHancer Regulatory Elements and Gene Interactions
-    parent geneHancer
-    visibility dense
-    searchIndex name
-    view a_GH
-    exonArrows off
-    itemRgb on
-    urlLabel In GeneCards:
-    url https://www.genecards.org/Search/Keyword?queryString=$$
-    mouseOverField elementType
-
-        track geneHancerRegElements
-        shortLabel GH Reg Elems
-        type bigBed 9 +
-        longLabel Enhancers and promoters from GeneHancer
-        parent ghGeneHancer off
-        parentParent geneHancer
-        subGroups set=b_ALL view=a_GH
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerRegElementsAll.hg38.bb
-
-        track geneHancerRegElementsDoubleElite
-        shortLabel GH Reg Elems (DE)
-        type bigBed 9 +
-        longLabel Enhancers and promoters from GeneHancer (Double Elite)
-        parent ghGeneHancer on
-        parentParent geneHancer
-        subGroups set=a_ELITE view=a_GH
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerRegElementsDoubleElite.hg38.bb
-
-    track ghInteraction
-    compositeViewContainer TRUE
-    shortLabel Interactions
-    type bigInteract
-    longLabel GeneHancer Regulatory Elements and Gene Interactions
-    parent geneHancer
-    visibility full
-    interactMultiRegion on
-    maxHeightPixels 50:100:200
-    viewUi on
-    interactDirectional offsetTarget
-    view c_I
-    urlLabel Interaction in GeneCards
-    url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
-
-        track geneHancerInteractions
-        shortLabel GH Interactions
-        type bigInteract
-        longLabel Interactions between GeneHancer regulatory elements and genes
-        parent ghInteraction off
-        parentParent geneHancer
-        subGroups set=b_ALL view=c_I
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerInteractionsAll.v2.hg38.bb
-        urlLabel Interaction in GeneCards
-
-        track geneHancerInteractionsDoubleElite
-        shortLabel GH Interactions (DE)
-        type bigInteract
-        longLabel Interactions between GeneHancer regulatory elements and genes (Double Elite)
-        parent ghInteraction on
-        parentParent geneHancer
-        subGroups set=a_ELITE view=c_I
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerInteractionsDoubleElite.v2.hg38.bb
-        urlLabel Interaction in GeneCards
-
-    track ghGeneTss
-    compositeViewContainer TRUE
-    shortLabel Gene TSS
-    type bigBed 9
-    longLabel GeneHancer Regulatory Elements and Gene Interactions
-    parent geneHancer
-    visibility pack
-    searchIndex name
-    view b_TSS
-    itemRgb on
-    urlLabel In GeneCards:
-    url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$$
-
-        track geneHancerGenes
-        shortLabel GH genes TSS
-        type bigBed 9
-        longLabel GH genes TSS
-        parent ghGeneTss off
-        parentParent geneHancer
-        subGroups set=b_ALL view=b_TSS
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerGenesTssAll.hg38.bb
-        urlLabel In GeneCards:
-
-        track geneHancerGenesDoubleElite
-        shortLabel GH genes TSS (DE)
-        type bigBed 9
-        longLabel GeneCards genes TSS (Double Elite)
-        parent ghGeneTss on
-        parentParent geneHancer
-        subGroups set=a_ELITE view=b_TSS
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerGenesTssDoubleElite.hg38.bb
-
-    track ghClusteredInteraction
-    compositeViewContainer TRUE
-    shortLabel Clustered Interactions
-    type bigInteract
-    longLabel GeneHancer Regulatory Elements and Gene Interactions
-    parent geneHancer
-    visibility pack
-    interactMultiRegion on
-    interactDirectional clusterTarget
-    view d_I
-    urlLabel Interaction in GeneCards
-    url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
-
-        track geneHancerClusteredInteractions
-        shortLabel GH Clusters
-        type bigInteract
-        longLabel Clustered interactions of GeneHancer regulatory elements and genes
-        parent ghClusteredInteraction off
-        parentParent geneHancer
-        subGroups set=b_ALL view=d_I
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerInteractionsAll.v2.hg38.bb
-        urlLabel Interaction in GeneCards
-
-        track geneHancerClusteredInteractionsDoubleElite
-        shortLabel GH Clusters (DE)
-        type bigInteract
-        longLabel Clustered interactions of GeneHancer regulatory elements and genes (Double Elite)
-        parent ghClusteredInteraction on
-        parentParent geneHancer
-        subGroups set=a_ELITE view=d_I
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerInteractionsDoubleElite.v2.hg38.bb
-        urlLabel Interaction in GeneCards
 
 track gtexEqtlHighConf
 compositeContainer TRUE
@@ -3640,24 +3267,6 @@ dataVersion Release 2017-1.0
 
 
 #### Repeats
-
-track simpleRepeat
-shortLabel Simple Repeats
-longLabel Simple Tandem Repeats by TRF
-group rep
-visibility dense
-type bigBed 4 +
-bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.simpleRepeat.bb
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.simpleRepeat
-
-track windowMasker
-shortLabel WM + SDust
-longLabel Genomic Intervals Masked by WindowMasker + SDust
-group rep
-visibility dense
-type bigBed 3
-bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.windowMasker.bb
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.windowMasker
 
 
 track nuMtSeq

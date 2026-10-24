@@ -128,11 +128,6 @@
                   path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneReviews/geneReviews.bb"
                   url="https://www.ncbi.nlm.nih.gov/books/NBK1116/?term=$$"
                   color="0,80,0"/>
-        <Resource name="HGMD public"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/bbi/hgmd.bb"
-                  description="Human Gene Mutation Database - Public Version Dec 2024"
-                  url="https://www.hgmd.cf.ac.uk/ac/gene.php?gene=$P&amp;accession=$p"
-                  trackLine="visibilityWindow=10000000"/>
         <Resource name="Gene Interactions"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/bbi/interactions.bb"
                   description="Protein Interactions from Curated Databases and Text-Mining"/>
@@ -265,23 +260,6 @@
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/reMap/reMapDensity2022.bw"
                       trackLine="autoScale=on"/>
         </Category>
-        <Category name="GeneHancer">
-            <Resource name="GH Reg Elems"
-                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerRegElementsAll.hg19.bb"
-                      description="Enhancers and promoters from GeneHancer"
-                      url="https://www.genecards.org/Search/Keyword?queryString=$$"/>
-            <Resource name="GH Reg Elems (DE)"
-                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerRegElementsDoubleElite.hg19.bb"
-                      description="Enhancers and promoters from GeneHancer (Double Elite)"
-                      url="https://www.genecards.org/Search/Keyword?queryString=$$"/>
-            <Resource name="GH genes TSS"
-                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerGenesTssAll.hg19.bb"
-                      url="https://www.genecards.org/cgi-bin/carddisp.pl?gene=$$"/>
-            <Resource name="GH genes TSS (DE)"
-                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerGenesTssDoubleElite.hg19.bb"
-                      description="GeneCards genes TSS (Double Elite)"
-                      url="https://www.genecards.org/cgi-bin/carddisp.pl?gene=$$"/>
-        </Category>
         <Category name="JASPAR Transcription Factor Binding Site Database">
             <Resource name="JASPAR 2018 TFBS"
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/jaspar/JASPAR2018.bb"
@@ -387,17 +365,17 @@
             <Resource name="DGV Gold Standard"
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/dgv/dgvGold.bb"
                       description="Database of Genomic Variants: Gold Standard Variants"
-                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19g=dgvPlus"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&amp;g=dgvPlus"
                       url="https://dgv.tcag.ca/gb2/gbrowse_details/dgv2_hg19?ref=$S;start=${;end=$};name=$$;class=Sequence"/>
             <Resource name="DGV Supp Var"
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/dgv/dgvSupporting.bb"
                       description="Database of Genomic Variants: Supporting Structural Var (CNV, Inversion, In/del)"
-                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19g=dgvPlus"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&amp;g=dgvPlus"
                       url="https://dgv.tcag.ca/dgv/app/variant?id=$$&amp;ref=$D"/>
             <Resource name="DGV Struct Var"
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/dgv/dgvMerged.bb"
                       description="Database of Genomic Variants: Structural Var Regions (CNV, Inversion, In/del)"
-                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19g=dgvPlus"
+                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&amp;g=dgvPlus"
                       url="https://dgv.tcag.ca/dgv/app/variant?id=$$&amp;ref=$D"/>
         </Category>
         <Category name="ExAC">

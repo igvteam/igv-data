@@ -21,18 +21,6 @@
                   description="MANE v1.0 transcripts with Ensembl labels"
                   hyperlink="https://www.ncbi.nlm.nih.gov/refseq/MANE/"
                   labelField="nucAcc"/>
-        <Resource name="Augustus"
-                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.augustus.bb"
-                  description="Augustus Gene Predictions"
-                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.augustus"
-                  color="180,0,0"/>
-        <Resource name="RefSeq mRNAs"
-                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.xenoRefGene.bb"
-                  description="RefSeq mRNAs mapped to this assembly"
-                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.xenoRefGene"
-                  url="https://www.ncbi.nlm.nih.gov/nuccore/$$"
-                  labelField="geneName"
-                  color="180,0,0"/>
         <Category name="GENCODE">
             <Resource name="GENCODE V47"
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV47.bb"
@@ -160,14 +148,6 @@
                   description="Rare variants underlying COVID-19 severity and susceptibility from the COVID Human Genetics Effort"
                   labelField="gene"
                   color="179,0,0"/>
-        <Resource name="DECIPHER CNVs"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/decipher/decipherCnv.bb"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=decipherContainer"
-                  url="https://www.deciphergenomics.org/patient/$$"/>
-        <Resource name="DECIPHER Population CNVs"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/decipher/population_cnv.bb"
-                  description="DECIPHER: Population CNVs"
-                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=decipherContainer"/>
         <Resource name="GenCC"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/genCC.bb"
                   description="GenCC: The Gene Curation Coalition Annotations"
@@ -177,11 +157,6 @@
                   hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=geneReviews"
                   url="https://www.ncbi.nlm.nih.gov/books/NBK1116/?term=$$"
                   color="0,80,0"/>
-        <Resource name="HGMD public"
-                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/hgmd.bb"
-                  description="Human Gene Mutation Database - Public Version Dec 2024"
-                  url="https://www.hgmd.cf.ac.uk/ac/gene.php?gene=$P&amp;accession=$p"
-                  trackLine="visibilityWindow=10000000"/>
         <Resource name="HMC"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/hmc/hmc.bw"
                   description="HMC - Homologous Missense Constraint Score on PFAM domains"
@@ -381,23 +356,6 @@
                       description="SNPedia all SNPs (including empty pages)"
                       url="https://www.snpedia.com/index.php/$$"
                       color="50,0,100"/>
-        </Category>
-        <Category name="SpliceAI: Splice Variant Prediction Score">
-            <Resource name="SpliceAI indels (masked)"
-                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIindelsMasked.bb"
-                      description="SpliceAI Indels (masked)"
-                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=spliceAI"/>
-            <Resource name="SpliceAI SNVs (masked)"
-                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIsnvsMasked.bb"
-                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=spliceAI"/>
-            <Resource name="SpliceAI indels"
-                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIindels.bb"
-                      description="SpliceAI Indels (unmasked)"
-                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=spliceAI"/>
-            <Resource name="SpliceAI SNVs"
-                      path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIsnvs.bb"
-                      description="SpliceAI SNVs (unmasked)"
-                      hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=spliceAI"/>
         </Category>
     </Category>
 
@@ -729,16 +687,6 @@
         <Resource name="VISTA Enhancers"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/vistaEnhancers/vistaEnhancers.bb"
                   url="https://enhancer.lbl.gov/vista/browse?filter=$$"/>
-        <Category name="CpG Islands (Islands &lt; 300 Bases are Light Green)">
-            <Resource name="CpG Islands"
-                      path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cpgIslandExt.bb"
-                      description="CpG Islands (Islands &lt; 300 Bases are Light Green)"
-                      hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.cpgIslands"/>
-            <Resource name="Unmasked CpG"
-                      path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cpgIslandExtUnmasked.bb"
-                      description="CpG Islands on All Sequence (Islands &lt; 300 Bases are Light Green)"
-                      hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.cpgIslands"/>
-        </Category>
         <Category name="ReMap Atlas of Regulatory Regions">
             <Resource name="ReMap ChIP-seq"
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/reMap/reMap2022.bb"
@@ -750,27 +698,6 @@
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/reMap/reMapDensity2022.bw"
                       hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=ReMap"
                       trackLine="autoScale=on"/>
-        </Category>
-        <Category name="GeneHancer">
-            <Category name="Reg Elem">
-                <Resource name="GH Reg Elems"
-                          path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerRegElementsAll.hg38.bb"
-                          description="Enhancers and promoters from GeneHancer"
-                          url="https://www.genecards.org/Search/Keyword?queryString=$$"/>
-                <Resource name="GH Reg Elems (DE)"
-                          path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerRegElementsDoubleElite.hg38.bb"
-                          description="Enhancers and promoters from GeneHancer (Double Elite)"
-                          url="https://www.genecards.org/Search/Keyword?queryString=$$"/>
-            </Category>
-            <Category name="Gene TSS">
-                <Resource name="GH genes TSS"
-                          path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerGenesTssAll.hg38.bb"
-                          url="https://www.genecards.org/cgi-bin/carddisp.pl?gene=$$"/>
-                <Resource name="GH genes TSS (DE)"
-                          path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneHancer/geneHancerGenesTssDoubleElite.hg38.bb"
-                          description="GeneCards genes TSS (Double Elite)"
-                          url="https://www.genecards.org/cgi-bin/carddisp.pl?gene=$$"/>
-            </Category>
         </Category>
         <Category name="GTEx fine-mapped cis-eQTLs">
             <Resource name="GTEx DAP-G eQTLs"
@@ -872,14 +799,6 @@
     </Category>
 
     <Category name="Repeats">
-        <Resource name="Simple Repeats"
-                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.simpleRepeat.bb"
-                  description="Simple Tandem Repeats by TRF"
-                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.simpleRepeat"/>
-        <Resource name="WM + SDust"
-                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.windowMasker.bb"
-                  description="Genomic Intervals Masked by WindowMasker + SDust"
-                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.windowMasker"/>
         <Resource name="NuMTs Sequence"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/nuMtSeq/nuMtSeq_hg38.bb"
                   description="Nuclear mitochondrial DNA segments"/>
@@ -887,16 +806,10 @@
 
     <Category name="Mapping and Sequencing">
         <Resource name="GC Percent"
-                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gc5Base.bw"
+                  path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/gc5BaseBw/gc5Base.bw"
                   description="GC Percent in 5-Base Windows"
-                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.gc5Base"
                   color="0,0,0"
                   trackLine="viewLimits=30:70 autoScale=off maxHeightPixels=128:36:16"/>
-        <Resource name="Gap (AGP defined)"
-                  path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gap.bb"
-                  description="AGP gap"
-                  hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.gap"
-                  color="0,0,0"/>
         <Resource name="Recomb. 1k Genomes"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/recomb1000GAvg.bw"
                   description="Recombination rate: 1000 Genomes, lifted from hg19 (PR Loh)"
@@ -931,16 +844,6 @@
                   hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=recombRate2"
                   color="0,130,0"
                   trackLine="viewLimits=0.0:100 maxHeightPixels=128:60:8"/>
-        <Category name="Paired identical sequences">
-            <Resource name="Gap Overlaps"
-                      path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gapOverlap.bb"
-                      description="Paired exactly identical sequence on each side of a gap"
-                      hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.tanDups"/>
-            <Resource name="Tandem Dups"
-                      path="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.tandemDups.bb"
-                      description="Paired exactly identical sequence survey over entire genome assembly"
-                      hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.tanDups"/>
-        </Category>
         <Category name="Highly Reproducible genomic regions and variants">
             <Resource name="HR_NA12878 Variants"
                       path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/problematic/highRepro/HR_NA12878.sort.vcf.gz"

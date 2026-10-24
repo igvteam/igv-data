@@ -545,21 +545,6 @@ color 0,80,0
 noScoreFilter on
 url https://www.ncbi.nlm.nih.gov/books/NBK1116/?term=$$
 
-track hgmd
-shortLabel HGMD public
-type bigBed 9 .
-longLabel Human Gene Mutation Database - Public Version Dec 2024
-maxItems 1000
-visibility hide
-group phenDis
-maxWindowCoverage 10000000
-itemRgb on
-bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/bbi/hgmd.bb
-noScoreFilter on
-urlLabel Link to HGMD
-url https://www.hgmd.cf.ac.uk/ac/gene.php?gene=$P&accession=$p
-mouseOverField variantType
-
 track interactions
 shortLabel Gene Interactions
 type bigBed 9
@@ -1307,97 +1292,6 @@ noScoreFilter on
     priority 1
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/reMap/reMapDensity2022.bw
     autoScale on
-
-track geneHancer
-compositeContainer TRUE
-shortLabel GeneHancer
-type bed 3
-longLabel GeneHancer Regulatory Elements and Gene Interactions
-group regulation
-compositeTrack on
-
-        track geneHancerRegElements
-        shortLabel GH Reg Elems
-        type bigBed 9 +
-        longLabel Enhancers and promoters from GeneHancer
-        parent geneHancer
-        urlLabel In GeneCards:
-        url https://www.genecards.org/Search/Keyword?queryString=$$
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerRegElementsAll.hg19.bb
-
-        track geneHancerRegElementsDoubleElite
-        shortLabel GH Reg Elems (DE)
-        type bigBed 9 +
-        longLabel Enhancers and promoters from GeneHancer (Double Elite)
-        parent geneHancer
-        urlLabel In GeneCards:
-        url https://www.genecards.org/Search/Keyword?queryString=$$
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerRegElementsDoubleElite.hg19.bb
-
-        track geneHancerInteractions
-        shortLabel GH Interactions
-        type bigInteract
-        longLabel Interactions between GeneHancer regulatory elements and genes
-        parent geneHancer
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerInteractionsAll.v2.hg19.bb
-        maxHeightPixels 50:100:200
-        urlLabel Interaction in GeneCards
-        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
-
-        track geneHancerInteractionsDoubleElite
-        shortLabel GH Interactions (DE)
-        type bigInteract
-        longLabel Interactions between GeneHancer regulatory elements and genes (Double Elite)
-        parent geneHancer
-        maxHeightPixels 50:100:200
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerInteractionsDoubleElite.v2.hg19.bb
-        urlLabel Interaction in GeneCards
-        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
-
-        track geneHancerGenes
-        shortLabel GH genes TSS
-        type bigBed 9
-        longLabel GH genes TSS
-        itemRgb on
-        searchIndex name
-        parent geneHancer
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerGenesTssAll.hg19.bb
-        urlLabel In GeneCards:
-        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$$
-
-        track geneHancerGenesDoubleElite
-        shortLabel GH genes TSS (DE)
-        itemRgb on
-        type bigBed 9
-        searchIndex name
-        longLabel GeneCards genes TSS (Double Elite)
-        parent geneHancer
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerGenesTssDoubleElite.hg19.bb
-        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$$
-
-        track geneHancerClusteredInteractions
-        shortLabel GH Clusters
-        type bigInteract
-        longLabel Clustered interactions of GeneHancer regulatory elements and genes
-        parent geneHancer
-        subGroups set=b_ALL view=d_I
-        interactMultiRegion on
-        interactDirectional clusterTarget
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerInteractionsAll.v2.hg19.bb
-        urlLabel Interaction in GeneCards
-        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
-
-        track geneHancerClusteredInteractionsDoubleElite
-        shortLabel GH Clusters (DE)
-        type bigInteract
-        longLabel Clustered interactions of GeneHancer regulatory elements and genes (Double Elite)
-        parent geneHancer
-        subGroups set=a_ELITE view=d_I
-        interactMultiRegion on
-        interactDirectional clusterTarget
-        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerInteractionsDoubleElite.v2.hg19.bb
-        urlLabel Interaction in GeneCards
-        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
 
 track jaspar
 compositeContainer TRUE

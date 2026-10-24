@@ -36,27 +36,16 @@ https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/hg38_1kg.json	 https://r
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/hg38.json	 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg38.json
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/hg38_alias.tab	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg38/hg38_alias.tab
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/clinvarMain.bb	https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinvar/clinvarMain.bb
-https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/cpgIslandExt.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cpgIslandExt.bb
-https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/cpgIslandExt.txt.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cpgIslandExt.bb
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/mane.1.0.bb	https://ftp.ncbi.nlm.nih.gov/refseq/MANE/trackhub/data/release_1.0/MANE.GRCh38.v1.0.refseq.bb
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/Homo_sapiens.GRCh38.94.chr.gff3.gz	https://ftp.ensembl.org/pub/release-94/gff3/homo_sapiens/Homo_sapiens.GRCh38.94.chr.gff3.gz
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/ncbiRefSeq.sorted.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/ncbiRefSeq.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/refGene.sorted.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/refGene.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
-https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/annotations/cpgIslandExt.txt.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cpgIslandExt.bb
-https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/annotations/gc5Base.bw	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.gc5Base.bw
+https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/annotations/gc5Base.bw	https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/gc5BaseBw/gc5Base.bw
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/annotations/snp150Common.txt.gz	https://hgdownload.soe.ucsc.edu/gbdb/hg38/snp/dbSnp155Common.bb
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/annotations/snp150Common.txt.gz	https://hgdownload.soe.ucsc.edu/gbdb/hg38/snp/dbSnp155Common.bb
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/annotations/cytoBandIdeo.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz
-# https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/rmsk/hg38_rmsk_DNA.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.DNA.bb
-# https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/rmsk/hg38_rmsk_LINE.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.LINE.bb
-# https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/rmsk/hg38_rmsk_Low_complexity.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.Low_complexity.bb
-# https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/rmsk/hg38_rmsk_LTR.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.LTR.bb
-# https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/rmsk/hg38_rmsk_RNA.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.RNA.bb
-# https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/rmsk/hg38_rmsk_SINE.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.SINE.bb
-# https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/rmsk/hg38_rmsk_Satellite.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.Satellite.bb
-# https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg38/rmsk/hg38_rmsk_Simple_repeat.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.simpleRepeat.bb
 https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/hg38/gencode.v44.basic.annotation.gff3.gz	https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV44.bb
 https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/hg38/ncbiRefSeq.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
 
