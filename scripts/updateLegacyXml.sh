@@ -20,6 +20,11 @@
 #
 # URLs into the repository's genomes tree are repointed at <host>, as buildMirror.sh does, so
 # the registries reference <host>/genomes/legacy/xml/...  Requires curl, tar and rsync.
+#
+# igv.org only: IGV's default registry preference is https://igv.org/genomes/registry/$$_dataServerRegistry.txt,
+# so after this script runs copy the rewritten registries from <mirror>/genomes/legacy/xml/ to
+# <mirror>/genomes/registry/ by hand.  Other mirrors set the registry URL in IGV preferences and
+# need no copy.
 
 set -euo pipefail
 
