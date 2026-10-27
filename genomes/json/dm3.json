@@ -17,7 +17,6 @@
       "name": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/database/refGene.txt.gz",
       "indexed": false,
-      "format": "refgene",
       "order": 100000
     }
   ]
