@@ -18,7 +18,6 @@
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/database/refGene.txt.gz",
       "indexed": false,
       "format": "refgene",
-      "indexed": false,
       "order": 100000
     }
   ]
