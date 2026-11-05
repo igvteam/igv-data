@@ -1,16 +1,21 @@
 # Search the ENCODE webservice for data files IGV supports and create tables for each assembly and file type.  Data
 # is split into 3 "types", signals, peaks, and other, to reduce the number of files in each table.
-# This script creates plain text files in the "output" foloder.  To deploy the move to ../data/encode
+# This script writes a plain text file and a gzipped copy of each table directly to ../data/encode.  IGV reads the
+# gzipped copies.
+#
+# BAM files are excluded: ENCODE does not host index files for them, so IGV cannot load them.
 #
 # To create a list of .hic files, run the script with FORMATS = set(["hic"])
 
+import gzip
 import requests
 import os
+import shutil
 
-FORMATS = set(["bigBed", "bigWig", "bedpe", "tsv", "vcf", "hic", "bam"])
+FORMATS = set(["bigBed", "bigWig", "bedpe", "tsv", "vcf", "hic"])
 #FORMATS = set(["hic"])
 
-output_folder = "output"
+output_folder = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "encode")
 
 if not os.path.isdir(output_folder):
     os.mkdir(output_folder)
@@ -121,4 +126,5 @@ for a in list(results):
         for x in r:
             print(x, file=f)
 
-        fname = output_folder + '/' + a + ".txt"
+    with open(fname, 'rb') as f_in, gzip.open(fname + '.gz', 'wb') as f_out:
+        shutil.copyfileobj(f_in, f_out)
