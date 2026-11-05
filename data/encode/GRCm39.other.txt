@@ -1,1 +1,10 @@
 ID	Assembly	Biosample	AssayType	Target	BioRep	TechRep	OutputType	Format	Lab	HREF	Accession	Experiment
+/experiments/ENCSR160HKZ/	GRCm39	Mus musculus C2C12	long read RNA-seq		1	1_1	alignments with modifications	bam	Ali Mortazavi, UCI	/files/ENCFF780UMP/@@download/ENCFF780UMP.bam	ENCFF780UMP	ENCSR160HKZ
+/experiments/ENCSR160HKZ/	GRCm39	Mus musculus C2C12	long read RNA-seq		1	1_2	alignments with modifications	bam	Ali Mortazavi, UCI	/files/ENCFF239AZF/@@download/ENCFF239AZF.bam	ENCFF239AZF	ENCSR160HKZ
+/experiments/ENCSR160HKZ/	GRCm39	Mus musculus C2C12	long read RNA-seq		1	1_3	alignments with modifications	bam	Ali Mortazavi, UCI	/files/ENCFF957JKP/@@download/ENCFF957JKP.bam	ENCFF957JKP	ENCSR160HKZ
+/experiments/ENCSR160HKZ/	GRCm39	Mus musculus C2C12	long read RNA-seq		1	1_1	alignments with modifications	bam	Ali Mortazavi, UCI	/files/ENCFF391LVK/@@download/ENCFF391LVK.bam	ENCFF391LVK	ENCSR160HKZ
+/experiments/ENCSR160HKZ/	GRCm39	Mus musculus C2C12	long read RNA-seq		1	1_1	alignments with modifications	bam	Ali Mortazavi, UCI	/files/ENCFF984QPC/@@download/ENCFF984QPC.bam	ENCFF984QPC	ENCSR160HKZ
+/experiments/ENCSR160HKZ/	GRCm39	Mus musculus C2C12	long read RNA-seq		1	1_2	alignments with modifications	bam	Ali Mortazavi, UCI	/files/ENCFF799REI/@@download/ENCFF799REI.bam	ENCFF799REI	ENCSR160HKZ
+/experiments/ENCSR160HKZ/	GRCm39	Mus musculus C2C12	long read RNA-seq		1	1_2	alignments with modifications	bam	Ali Mortazavi, UCI	/files/ENCFF829LJH/@@download/ENCFF829LJH.bam	ENCFF829LJH	ENCSR160HKZ
+/experiments/ENCSR160HKZ/	GRCm39	Mus musculus C2C12	long read RNA-seq		1	1_3	alignments with modifications	bam	Ali Mortazavi, UCI	/files/ENCFF504ESV/@@download/ENCFF504ESV.bam	ENCFF504ESV	ENCSR160HKZ
+/experiments/ENCSR160HKZ/	GRCm39	Mus musculus C2C12	long read RNA-seq		1	1_3	alignments with modifications	bam	Ali Mortazavi, UCI	/files/ENCFF161CBH/@@download/ENCFF161CBH.bam	ENCFF161CBH	ENCSR160HKZ

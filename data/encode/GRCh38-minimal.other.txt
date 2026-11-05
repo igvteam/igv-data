@@ -1,1 +1,4 @@
 ID	Assembly	Biosample	AssayType	Target	BioRep	TechRep	OutputType	Format	Lab	HREF	Accession	Experiment
+/experiments/ENCSR000DLA/	GRCh38-minimal	Homo sapiens GM13976	ChIP-seq		1	1_1	unfiltered alignments	bam	Vishwanath Iyer, UTA	/files/ENCFF590UFK/@@download/ENCFF590UFK.bam	ENCFF590UFK	ENCSR000DLA
+/experiments/ENCSR855LCA/	GRCh38-minimal	Homo sapiens HepG2	ChIP-seq		9	9_1	unfiltered alignments	bam	Richard Myers, HAIB	/files/ENCFF524UOI/@@download/ENCFF524UOI.bam	ENCFF524UOI	ENCSR855LCA
+/experiments/ENCSR360XQV/	GRCh38-minimal	Homo sapiens GM12878	ChIP-seq		10	10_1	unfiltered alignments	bam	Richard Myers, HAIB	/files/ENCFF428FQC/@@download/ENCFF428FQC.bam	ENCFF428FQC	ENCSR360XQV

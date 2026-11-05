@@ -7,7 +7,7 @@
 import requests
 import os
 
-FORMATS = set(["bigBed", "bigWig", "bedpe", "tsv", "vcf", "hic"])
+FORMATS = set(["bigBed", "bigWig", "bedpe", "tsv", "vcf", "hic", "bam"])
 #FORMATS = set(["hic"])
 
 output_folder = "output"
