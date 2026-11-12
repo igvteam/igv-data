@@ -247,6 +247,10 @@
     </Category>
 
     <Category name="Regulation">
+        <Resource name="CpG Islands"
+                  path="https://igv.org/genomes/data/hg19/cpgIslandExt.bb"
+                  description="CpG Islands (Islands &lt; 300 Bases are Light Green)"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&amp;g=cpgIslandExt"/>
         <Resource name="VISTA Enhancers"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/hg19/vistaEnhancers/vistaEnhancers.bb"
                   url="https://enhancer.lbl.gov/vista/browse?filter=$$"/>

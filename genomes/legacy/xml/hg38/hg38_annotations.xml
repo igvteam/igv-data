@@ -671,6 +671,10 @@
     </Category>
 
     <Category name="Regulation">
+        <Resource name="CpG Islands"
+                  path="https://igv.org/genomes/data/hg38/cpgIslandExt.bb"
+                  description="CpG Islands (Islands &lt; 300 Bases are Light Green)"
+                  hyperlink="https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&amp;g=cpgIslandExt"/>
         <Resource name="TF rPeak Clusters"
                   path="https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/ENCODE4/TFrPeakClusters.bb"
                   description="Transcription Factor Representative Peak (rPeak) Clusters (912 factors in 1152 biosamples) from ENCODE 4"

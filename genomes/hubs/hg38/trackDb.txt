@@ -2820,6 +2820,15 @@ maxLimit 52000
 ####### Regulation
 
 
+track cpgIslandExt
+shortLabel CpG Islands
+type bigBed 4 +
+longLabel CpG Islands (Islands < 300 Bases are Light Green)
+group regulation
+visibility hide
+bigDataUrl https://igv.org/genomes/data/hg38/cpgIslandExt.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cpgIslandExt
+
 track ReMap
 compositeContainer TRUE
 shortLabel ReMap ChIP-seq
